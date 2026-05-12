@@ -1,0 +1,677 @@
+[
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 106,
+    "id": "mpg292",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_106_mpg292.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 6"
+      },
+      {
+        "label": "B",
+        "text": "Step 7"
+      },
+      {
+        "label": "C",
+        "text": "Step 8"
+      },
+      {
+        "label": "D",
+        "text": "Step 9"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 122,
+    "id": "mpg338",
+    "question": "Which numbered step is mathematically faulty?",
+    "image_url": "images/st_02_48acc5ba_122_mpg338.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 31,
+    "id": "mpg488",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_31_mpg488.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 8"
+      },
+      {
+        "label": "B",
+        "text": "Step 7"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 5"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 87,
+    "id": "mpg046",
+    "question": "Which numbered step in the proof is faulty?",
+    "image_url": "images/st_02_48acc5ba_87_mpg046.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 4"
+      },
+      {
+        "label": "B",
+        "text": "Step 6"
+      },
+      {
+        "label": "C",
+        "text": "Step 5"
+      },
+      {
+        "label": "D",
+        "text": "Step 3"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 101,
+    "id": "mpg145",
+    "question": "Which single numbered step in the proof is faulty?",
+    "image_url": "images/st_02_48acc5ba_101_mpg145.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 157,
+    "id": "mpg140",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_157_mpg140.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 109,
+    "id": "mpg167",
+    "question": "Which step number (1–6) contains the faulty inference?",
+    "image_url": "images/st_02_48acc5ba_109_mpg167.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 4"
+      },
+      {
+        "label": "B",
+        "text": "Step 5"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 6"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 117,
+    "id": "mpg305",
+    "question": "Which single numbered step in the proof is logically incorrect?",
+    "image_url": "images/st_02_48acc5ba_117_mpg305.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 5"
+      },
+      {
+        "label": "D",
+        "text": "Step 6"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 49,
+    "id": "mpg323",
+    "question": "Based solely on the proof steps numbered 1–8, which step number is faulty?",
+    "image_url": "images/st_02_48acc5ba_49_mpg323.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 6"
+      },
+      {
+        "label": "D",
+        "text": "Step 7"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 80,
+    "id": "mpg332",
+    "question": "Which step contains the faulty reasoning?",
+    "image_url": "images/st_02_48acc5ba_80_mpg332.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 4 – second supplementary relation at B and C"
+      },
+      {
+        "label": "B",
+        "text": "Step 6 – inferring equal opposite angles from supplements"
+      },
+      {
+        "label": "C",
+        "text": "Step 5 – comparing the two supplementary angle sums"
+      },
+      {
+        "label": "D",
+        "text": "Step 3 – first supplementary relation at A and D"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 104,
+    "id": "mpg454",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_104_mpg454.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 3"
+      },
+      {
+        "label": "C",
+        "text": "Step 4"
+      },
+      {
+        "label": "D",
+        "text": "Step 5"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 57,
+    "id": "mpg308",
+    "question": "Which step in the proof is logically incorrect?",
+    "image_url": "images/st_02_48acc5ba_57_mpg308.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 54,
+    "id": "mpg357",
+    "question": "Based on the proof above, which numbered step contains the logical error, if any? Choose one option.",
+    "image_url": "images/st_02_48acc5ba_54_mpg357.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 1"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 21,
+    "id": "mpg152",
+    "question": "Identify which numbered step is faulty.",
+    "image_url": "images/st_02_48acc5ba_21_mpg152.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 1"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 64,
+    "id": "mpg103",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_64_mpg103.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3 is faulty"
+      },
+      {
+        "label": "B",
+        "text": "Step 2 is faulty"
+      },
+      {
+        "label": "C",
+        "text": "Step 4 is faulty"
+      },
+      {
+        "label": "D",
+        "text": "Step 5 is faulty"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 175,
+    "id": "mpg253",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_175_mpg253.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 5"
+      },
+      {
+        "label": "D",
+        "text": "Step 6"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 196,
+    "id": "mpg500",
+    "question": "Which option correctly identifies the faulty step number?",
+    "image_url": "images/st_02_48acc5ba_196_mpg500.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 2"
+      },
+      {
+        "label": "D",
+        "text": "Step 5"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 92,
+    "id": "mpg205",
+    "question": "Which numbered step in the proof is logically incorrect?",
+    "image_url": "images/st_02_48acc5ba_92_mpg205.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 4"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 5"
+      },
+      {
+        "label": "D",
+        "text": "Step 3"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 163,
+    "id": "mpg093",
+    "question": "Which option best identifies the faulty step in the proof?",
+    "image_url": "images/st_02_48acc5ba_163_mpg093.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "None of the steps are faulty"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 134,
+    "id": "mpg063",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_134_mpg063.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 1"
+      },
+      {
+        "label": "C",
+        "text": "Step 4"
+      },
+      {
+        "label": "D",
+        "text": "Step 3"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 197,
+    "id": "mpg077",
+    "question": "Based on the proof above, which numbered step contains a mathematically incorrect inference?",
+    "image_url": "images/st_02_48acc5ba_197_mpg077.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 2"
+      },
+      {
+        "label": "B",
+        "text": "Step 4"
+      },
+      {
+        "label": "C",
+        "text": "Step 1"
+      },
+      {
+        "label": "D",
+        "text": "Step 3"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 40,
+    "id": "mpg080",
+    "question": "Which numbered step contains the faulty reasoning?",
+    "image_url": "images/st_02_48acc5ba_40_mpg080.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 3"
+      },
+      {
+        "label": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 79,
+    "id": "mpg335",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_79_mpg335.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3"
+      },
+      {
+        "label": "B",
+        "text": "Step 5"
+      },
+      {
+        "label": "C",
+        "text": "Step 4"
+      },
+      {
+        "label": "D",
+        "text": "Step 2"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 182,
+    "id": "mpg021",
+    "question": "Which numbered step contains the faulty logical inference?",
+    "image_url": "images/st_02_48acc5ba_182_mpg021.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 3"
+      },
+      {
+        "label": "B",
+        "text": "Step 5"
+      },
+      {
+        "label": "C",
+        "text": "Step 7"
+      },
+      {
+        "label": "D",
+        "text": "Step 2"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "48acc5ba",
+    "idx": 55,
+    "id": "mpg047",
+    "question": "Which step is faulty?",
+    "image_url": "images/st_02_48acc5ba_55_mpg047.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 5"
+      },
+      {
+        "label": "B",
+        "text": "Step 2"
+      },
+      {
+        "label": "C",
+        "text": "Step 4"
+      },
+      {
+        "label": "D",
+        "text": "Step 3"
+      }
+    ],
+    "answer": "C"
+  }
+]

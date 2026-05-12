@@ -1,0 +1,846 @@
+[
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "26a93bd8",
+      "idx": 22,
+      "id": "oqa208",
+      "context": "Noisy office meeting. The target speaker is a labor economist discussing the U.S. mass high school movement and its effect on skilled-worker wages.",
+      "speakers": [
+        {
+          "label": "target speaker",
+          "description": "labor economist"
+        }
+      ],
+      "question": "In the noisy audio, what happened to skilled workers’ wages after the mass high school education movement expanded the supply of skilled labor?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They increased, widening the earnings gap with unskilled workers"
+        },
+        {
+          "label": "B",
+          "text": "They decreased, compressing the wage gap between skilled and unskilled workers"
+        },
+        {
+          "label": "C",
+          "text": "They stayed roughly the same despite changes in the labor market"
+        },
+        {
+          "label": "D",
+          "text": "They became more volatile, with frequent sharp rises and falls"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_7113a1c7dc494c3a98b4bd303c8bb8fc_noisy_office_medium_c1cab4f4.wav"
+    },
+    {
+      "subtask_id": "st_05",
+      "dataset_id": "cbda7d4a",
+      "idx": 34,
+      "id": "mqa401",
+      "context": "Noisy museum tour. A guide discusses a test-pilot Major, the 514th Flight Test Squadron, and a World War II bomber known as a “Fortress.”",
+      "speakers": [],
+      "question": "In the noisy museum audio, which aircraft was the Major test-flying?",
+      "options": [
+        {
+          "label": "A",
+          "text": "B-24 Liberator"
+        },
+        {
+          "label": "B",
+          "text": "B-17 Flying Fortress"
+        },
+        {
+          "label": "C",
+          "text": "B-29 Superfortress"
+        },
+        {
+          "label": "D",
+          "text": "P-51 Mustang"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_bec90968db384d7f9ebfe9ccfc0ab7d7_noisy_cafe_restaurant_medium_e64c6e77.wav"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "26a93bd8",
+      "idx": 134,
+      "id": "oqa414",
+      "context": "Noisy museum discussion. The target speaker is a guide explaining steam engine indicators and who developed the one used for high-speed engine work.",
+      "speakers": [
+        {
+          "label": "target speaker",
+          "description": "museum guide / mechanical engineering historian"
+        }
+      ],
+      "question": "In the noisy audio, who developed the steam engine indicator used for high-speed engine work?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Charles Porter"
+        },
+        {
+          "label": "B",
+          "text": "James Watt"
+        },
+        {
+          "label": "C",
+          "text": "George Corliss"
+        },
+        {
+          "label": "D",
+          "text": "Boulton & Watt"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_92b02c4abd13428080407e1aaea0e974_noisy_office_medium_6304efd4.wav"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "26a93bd8",
+      "idx": 14,
+      "id": "oqa332",
+      "context": "Noisy office meeting. The target speaker is a team leader discussing Melbourne as a possible location for company expansion.",
+      "speakers": [
+        {
+          "label": "target speaker",
+          "description": "team leader"
+        }
+      ],
+      "question": "In the meeting audio, how does the team leader describe Melbourne’s size among Australian cities?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Melbourne is the largest city in Australia"
+        },
+        {
+          "label": "B",
+          "text": "Melbourne is the second-largest city in Australia"
+        },
+        {
+          "label": "C",
+          "text": "Melbourne is the third-largest city in Australia"
+        },
+        {
+          "label": "D",
+          "text": "Melbourne is a small regional city in Australia"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_3e56af2cf91e4cacb07e01f7fe8efd14_noisy_office_medium_97d2adba.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 42,
+      "id": "0253",
+      "context": "Noisy office discussion with speakers S1–S4. Identify the number of speakers and which speaker criticizes the regional initiative.",
+      "speakers": [],
+      "question": "In the noisy office audio, how many speakers are involved, and which speaker criticizes the initiative as an American-Israeli effort to normalize Israel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 speakers; S2"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers; S2"
+        },
+        {
+          "label": "C",
+          "text": "4 speakers; S3"
+        },
+        {
+          "label": "D",
+          "text": "5 speakers; S4"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_8f6a3cf2ed9b4128b683ab54d6e31aef_noisy_office_medium_7b1c66c9.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 104,
+      "id": "0196",
+      "context": "Noisy restaurant discussion with Speaker A, Speaker B, and Speaker C. Identify the number of speakers and who discusses Senator Dodd’s possible presidential run.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "host"
+        },
+        {
+          "label": "Speaker B",
+          "description": "political commentator"
+        },
+        {
+          "label": "Speaker C",
+          "description": "nearby diner / bystander"
+        }
+      ],
+      "question": "In the noisy audio about Senator Dodd, how many speakers are participating, and which speaker discusses his possible presidential run?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 speakers; Speaker B"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers; Speaker A"
+        },
+        {
+          "label": "C",
+          "text": "3 speakers; Speaker B"
+        },
+        {
+          "label": "D",
+          "text": "1 main speaker; the presidential-run discussion is background chatter"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_71aa5030a9ce4767b17fafd84cb48d2c_noisy_cafe_restaurant_medium_9d5139c0.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 21,
+      "id": "0482",
+      "context": "Noisy conversation with Speaker 1–4 about a guest worker program. Identify which speaker calls it “a very generous guest worker program.”",
+      "speakers": [],
+      "question": "In the noisy immigration-policy audio, which speaker calls the guest worker program “a very generous guest worker program”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker 1 (Host guiding and moderating the policy discussion)"
+        },
+        {
+          "label": "B",
+          "text": "Speaker 2 (Republican commentator speaking on behalf of many Republicans in Congress)"
+        },
+        {
+          "label": "C",
+          "text": "Speaker 3 (Policy analyst seeking clarification and details)"
+        },
+        {
+          "label": "D",
+          "text": "Speaker 4 (Labor advocate voicing worries and objections)"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_414453dca8a245aa90693ccf548d0c2c_noisy_cafe_restaurant_medium_5cbd523a.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 33,
+      "id": "0184",
+      "context": "Noisy office conversation with Speaker A–D. Identify which speaker says the committee used small procedural objections to avoid a clean vote.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "friend explaining the blocked vote"
+        },
+        {
+          "label": "Speaker B",
+          "description": "curious listener"
+        },
+        {
+          "label": "Speaker C",
+          "description": "neutral committee member"
+        },
+        {
+          "label": "Speaker D",
+          "description": "outside observer"
+        }
+      ],
+      "question": "In the noisy office audio, which speaker says the committee kept using small procedural objections to avoid a clean vote?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "Speaker D"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_ad7d39f34eb1431abdca44da8dd1a9f5_noisy_office_medium_d458485d.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 81,
+      "id": "0029",
+      "context": "Noisy café discussion with speakers S1–S3 about an international conference and the Bush administration’s reaction.",
+      "speakers": [],
+      "question": "In the noisy café audio, which speaker says the Bush administration is not enthusiastic about the international conference?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker S1"
+        },
+        {
+          "label": "B",
+          "text": "Speaker S2"
+        },
+        {
+          "label": "C",
+          "text": "Speaker S3"
+        },
+        {
+          "label": "D",
+          "text": "No one in the conversation says this"
+        }
+      ],
+      "answer": "C",
+      "audio_url": "/audio/tts_c62ee022980b4e7f95d98d51dabe7a5d_noisy_office_medium_89d0a15b.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 89,
+      "id": "0301",
+      "context": "Noisy office strategy meeting with Speaker A–D. Identify which speaker says they have enough votes for the motion to pass.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "meeting chair"
+        },
+        {
+          "label": "Speaker B",
+          "description": "campaign organizer"
+        },
+        {
+          "label": "Speaker C",
+          "description": "skeptical advisor"
+        },
+        {
+          "label": "Speaker D",
+          "description": "outside reporter"
+        }
+      ],
+      "question": "In the noisy office audio, which speaker says they now have enough votes for the motion to pass?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "Speaker D"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_b90c5cc2b04a4fdcbe6794c9438d584f_noisy_office_medium_e2c9d593.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 153,
+      "id": "0241",
+      "context": "Busy-office discussion with Speaker A–C about handling a client and an updated roadmap. Count the speakers and identify who gives the main advice.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "experienced adviser"
+        },
+        {
+          "label": "Speaker B",
+          "description": "colleague meeting the client"
+        },
+        {
+          "label": "Speaker C",
+          "description": "coworker giving quick updates"
+        }
+      ],
+      "question": "In the busy-office audio, how many people are speaking, and which speaker gives the main advice about walking the client through the updated roadmap?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 speakers; Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers; Speaker A"
+        },
+        {
+          "label": "C",
+          "text": "3 speakers; Speaker B"
+        },
+        {
+          "label": "D",
+          "text": "4 speakers; Speaker C"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_4e435d8cf1da40dcbb0b70b957e56555_noisy_office_medium_1baadfde.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 186,
+      "id": "0012",
+      "context": "Noisy break-room discussion with S1–S3 about how to interpret a major historical day.",
+      "speakers": [
+        {
+          "label": "S1",
+          "description": "critic of the narrow interpretation"
+        },
+        {
+          "label": "S2",
+          "description": "colleague with narrower summary"
+        },
+        {
+          "label": "S3",
+          "description": "bystander asking clarifying questions"
+        }
+      ],
+      "question": "In the noisy office audio, which speaker says it is too narrow to treat that day as only about planes hitting buildings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "S1"
+        },
+        {
+          "label": "B",
+          "text": "S2"
+        },
+        {
+          "label": "C",
+          "text": "S3"
+        },
+        {
+          "label": "D",
+          "text": "No specific speaker; it is only implied"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_32a7bb7f0c34496bbb48a3c6264a5b56_noisy_office_medium_0b3948c5.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 14,
+      "id": "0446",
+      "context": "Noisy group discussion about North Korea with Speaker A–D. Identify who says the quoted line about diplomacy.",
+      "speakers": [],
+      "question": "In the noisy North Korea discussion, which speaker says “the diplomacy has to have a coercive dimension”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "Speaker D"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_b06a0a4117804840b1c618c3476e1a99_noisy_office_medium_7fe5a6cb.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 195,
+      "id": "0043",
+      "context": "Noisy town hall with Speaker A–D. Identify who says the quoted line about local protection.",
+      "speakers": [],
+      "question": "In the noisy town hall audio, which speaker says the first line of protection is “right here at home, around our streets and schools”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "Speaker D"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_f4a2dbbe9bfd46589f26c43577a46423_noisy_office_medium_f4079065.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 168,
+      "id": "0357",
+      "context": "Noisy office discussion with Speaker S1–S3 about legal responsibility.",
+      "speakers": [],
+      "question": "In the noisy office audio, which speaker hesitantly says that, in a legal sense, they are responsible?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker S1"
+        },
+        {
+          "label": "B",
+          "text": "Speaker S2"
+        },
+        {
+          "label": "C",
+          "text": "Speaker S3"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_05f69ebab6ab44989851010ed69eee64_noisy_office_medium_e422004a.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 36,
+      "id": "0097",
+      "context": "Noisy café/restaurant discussion with Speaker A–D about whether something went smoothly despite rush and technical issues.",
+      "speakers": [],
+      "question": "In the noisy audio, which speaker says: “Honestly, with how rushed we were and all the tech glitches, I really don’t think that was the case”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "Speaker D"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_46b42652d31d4f62a21959c2fc498630_noisy_cafe_restaurant_medium_df73cb1b.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "68b6d24c",
+      "idx": 4,
+      "id": "0035",
+      "context": "Noisy café discussion about The Wall Street Journal. Count the distinct participating voices.",
+      "speakers": [],
+      "question": "In the noisy café audio about The Wall Street Journal, how many distinct voices take part in the conversation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 speakers"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers"
+        },
+        {
+          "label": "C",
+          "text": "4 speakers"
+        },
+        {
+          "label": "D",
+          "text": "5 speakers"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_5b4d857b06c14120b457c6970374c819_noisy_cafe_restaurant_medium_8f26538a.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "cc0d075c",
+      "idx": 191,
+      "id": "0036",
+      "context": "Noisy audio with anonymous voice-profile labels A–F. Count how many distinct people are speaking.",
+      "speakers": [],
+      "question": "Based on the noisy audio clip, how many different people are speaking?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 speakers"
+        },
+        {
+          "label": "B",
+          "text": "4 speakers"
+        },
+        {
+          "label": "C",
+          "text": "5 speakers"
+        },
+        {
+          "label": "D",
+          "text": "6 speakers"
+        }
+      ],
+      "answer": "D",
+      "audio_url": "/audio/tts_81a01052e7a847c0b8e06a979c7b7cbc_noisy_home_medium_7ee82a64.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 32,
+      "id": "ssqa198",
+      "context": "Noisy café conversation about weekend plans. Count the distinct participating speakers.",
+      "speakers": [],
+      "question": "In the busy café audio about weekend plans, how many distinct speakers are participating?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 speakers"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers"
+        },
+        {
+          "label": "C",
+          "text": "4 speakers"
+        },
+        {
+          "label": "D",
+          "text": "5 speakers"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_17069b1a13444caaa0a9401bc7003eb8_noisy_cafe_restaurant_high_96be811f.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 119,
+      "id": "ssqa300",
+      "context": "Noisy shared-kitchen conversation. Count the distinct speakers by voice.",
+      "speakers": [],
+      "question": "In the kitchen audio, how many different speakers can be heard?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 speakers"
+        },
+        {
+          "label": "B",
+          "text": "3 speakers"
+        },
+        {
+          "label": "C",
+          "text": "4 speakers"
+        },
+        {
+          "label": "D",
+          "text": "5 speakers"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_124bf063916841a593dbc926a18d39be_noisy_cafe_restaurant_high_1792061e.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 90,
+      "id": "ssqa310",
+      "context": "Noisy party scene with Speaker A, Speaker B, and Speaker C. Identify who says “Alex, finally!”",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "Jenna"
+        },
+        {
+          "label": "Speaker B",
+          "description": "Alex"
+        },
+        {
+          "label": "Speaker C",
+          "description": "friend at the party"
+        }
+      ],
+      "question": "In the overlapping turn, which speaker says “Alex, finally!”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        },
+        {
+          "label": "D",
+          "text": "An unlabeled crowd voice"
+        }
+      ],
+      "answer": "C",
+      "audio_url": "/audio/tts_78080f6da1594e4093462c23ae3488ca_noisy_cafe_restaurant_high_65d3637a.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 9,
+      "id": "ssqa460",
+      "context": "Noisy store scene with Speaker A–D and possible narration. Count the speaking characters, excluding non-dialog narration.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "cashier"
+        },
+        {
+          "label": "Speaker B",
+          "description": "customer"
+        },
+        {
+          "label": "Speaker C",
+          "description": "store employee"
+        },
+        {
+          "label": "Speaker D",
+          "description": "shopper named Cameron"
+        }
+      ],
+      "question": "In the noisy store audio, how many speaking characters are involved, excluding the non-dialog narrator?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 speakers"
+        },
+        {
+          "label": "B",
+          "text": "4 speakers"
+        },
+        {
+          "label": "C",
+          "text": "5 speakers"
+        },
+        {
+          "label": "D",
+          "text": "6 speakers"
+        }
+      ],
+      "answer": "B",
+      "audio_url": "/audio/tts_5cf8c2618f604eca8feb63a9677909a7_noisy_grocery_store_medium_fb17be10.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "cc0d075c",
+      "idx": 192,
+      "id": "0040",
+      "context": "Noisy social setting with Speaker A–C. Identify who says the quoted Ross Skywalker line.",
+      "speakers": [],
+      "question": "In the noisy audio, which speaker says: “Rach, look! Oh, hi! Where is my strong Ross Skywalker to come rescue me. There he is”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        }
+      ],
+      "answer": "C",
+      "audio_url": "/audio/tts_7f9e241ca6574fcfba150662bbec5efc_noisy_cafe_restaurant_medium_89f44fa5.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "cc0d075c",
+      "idx": 135,
+      "id": "0452",
+      "context": "Noisy home conversation with Speaker A–C. Identify who says the quoted answering-machine line.",
+      "speakers": [],
+      "question": "In the noisy home audio, which speaker says: “Since you're gonna be here for a while, why don't we put your name on the answering machine”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_f238f4abed004413ba3ee4bd9eb96f33_noisy_home_medium_99cdca06.wav"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "cc0d075c",
+      "idx": 142,
+      "id": "0045",
+      "context": "Noisy conversation with Speaker A–C. Identify who says the quoted proposal line.",
+      "speakers": [
+        {
+          "label": "Speaker A",
+          "description": "Speaker 1"
+        },
+        {
+          "label": "Speaker B",
+          "description": "Speaker 2"
+        },
+        {
+          "label": "Speaker C",
+          "description": "Speaker 3"
+        }
+      ],
+      "question": "In the noisy audio, which speaker says: “He... he's gonna propose?”",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speaker A"
+        },
+        {
+          "label": "B",
+          "text": "Speaker B"
+        },
+        {
+          "label": "C",
+          "text": "Speaker C"
+        }
+      ],
+      "answer": "A",
+      "audio_url": "/audio/tts_3f7059bde6a94ab5945ad0c72f204f2e_noisy_cafe_restaurant_medium_b7a49df2.wav"
+    }
+  ]

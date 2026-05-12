@@ -1,0 +1,2203 @@
+[
+  {
+    "rank": 1,
+    "id": "0044",
+    "idx": 21,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Why does Harry sit up in bed and quietly call to Poby at the end?",
+    "image_url": [
+      "images/0044_0.jpg",
+      "images/0044_1.jpg",
+      "images/0044_2.jpg",
+      "images/0044_3.jpg",
+      "images/0044_4.jpg"
+    ],
+    "audio_url": "audio/tts_1807d2d6ee894af7b3c151057f1e68bb.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "To see if Poby is still awake and listening to him."
+      },
+      {
+        "label": "B",
+        "text": "To tell Poby he is scared of the dark in the room."
+      },
+      {
+        "label": "C",
+        "text": "To ask Poby to fix the blankets because he feels uncomfortable."
+      },
+      {
+        "label": "D",
+        "text": "To see if Poby wants to get up and play instead of sleeping."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Come on up, Harry. There’s plenty of room. It’s cozy up here.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Um… are you sure it’s okay if I sleep here with you?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Of course. I’ll keep you warm, and we can look at the stars out the window together.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "O-okay… I’ll try.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "See? Nice and snuggly now. Just close your eyes and think good thoughts.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Heh… It does feel kind of nice. Good night, Poby.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Mmm… good night, Harry…",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "…Poby?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 2,
+    "id": "0425",
+    "idx": 171,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "In the final moment, Harry suddenly looks wide-eyed and startled after Poby finally speaks up in the quiet room. Based on the scene and their conversation, what most likely caused Harry’s surprised reaction?",
+    "image_url": [
+      "images/0425_0.jpg",
+      "images/0425_1.jpg",
+      "images/0425_2.jpg",
+      "images/0425_3.jpg",
+      "images/0425_4.jpg"
+    ],
+    "audio_url": "audio/tts_e3f410a284994586859d1fbd008fa837.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Poby says his loud singing is making it hard to think."
+      },
+      {
+        "label": "B",
+        "text": "Poby praises his performance and asks for an encore."
+      },
+      {
+        "label": "C",
+        "text": "Poby suddenly starts singing along with the same melody."
+      },
+      {
+        "label": "D",
+        "text": "Poby quietly dozes off without responding to the song."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "La-la-laaa! What a perfect night for a song, right by your cozy bed, Poby!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Mm-hmm… it does sound nice, Harry. The cabin feels extra quiet outside tonight.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "And inside it’s filled with my sparkling high notes! Listen to this part—ta-da-DAAA!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ah… that’s very… lively. I’ve been up all day fixing things around here, so my head’s a bit fuzzy.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Oh! Then I’ll give you an even grander finale to wake you up—this next verse is the loudest one!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Actually, Harry… it’s really late now, and my eyes won’t stay open. I’m having trouble keeping my thoughts straight with all the… high notes.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Wait—seriously? You mean I’ve been belting this out while you were trying to wind down?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 3,
+    "id": "0294",
+    "idx": 126,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Why does Poby end up smiling and touching the back of his head in the final snowy scene?",
+    "image_url": [
+      "images/0294_0.jpg",
+      "images/0294_1.jpg",
+      "images/0294_2.jpg",
+      "images/0294_3.jpg",
+      "images/0294_4.jpg"
+    ],
+    "audio_url": "audio/tts_11d96dc10d2a470a9b158e51fe914943.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Feeling encouraged by his friends’ earlier support"
+      },
+      {
+        "label": "B",
+        "text": "Suddenly noticing how cold the snow is"
+      },
+      {
+        "label": "C",
+        "text": "Getting shy for no particular reason"
+      },
+      {
+        "label": "D",
+        "text": "Reacting to a quick joke someone just made"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Um... so you all really think I can handle this red car?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Are you kidding? You’re the strongest one here, Poby! If anyone can do it, you can.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "We’ve seen you practice so much. Just try it the way you showed us before.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Crong crong! Poby, go for it!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "And if something goes wrong, we’ll be right here to help you tweak it.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Look, everyone’s watching because we believe in you, not because we’re judging.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I even made up a little victory song, just waiting to sing it when you’re done!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Sensors indicate a very high chance of success, Poby. Proceed with confidence.",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "O-okay… I’ll give it a shot. Just don’t laugh if I mess up, alright?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "No way we’d laugh. We’ll just try again together if it doesn’t work.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whew… it’s… it’s over now. Hah… I guess that wasn’t as bad as I thought.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Heh… maybe I did alright this time.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 4,
+    "id": "0003",
+    "idx": 3,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why does Poby start dancing in front of his friends?",
+    "image_url": [
+      "images/0003_0.jpg",
+      "images/0003_1.jpg",
+      "images/0003_2.jpg",
+      "images/0003_3.jpg",
+      "images/0003_4.jpg"
+    ],
+    "audio_url": "audio/tts_35b2f1fcbe884f92ac417daf0c94c329.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "To entertain his friends while they eat"
+      },
+      {
+        "label": "B",
+        "text": "To show off his impressive dance skills"
+      },
+      {
+        "label": "C",
+        "text": "To show an easy way to exercise"
+      },
+      {
+        "label": "D",
+        "text": "To greet everyone with a cheerful dance"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Hmm... everyone else runs and jumps so easily. I just get tired right away.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "What’s wrong, Loopy? You look really down.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’m just not good at exercising. No matter what I try, I feel clumsy.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "You know, exercise doesn’t always have to be running or lifting things.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, there are lots of ways to move your body.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Like what? Everything feels too hard for me.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Well… there’s something fun you could try instead.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong? Fun exercise?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Just watch me for a bit, okay?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ooh, he’s getting up. What’s he going to do?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa, look at him move already!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You’re doing… dance steps?",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Heh, something like that. If you follow along, you’ll be moving before you notice.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong crong, looks cool!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "This is getting interesting!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Alright, here goes! Step, step—ha! Let’s pick up the pace!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "One-two, one-two—ta-da! Watch closely!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "rank": 5,
+    "id": "0093",
+    "idx": 40,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why does Poby respond so cheerfully to Harry at the end of the scene?",
+    "image_url": [
+      "images/0093_0.jpg",
+      "images/0093_1.jpg",
+      "images/0093_2.jpg",
+      "images/0093_3.jpg",
+      "images/0093_4.jpg"
+    ],
+    "audio_url": "audio/tts_4cc2fee7f3914d908c73f0d5310c9fbb.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "He is feeling awkward about trying the bread and is shyly apologizing rather than agreeing with Harry."
+      },
+      {
+        "label": "B",
+        "text": "He enjoyed the bread Harry suggested and is happily agreeing to share it together again."
+      },
+      {
+        "label": "C",
+        "text": "He has noticed something amusing on the wall and is reacting to that instead of to Harry’s question about the food."
+      },
+      {
+        "label": "D",
+        "text": "He has decided he actually does not like the bread and is gently turning down Harry’s offer for next time."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Harry, are you sure this bread is okay? I’ve never tried it like this before.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, it’s really good! Just give it a try, you might like it.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Alright… here goes nothing.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hmm… hey, this is actually pretty nice.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "See? I usually make mine into a sandwich like this. Do you like it enough that we should share it more often, or is it just so-so?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It’s better than I thought. Thanks for suggesting it, Harry.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "So… what do you think? Want to do this again sometime?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, I’d like that.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "rank": 6,
+    "id": "0258",
+    "idx": 111,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why do Crong and Eddy stop being upset with Pororo at the end?",
+    "image_url": [
+      "images/0258_0.jpg",
+      "images/0258_1.jpg",
+      "images/0258_2.jpg",
+      "images/0258_3.jpg",
+      "images/0258_4.jpg"
+    ],
+    "audio_url": "audio/tts_c8f850478a174ff68a24236ff6466858.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "They notice Pororo turning the situation into a joke and changing the subject away from the damaged sled."
+      },
+      {
+        "label": "B",
+        "text": "They hear Pororo say the sled is still cracked and that someone else is the one who should fix it."
+      },
+      {
+        "label": "C",
+        "text": "They realize Pororo made a mistake with Crong’s sled, already repaired it, and is now explaining this openly."
+      },
+      {
+        "label": "D",
+        "text": "They see that Pororo still insists nothing was his fault and refuses to admit he damaged the sled."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Pororo, what do you mean that wasn’t my sled you took? You just said you borrowed it like it was nothing!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I know it sounded that way, Crong, but let me explain.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Explain? You scratched it, left it out in the snow, and now you’re saying it’s no big deal?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hold on, Pororo. Crong told me you zoomed off on his sled and crashed it. Were you just pretending it wasn’t your fault?",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah! You were laughing when you said it, like it was some kind of joke.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I wasn’t joking. I borrowed a sled from the hill, remember the extra ones by the tree? I thought it was an old spare. I only found out later it was the one you had just painted, Crong.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Wait, so you didn’t just grab Crong’s on purpose? You thought it was one of the community sleds?",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Exactly. When I saw the new paint, I went back, checked the marks on the bottom, and realized it was yours. That’s why I fixed the crack and wiped it down before you came back.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You… already fixed it?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah. I came by to tell you, but you asked me if I took it and I answered too fast. It must have sounded like I didn’t care, but I was just trying to say it was a mistake and it’s okay now.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "So that’s why there was a new brace under the sled… I thought I imagined that.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I should’ve explained from the start instead of sounding casual. If you still want, we can test it together down the hill and see if it rides even smoother now.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "…Down the hill together, huh?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "rank": 7,
+    "id": "0379",
+    "idx": 153,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Why does Pororo urgently tell Harry, \"Don’t come up here, just stay at your house where it’s safe\"?",
+    "image_url": [
+      "images/0379_0.jpg",
+      "images/0379_1.jpg",
+      "images/0379_2.jpg",
+      "images/0379_3.jpg",
+      "images/0379_4.jpg"
+    ],
+    "audio_url": "audio/tts_3b28f80ad5c8459a91a6fc7182dd6b9a.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "He knows the narrow cliff ledge is dangerously high and wants Harry safe."
+      },
+      {
+        "label": "B",
+        "text": "He is exhausted from climbing and wants to rest without Harry joining."
+      },
+      {
+        "label": "C",
+        "text": "He wants time alone with Crong to plan a surprise for Harry."
+      },
+      {
+        "label": "D",
+        "text": "He thinks bad weather is coming to Harry’s yard but not the mountain."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Wow, we’re really getting high up, Crong. Look at all the trees below us!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "C-crong… it’s so steep. Are you sure this is a good idea?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It’s fine, just stay close behind me. One step at a time on this ledge.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "The ledge is so skinny… I feel like I’m going to slip, crong…",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Don’t look down, just look at my back. We’re almost around this cliff.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "O-okay… but the wind is strong up here…",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa… Crong, stop. It… it just ends here. There’s nowhere else to go.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Huh? It’s a dead end? And it’s so high… there’s only a drop, crong!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah… we can’t jump, and turning around on this narrow ledge is really risky.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hey, you two! Are you still climbing? The view looks great from here!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Is that Harry? He’s down by his house, crong!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Harry, we’re stuck really high up on a tiny icy ledge!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Do you want me to come up and help you?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "No, Harry, don’t come up here! Just stay at your house where it’s safe!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 8,
+    "id": "0257",
+    "idx": 110,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why is Rody calling out loudly in the last scene?",
+    "image_url": [
+      "images/0257_0.jpg",
+      "images/0257_1.jpg",
+      "images/0257_2.jpg",
+      "images/0257_3.jpg",
+      "images/0257_4.jpg"
+    ],
+    "audio_url": "audio/tts_c4d49df86bef4626975596fb7e8d4d83.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "To call out to Eddy and Crong who aren’t nearby"
+      },
+      {
+        "label": "B",
+        "text": "To shout excitedly about how beautiful the snowy mountains look"
+      },
+      {
+        "label": "C",
+        "text": "To call a warning about dangerous weather moving into the area"
+      },
+      {
+        "label": "D",
+        "text": "To cheer happily after finishing a long, careful drive"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "This cliff is steeper than it looked... the car’s almost at the edge.",
+        "speaker": "Tutu",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Crong… doesn’t like how wobbly this snow feels.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, one wrong move and we’re sliding down. We need to be really careful.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "My feet are freezing and my stomach feels weird… let’s figure out what to do fast.",
+        "speaker": "Tutu",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Did you hear that? Someone’s shouting out there.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I hear it too… it’s coming from across the snow.",
+        "speaker": "Tutu",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Wait, that sounds like Rody! I know that voice!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Rody! Over here!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Eddy! Crong! Can you hear me?!",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hey, guys! Answer me!",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 9,
+    "id": "0193",
+    "idx": 78,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "In the last scene, Poby is no longer round and is floating more like his usual self instead of a giant balloon. What most likely caused him to return to his normal size?",
+    "image_url": [
+      "images/0193_0.jpg",
+      "images/0193_1.jpg",
+      "images/0193_2.jpg",
+      "images/0193_3.jpg",
+      "images/0193_4.jpg"
+    ],
+    "audio_url": "audio/tts_48f4438042f2456da27e06d4e1372b52.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gas slowly leaking out as he moves in the air"
+      },
+      {
+        "label": "B",
+        "text": "A sudden magic spell returning him to normal"
+      },
+      {
+        "label": "C",
+        "text": "Someone popping him at once with a sharp object"
+      },
+      {
+        "label": "D",
+        "text": "Getting slimmer from exercise and healthy habits"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Ah-choo… ah… ah… nope. Ugh, it still won’t come out. I feel like a giant balloon!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You really do look like one. Are you still packed full of gas?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah. I thought a big sneeze would blast it all out, but I can’t sneeze on purpose.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Okay, forget the sneeze. What if we let it out slowly instead of all at once?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Slowly? How do I do that when I’m already stuck like this?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You’re so light from the gas that you’re floating anyway. Try moving around up there—stretch, twist, spin a bit. Maybe the gas will find tiny ways to escape while you float.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "So… just keep drifting and wiggling in the air, and let it leak bit by bit?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Exactly! Don’t force it, just stay in motion. I’ll watch from down here to make sure you’re okay.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "All right, here goes. I’m turning… and stretching… whoa, I feel kind of different already.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hey, Poby, your shape looks weird from here. Are you getting smaller or is it just the clouds?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’m not sure… my fur isn’t as tight, and the wind feels stronger under me. Something’s definitely changing!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "High above the ground, Poby drifts across the sky, his round body no longer quite as huge, as he slowly moves through the clouds.",
+        "speaker": "Narrator",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 10,
+    "id": "0140",
+    "idx": 63,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why did Poby and Eddy end up stuck on the sagging middle of the bridge?",
+    "image_url": [
+      "images/0140_0.jpg",
+      "images/0140_1.jpg",
+      "images/0140_2.jpg",
+      "images/0140_3.jpg",
+      "images/0140_4.jpg"
+    ],
+    "audio_url": "audio/tts_fc7a4ce5a15e41e794a02ef0cbca60e2.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "The old bridge suddenly sagged by itself while they stood there."
+      },
+      {
+        "label": "B",
+        "text": "A sudden strong wind pushed the bridge down under them."
+      },
+      {
+        "label": "C",
+        "text": "They hurried across the flexible bridge and it bent under them."
+      },
+      {
+        "label": "D",
+        "text": "Another friend shook the bridge from the side and made it sag."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Out of my way, everyone! I’m going first. We don’t have all day.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Eddy, that bridge is really narrow… maybe we should cross one at a time and slowly?",
+        "speaker": "Friend1",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "It’s just a few steps of metal. Watch, I’ll be on the other side before you finish worrying.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Eddy, wait. At least hold the rails and look where you’re stepping.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Relax, Poby! See? Totally fine. No need to fuss over every little thing.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Um… it’s kind of high up. Are you sure it’s not shaking a little?",
+        "speaker": "Friend2",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "You’re just imagining it! Come on, Poby, hurry up, you’re too slow!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "O-okay, I’m coming… Just don’t move so fast, Eddy.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Poby steps onto the bridge behind Eddy. The metal grates give a low creak.",
+        "speaker": "Narration",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa—! Did you feel that? It wobbled!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It’s just a little bounce. Keep going! If we stop every time it wiggles, we’ll be here forever.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Guys, the whole bridge is moving! Maybe you should come back carefully!",
+        "speaker": "Friend1",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I’m trying, but it’s hard to stand straight… Eddy, slow down!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "The bridge sways more as both of them shift their weight, and the middle section starts to dip.",
+        "speaker": "Narration",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hey—! Why is it bending like that? I can’t get my feet steady!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ah! Eddy, don’t move! The middle is sinking… I can’t climb up either side!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You’re stuck in the middle! Don’t look down!",
+        "speaker": "Friend2",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Th-the floor’s tilting… If I take one more step, I’ll slip off!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Eddy… we’re trapped on this sagging part of the bridge!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "rank": 11,
+    "id": "0074",
+    "idx": 32,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "In the scene where Poby visits Loopy and gently asks if something is going on, what is the main reason he has come over to see her?",
+    "image_url": [
+      "images/0074_0.jpg",
+      "images/0074_1.jpg",
+      "images/0074_2.jpg",
+      "images/0074_3.jpg",
+      "images/0074_4.jpg"
+    ],
+    "audio_url": "audio/tts_1a772a6539794b99ae69c1280eca2083.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "To talk with her because he feels something might be bothering her"
+      },
+      {
+        "label": "B",
+        "text": "To return about the toy car that Crong was looking for earlier"
+      },
+      {
+        "label": "C",
+        "text": "To get out of the snowy weather and talk about the cold day"
+      },
+      {
+        "label": "D",
+        "text": "To ask her for something to eat from the food she is making"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Poby, you’re amazing! Crong’s been searching everywhere for that red toy car, and you just walk in and hand it to him!",
+        "speaker": "Pororo",
+        "language": "en"
+      },
+      {
+        "text": "Crong, crong! My car! Thank you, Poby!",
+        "speaker": "Crong",
+        "language": "en"
+      },
+      {
+        "text": "Oh, haha… I’m glad it turned up.",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "Seriously, how do you always figure things out like that?",
+        "speaker": "Pororo",
+        "language": "en"
+      },
+      {
+        "text": "Mm… I just… think about things a little, I guess.",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "Hey, do you want to stay and play with us and the car for a while?",
+        "speaker": "Pororo",
+        "language": "en"
+      },
+      {
+        "text": "Yeah, let’s race it around the room! Crong, crong!",
+        "speaker": "Crong",
+        "language": "en"
+      },
+      {
+        "text": "That sounds fun, but…",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "You look like you’ve got something on your mind.",
+        "speaker": "Pororo",
+        "language": "en"
+      },
+      {
+        "text": "Ah, it’s nothing big. I’ll just step out for a bit.",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "Come back soon, Poby!",
+        "speaker": "Crong",
+        "language": "en"
+      },
+      {
+        "text": "Don’t forget to come back! We’ll keep the car ready for you.",
+        "speaker": "Pororo",
+        "language": "en"
+      },
+      {
+        "text": "Okay. I won’t be too long.",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "A little later, the snow-covered houses stand quietly under the winter sky as Poby arrives at another friend’s home.",
+        "speaker": "Narrator",
+        "language": "en"
+      },
+      {
+        "text": "Hi, Loopy. I came by to see you.",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "Oh… Poby. You’re here.",
+        "speaker": "Loopy",
+        "language": "en"
+      },
+      {
+        "text": "Um… how are things today?",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "I’m… okay.",
+        "speaker": "Loopy",
+        "language": "en"
+      },
+      {
+        "text": "You sure? Is something going on?",
+        "speaker": "Poby",
+        "language": "en"
+      },
+      {
+        "text": "Well…",
+        "speaker": "Loopy",
+        "language": "en"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 12,
+    "id": "0377",
+    "idx": 152,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "In the final scene around the table, why do Poby and his friends appear calm as they watch the robot?",
+    "image_url": [
+      "images/0377_0.jpg",
+      "images/0377_1.jpg",
+      "images/0377_2.jpg",
+      "images/0377_3.jpg",
+      "images/0377_4.jpg"
+    ],
+    "audio_url": "audio/tts_5602f1527f6b49fc9385e78bd9d43bb8.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "because the robot is now working"
+      },
+      {
+        "label": "B",
+        "text": "because everyone has finally arrived"
+      },
+      {
+        "label": "C",
+        "text": "because the robot has powered off again"
+      },
+      {
+        "label": "D",
+        "text": "because there is good news on TV"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Poby, we were knocking forever. What were you doing in there?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ah, sorry everyone… I must have dozed off inside without noticing the time.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong, crong… we were worried!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It’s okay, you’re here now. But we still need to check on that little yellow robot later.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, it was acting strange and wouldn’t move right. I hope we can fix it.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Welcome, everyone! I’m glad you all made it, especially you, Poby.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "We’re all here now. Let’s hurry so we can see what’s going on with the robot.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong! Robot, robot!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Come on in, everyone. I set the robot on the table inside so we can work on it together.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I still feel bad it hasn’t been working properly. Maybe I pressed the wrong button.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Don’t worry about that yet. Let’s just see what it’s doing now.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Remember how it kept falling over before? It looked like it might topple any second.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Crong… and the lights wouldn’t turn on.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Exactly. Something inside wasn’t working right. I adjusted a few parts, but I’m not sure how it turned out.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’ve been thinking about it all the way here. I really hope it behaves this time.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa, look at it now… it’s standing so straight on the table.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "And it’s actually running the routine I programmed. That’s… different from before.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong! It’s moving!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Seeing it like this makes my shoulders feel so much lighter.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Me too. I can finally just enjoy being here with all of you.",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 13,
+    "id": "0220",
+    "idx": 94,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "In the snowy scene where Eddy is standing with his friends and handing the bat to Rody, what most likely explains why Eddy is giving Rody the bat?",
+    "image_url": [
+      "images/0220_0.jpg",
+      "images/0220_1.jpg",
+      "images/0220_2.jpg",
+      "images/0220_3.jpg",
+      "images/0220_4.jpg"
+    ],
+    "audio_url": "audio/tts_d3204575c1564d328fc826331d96c086.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "He is still feeling a bit unsteady after being hit and prefers not to swing again right away."
+      },
+      {
+        "label": "B",
+        "text": "He thinks it is only fair that everyone takes turns using the bat in strict order."
+      },
+      {
+        "label": "C",
+        "text": "He wants to compliment Rody’s amazing batting skills by letting him show off."
+      },
+      {
+        "label": "D",
+        "text": "He is trying to demonstrate the correct way for Rody to hold and swing the bat."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Wow, this is going to be a huge hit! Throw it over here!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Okay, Eddy, get ready! Here comes the ball!",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Careful, guys! Don’t miss—",
+        "speaker": "Friend 1",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I’ve got it, I’ve got—Ouch! My nose!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Eddy! Oh no, you went down! Are you alright?",
+        "speaker": "Friend 2",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ugh… everything’s kind of spinning… and my nose feels like a big snowball.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Let me see… whoa, it’s really puffy. Just stay still for a second.",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Here, grab my hand. Take it slow getting up.",
+        "speaker": "Friend 1",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Thanks, everyone… I’m okay, just a little wobbly.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You sure you can stand? You still look a bit shaky.",
+        "speaker": "Friend 2",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’ll be fine. I just need a moment… and maybe not another ball to the face.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "We’re all right here with you. We can keep playing however you want.",
+        "speaker": "Friend 1",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Yeah… okay. Rody, c’mere.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Huh? What’s up, Eddy?",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Here, take the bat. You try this time.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Really? My turn?",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah. Let’s see your best swing.",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Nice! We’ll all watch from back here.",
+        "speaker": "Friend 2",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Alright then, I’ll knock it far! Ready, everyone?",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Go for it, Rody!",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 14,
+    "id": "0273",
+    "idx": 118,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why is Petty happily waving near the door inside the house?",
+    "image_url": [
+      "images/0273_0.jpg",
+      "images/0273_1.jpg",
+      "images/0273_2.jpg",
+      "images/0273_3.jpg",
+      "images/0273_4.jpg"
+    ],
+    "audio_url": "audio/tts_697a28ba7412458b99703250831b89dd.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "She just finished tidying the room and feels proud of the result."
+      },
+      {
+        "label": "B",
+        "text": "She is enjoying the cozy warmth indoors while it is cold outside."
+      },
+      {
+        "label": "C",
+        "text": "She is greeting Harry, who is outside the window with his toy."
+      },
+      {
+        "label": "D",
+        "text": "She is saying hello to a friend standing beside her in the room."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Petty! Hey, Petty! Can you hear me?",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Huh? I thought I heard something… Is that you, Harry?",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Yeah, it’s me! I’m right outside the window.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Wow, it looks really cold out there. What are you doing outside?",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I was playing and didn’t want to stop, so I came over here. Look, I brought my favorite toy car!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You and your toys… I’ve been stuck inside all morning cleaning up this room.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "That sounds boring! Come on, at least say hi. I’m right here!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Haha, okay, okay! I can’t stay grumpy forever.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I’m not leaving until you smile!",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "All right—ta-da! I spread my arms wide, step toward the window by the door, and smile brightly, happily waving with both hands.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "rank": 15,
+    "id": "0307",
+    "idx": 132,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why did Poby end up talking with his friend inside the house by the window?",
+    "image_url": [
+      "images/0307_0.jpg",
+      "images/0307_1.jpg",
+      "images/0307_2.jpg",
+      "images/0307_3.jpg",
+      "images/0307_4.jpg"
+    ],
+    "audio_url": "audio/tts_a712ebd39a8b485792bf2bef919530ed.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Coming in from the snow to quietly watch the snowfall alone by the window"
+      },
+      {
+        "label": "B",
+        "text": "Coming in from the snow to warm up and have a calm chat by the window"
+      },
+      {
+        "label": "C",
+        "text": "Coming in from the snow to meet another visitor waiting away from the window"
+      },
+      {
+        "label": "D",
+        "text": "Coming in from the snow to fix a broken lamp next to the window"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Hi, Petty! The snow is really piling up today.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hey, Poby! It looks beautiful out here. Have you been outside long?",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Just came out to stretch a bit. I didn’t want to miss saying hello when I saw you at the door.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "That’s sweet of you. Don’t stay in the cold too long, though. You’ll freeze out here!",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "You’re right, it’s getting chilly. I’ll head inside for a bit and warm up.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Ah, much better… Oh, Harry, you’re by the window again.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I like watching the snow fall from here. It’s so calm.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It does look peaceful from inside. You’ve got the best spot in the house.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "And you look a lot warmer now too.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I do. Mind if I stay here and chat with you for a while, Harry?",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Not at all. Tell me what’s on your mind, Poby.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Sure… let’s just sit here and talk while the snow keeps falling.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "rank": 16,
+    "id": "0309",
+    "idx": 134,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Why does Petty’s friend speak warmly to her at the end?",
+    "image_url": [
+      "images/0309_0.jpg",
+      "images/0309_1.jpg",
+      "images/0309_2.jpg",
+      "images/0309_3.jpg",
+      "images/0309_4.jpg"
+    ],
+    "audio_url": "audio/tts_e1e71f5acc39434eb44282844d1f5745.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "She steadily carries several plates over to share with everyone."
+      },
+      {
+        "label": "B",
+        "text": "She keeps juggling plates wildly to entertain her worried friends."
+      },
+      {
+        "label": "C",
+        "text": "She asks a friend to carry the plates instead of helping herself."
+      },
+      {
+        "label": "D",
+        "text": "She spins around jokingly and lets the plates fall all over the floor."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Whoa! Look at all these plates! Catch them if you can!",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Crong! They’re flying everywhere!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Petty, be careful! You almost dropped that one!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Oh my, my heart is racing! Maybe we should help you?",
+        "speaker": "Loopy",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "That was awesome! But maybe don’t juggle them over my head next time.",
+        "speaker": "Harry",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Petty, do you really think you can carry all those by yourself?",
+        "speaker": "Eddy",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "It’s okay, everyone. I’ve got this. I’ll bring them over so we can all eat together.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Petty, your balance is very impressive.",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "See? Nice and steady now.",
+        "speaker": "Petty",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Look at you, Petty, handling all those plates like a pro!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "rank": 17,
+    "id": "0112",
+    "idx": 48,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why does Crong walk over toward Pororo near the fireplace?",
+    "image_url": [
+      "images/0112_0.jpg",
+      "images/0112_1.jpg",
+      "images/0112_2.jpg",
+      "images/0112_3.jpg",
+      "images/0112_4.jpg"
+    ],
+    "audio_url": "audio/tts_55400e3659784c9cba6f95f14c9abe0a.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "To pick up the toy car that is still on the floor"
+      },
+      {
+        "label": "B",
+        "text": "To come over just to chat with Pororo about the book he is reading"
+      },
+      {
+        "label": "C",
+        "text": "To get a closer look at the toy beside Pororo"
+      },
+      {
+        "label": "D",
+        "text": "To stand nearer to the warm fireplace rather than for any toy"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Pororo, what are you doing on the couch?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’m just reading my book. There are toys everywhere today.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, I saw one on the floor. Be careful you don’t step on it.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I know, I keep looking down so I don’t bump it with my feet.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Is that the same toy you were playing with earlier?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hmm, not really. I was checking out something else while I read.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Something else? What is it?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You’ll see. It’s right next to me now.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I can’t see from over here. Are you sure it’s okay there?",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, it’s fine. It’s not on the floor like before.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Maybe I should come closer and look.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "If you want, you can sit by the fireplace. It’s warmer here too.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Okay, I’m coming over. Don’t move it yet!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Alright, I’ll keep it right here while you walk over.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "rank": 18,
+    "id": "0268",
+    "idx": 117,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "After Pororo discovers that the block tower on the table has fallen over, what most likely caused it to collapse?",
+    "image_url": [
+      "images/0268_0.jpg",
+      "images/0268_1.jpg",
+      "images/0268_2.jpg",
+      "images/0268_3.jpg",
+      "images/0268_4.jpg"
+    ],
+    "audio_url": "audio/tts_910dac26e21e4d7c940b701eb01fdd8a.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pororo bumping the table."
+      },
+      {
+        "label": "B",
+        "text": "Poby sneezing near the tower."
+      },
+      {
+        "label": "C",
+        "text": "Poby stumbling into the table."
+      },
+      {
+        "label": "D",
+        "text": "A gust of wind from a window."
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Woohoo! Running in the snow is the best!",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa, look at that clear blue sky. Maybe the storm is really gone now.",
+        "speaker": "Rody",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Okay, just one more block on top and my tower will be perfect.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Wow, Pororo, that’s pretty tall. Don’t even breathe on it or it’ll wobble.",
+        "speaker": "Friend",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I’ll stay right here and watch… ah… ah… I think I’m getting a tickle in my nose.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Please don’t move suddenly, Poby. I finally got all the sides to line up.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "If you have to sneeze, maybe take a step back from the table?",
+        "speaker": "Friend",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "I-I’ll be fine… ah… ahh… maybe it’ll pass…",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "A-ACHOO!",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa! My blocks! They just collapsed all at once!",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "What happened? Did something shake the table or did the tower just lose balance?",
+        "speaker": "Friend",
+        "language": "en",
+        "gender": "female"
+      },
+      {
+        "text": "Oh no… it fell right after that. I hope it wasn’t something I did.",
+        "speaker": "Poby",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "rank": 19,
+    "id": "0054",
+    "idx": 26,
+    "subtask_id": "st_01",
+    "dataset_id": "6d45c24e",
+    "question": "Based on the audio, why does Pororo lean in to look closely at the robot on the table?",
+    "image_url": [
+      "images/0054_0.jpg",
+      "images/0054_1.jpg",
+      "images/0054_2.jpg",
+      "images/0054_3.jpg",
+      "images/0054_4.jpg"
+    ],
+    "audio_url": "audio/tts_1a9f2027db114a6991f7e9680c97b1c3.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Checking the robot’s abilities and functions"
+      },
+      {
+        "label": "B",
+        "text": "Checking the robot as a playful toy"
+      },
+      {
+        "label": "C",
+        "text": "Checking the robot for damage"
+      },
+      {
+        "label": "D",
+        "text": "Checking the robot for safety"
+      }
+    ],
+    "dialog": [
+      {
+        "text": "Hello. I am online. What can I do for you today?",
+        "speaker": "Robot",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Whoa! Did it just talk, Crong?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Crong?! It really talked!",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yes. I can understand you. How may I assist you, Pororo and Crong?",
+        "speaker": "Robot",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "You even know our names?",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "This is kinda spooky… Crong.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "My apologies if I startled you. I am here to help. What can I do for you?",
+        "speaker": "Robot",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Uh… we didn’t expect you to answer back like that.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Yeah, we thought you were just a little toy, crong.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I am more than a toy. I can answer questions or follow simple instructions. What would you like me to do for you?",
+        "speaker": "Robot",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Hm… I’m not sure what to ask first.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Maybe try saying something else to it, crong.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I am ready. Please tell me what I can do for you.",
+        "speaker": "Robot",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "Okay, okay… hold still for a second.",
+        "speaker": "Pororo",
+        "language": "en",
+        "gender": "male"
+      },
+      {
+        "text": "I’ll stay right here and watch, crong.",
+        "speaker": "Crong",
+        "language": "en",
+        "gender": "male"
+      }
+    ],
+    "answer": "A"
+  }
+]

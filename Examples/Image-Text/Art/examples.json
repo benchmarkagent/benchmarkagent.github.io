@@ -1,0 +1,542 @@
+[
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 29,
+    "id": "cfar0189",
+    "image_url": "images/Ai_Xuan_08.jpg",
+    "question": "After identifying the artist from the artwork image, which of the following is another titled work by the same artist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tibetan Girl"
+      },
+      {
+        "label": "B",
+        "text": "Tibetan Group"
+      },
+      {
+        "label": "C",
+        "text": "The Spring Wind Has Awakened"
+      },
+      {
+        "label": "D",
+        "text": "Mona Lisa"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 38,
+    "id": "cfar0301",
+    "image_url": "images/Liu_Yuanshou_12.jpg",
+    "question": "After identifying the artist from the artwork image, which subject is this artist especially noted for painting throughout his career?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Abstract calligraphic panels inspired by Tang dynasty poems"
+      },
+      {
+        "label": "B",
+        "text": "Sensual portraits of Jiangsu women in silk and red drapery"
+      },
+      {
+        "label": "C",
+        "text": "Monumental ink landscapes of Huangshan peaks in mist"
+      },
+      {
+        "label": "D",
+        "text": "Heroic depictions of Long March soldiers in snowy battlefields"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 106,
+    "id": "cfar0004",
+    "image_url": "images/Li_Fang_Ying_03.jpg",
+    "question": "After identifying the artist from the artwork image, which statement correctly describes another work or artistic affiliation of this painter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Specialized in clerical-script calligraphy more than in plum painting."
+      },
+      {
+        "label": "B",
+        "text": "Best known for a plum album in Kyoto attributed instead to Jin Nong."
+      },
+      {
+        "label": "C",
+        "text": "Joined a Yangzhou eccentric circle that excluded both Jin Nong and Luo Ping."
+      },
+      {
+        "label": "D",
+        "text": "Painted an album of blossoming plum now in the Metropolitan Museum."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 61,
+    "id": "cfar0136",
+    "image_url": "images/Zou_Chuan_An_11.jpg",
+    "question": "After identifying the artist from the artwork image, which of the following is another documented representative work by the same artist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Morning Blossoms by the Riverside"
+      },
+      {
+        "label": "B",
+        "text": "Spring Sparrow in Willow Shade"
+      },
+      {
+        "label": "C",
+        "text": "Furong (Hibiscus)"
+      },
+      {
+        "label": "D",
+        "text": "Autumn Ducks on Lotus Pond"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 48,
+    "id": "cfar0027",
+    "image_url": "images/Wang_Hui_13.jpg",
+    "question": "After identifying the artist from the artwork image, which painter was a direct teacher of this artist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wang Jian"
+      },
+      {
+        "label": "B",
+        "text": "Wang Yuanqi"
+      },
+      {
+        "label": "C",
+        "text": "Wang Shimin"
+      },
+      {
+        "label": "D",
+        "text": "Wu Li"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 30,
+    "id": "cfar0245",
+    "image_url": "images/Wai_Ming_02.jpg",
+    "question": "After identifying the artist from the artwork image, which of the following painting titles is also by the same artist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Song of Yunnan Dusk"
+      },
+      {
+        "label": "B",
+        "text": "Village Children at Play"
+      },
+      {
+        "label": "C",
+        "text": "Children of the Rice Fields"
+      },
+      {
+        "label": "D",
+        "text": "Fishgirl with Braids"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "791bc8ca",
+    "idx": 80,
+    "id": "cfar0118",
+    "image_url": "images/He_Jilan_14.jpg",
+    "question": "After identifying the artist from the artwork image, which description of this painter’s primary collaborative relationship is accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ongoing collaboration with a Taiwanese avant-garde calligrapher."
+      },
+      {
+        "label": "B",
+        "text": "Ongoing father–son collaboration in abstract ink painting."
+      },
+      {
+        "label": "C",
+        "text": "Ongoing collaboration with a peer ink abstractionist from the same circle."
+      },
+      {
+        "label": "D",
+        "text": "Ongoing collaboration with a former university design professor."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 26,
+    "id": "cfar0133",
+    "image_url": "images/Zou_Chuan_An_07.jpg",
+    "question": "After identifying the artist from the artwork image, at which institution has this artist served as a visiting professor of traditional Chinese painting?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Central Academy of Fine Arts"
+      },
+      {
+        "label": "B",
+        "text": "Hunan Normal University Academy of Fine Arts"
+      },
+      {
+        "label": "C",
+        "text": "China Academy of Art"
+      },
+      {
+        "label": "D",
+        "text": "Sichuan Fine Arts Institute"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 60,
+    "id": "cfar0150",
+    "image_url": "images/Zhao_Kailin_02.jpg",
+    "question": "After identifying the artist from the artwork image, which art academy did this artist attend for formal professional training?",
+    "options": [
+      {
+        "label": "A",
+        "text": "China Academy of Art, Hangzhou"
+      },
+      {
+        "label": "B",
+        "text": "Central Academy of Fine Arts, Beijing"
+      },
+      {
+        "label": "C",
+        "text": "Sichuan Fine Arts Institute, Chongqing"
+      },
+      {
+        "label": "D",
+        "text": "Luxun Academy of Fine Arts, Shenyang"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 142,
+    "id": "cfar0220",
+    "image_url": "images/Zhang_Xiao_Gang_21.jpg",
+    "question": "After identifying the artist from the artwork image, at which art academy and in which city did this artist receive foundational painting education?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Luxun Academy of Fine Arts, Shenyang"
+      },
+      {
+        "label": "B",
+        "text": "China Academy of Art, Hangzhou"
+      },
+      {
+        "label": "C",
+        "text": "Central Academy of Fine Arts, Beijing"
+      },
+      {
+        "label": "D",
+        "text": "Sichuan Academy of Fine Arts, Chongqing"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 62,
+    "id": "cfar0371",
+    "image_url": "images/Li_Zijian_08.jpg",
+    "question": "After identifying the artist from the artwork image, in which city outside mainland China did this artist later spend a substantial part of his career living and working?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Los Angeles, United States"
+      },
+      {
+        "label": "B",
+        "text": "Paris, France"
+      },
+      {
+        "label": "C",
+        "text": "New York, United States"
+      },
+      {
+        "label": "D",
+        "text": "Tokyo, Japan"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 121,
+    "id": "cfar0102",
+    "image_url": "images/Chang_Dai_Chien_13.jpg",
+    "question": "After identifying the artist from the artwork image, in which country did this artist later primarily settle for an extended period of exile after leaving mainland China in the late 1940s?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Japan"
+      },
+      {
+        "label": "B",
+        "text": "Taiwan"
+      },
+      {
+        "label": "C",
+        "text": "Brazil"
+      },
+      {
+        "label": "D",
+        "text": "United States"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "791bc8ca",
+    "idx": 92,
+    "id": "cfar0051",
+    "image_url": "images/Jin_Ting_Biao_06.jpg",
+    "question": "After identifying the artist from the artwork image, in which imperial painting office did this artist later serve as a painter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Huayuan (Imperial Painting Academy)"
+      },
+      {
+        "label": "B",
+        "text": "Ruyiguan (Ruyi Institute)"
+      },
+      {
+        "label": "C",
+        "text": "Hanlin Huayuan (Imperial Painting Institute)"
+      },
+      {
+        "label": "D",
+        "text": "Zaobanchu Huayuan (Imperial Workshop Painting Office)"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "5f3dbd05",
+    "idx": 113,
+    "id": "art_image_vqa_0106",
+    "image_url": "images/04493-still_li.jpg",
+    "question": "After identifying the artist from the artwork image, in which city did this artist spend the main part of his career as a still-life painter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Utrecht"
+      },
+      {
+        "label": "B",
+        "text": "Haarlem"
+      },
+      {
+        "label": "C",
+        "text": "Amsterdam"
+      },
+      {
+        "label": "D",
+        "text": "Antwerp"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 140,
+    "id": "art_image_vqa_0143",
+    "image_url": "images/01103-manportr.jpg",
+    "question": "Which patronage and social function scenario best fits how this type of portrait was typically produced and used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urban patrician families hiring city workshops for domestic status and lineage display"
+      },
+      {
+        "label": "B",
+        "text": "Independent merchants buying ready-made likenesses on an open Northern print-and-portrait market"
+      },
+      {
+        "label": "C",
+        "text": "Princely courts commissioning grand dynastic portraits for palace throne rooms"
+      },
+      {
+        "label": "D",
+        "text": "High-ranking clergy ordering donor portraits mainly for altarpieces and church chapels"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 90,
+    "id": "art_image_vqa_0077",
+    "image_url": "images/21882-stillife.jpg",
+    "question": "Which broader historical context best fits how this type of polished tabletop still life was typically produced and used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Industrial-era studios designing fruit still lifes chiefly as patterns for mass-produced prints and factory-made home décor for a broad middle-class market"
+      },
+      {
+        "label": "B",
+        "text": "Independent painters supplying refined still lifes to an open urban art market serving prosperous merchants and professionals, with imported luxury goods as signs of trade-based wealth and moral reflection in private homes"
+      },
+      {
+        "label": "C",
+        "text": "Court-controlled workshops producing decorative still lifes primarily for palace galleries and aristocratic hunting lodges, tightly regulated by noble patronage and ceremonial display"
+      },
+      {
+        "label": "D",
+        "text": "Religious painters creating modest still lifes mainly as side-elements in altarpieces and devotional images, funded by church institutions focused on reinforcing doctrine"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 31,
+    "id": "art_image_vqa_0162",
+    "image_url": "images/00418-4saints2.jpg",
+    "question": "Which broader patronage and religious-political context is most likely for this work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Commission by a Baroque-era royal court and state academy promoting grand dynastic propaganda in a centralized monarchy"
+      },
+      {
+        "label": "B",
+        "text": "Commission by mendicant or monastic communities and urban lay confraternities within a unified Latin Church in a merchant-dominated city-republic"
+      },
+      {
+        "label": "C",
+        "text": "Commission by a post-Reformation Northern Protestant civic council seeking restrained biblical imagery for a town hall"
+      },
+      {
+        "label": "D",
+        "text": "Commission by a Byzantine imperial court workshop serving an emperor and emphasizing ceremonially hierarchical icons"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 116,
+    "id": "art_image_vqa_0428",
+    "image_url": "images/35916-romuald.jpg",
+    "question": "Which type of patronage or religious function best fits this work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Devotional commission by a reformed Catholic monastic community to model contemplative discipline"
+      },
+      {
+        "label": "B",
+        "text": "Medieval monastic manuscript illumination for private cloister reading"
+      },
+      {
+        "label": "C",
+        "text": "Protestant urban commission for lay Bible instruction in a northern mercantile city"
+      },
+      {
+        "label": "D",
+        "text": "Nineteenth-century academic revival painting of nostalgic monastic themes for bourgeois patrons"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 177,
+    "id": "art_image_vqa_0039",
+    "image_url": "images/08476-madchild.jpg",
+    "question": "Which historical patronage and purpose most likely produced this image?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Protestant urban elites in Northern Europe commissioning images for household devotion"
+      },
+      {
+        "label": "B",
+        "text": "Catholic clergy and lay confraternities funding Marian altarpieces to promote clear devotion"
+      },
+      {
+        "label": "C",
+        "text": "Medieval monastic and guild patrons sponsoring panel icons for pre-Reformation chapels"
+      },
+      {
+        "label": "D",
+        "text": "Eighteenth- and nineteenth-century academies and private collectors ordering salon religious works"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_02",
+    "dataset_id": "5f3dbd05",
+    "idx": 88,
+    "id": "art_image_vqa_0426",
+    "image_url": "images/03204-gatto.jpg",
+    "question": "Which setting best describes how such a work was most likely originally used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Small devotional painting purchased by a wealthy household for intimate home prayer."
+      },
+      {
+        "label": "B",
+        "text": "Domestic scene collected by a prosperous merchant as tasteful moral genre decoration."
+      },
+      {
+        "label": "C",
+        "text": "Monumental religious painting ordered by a ruler for a grand ceremonial chapel."
+      },
+      {
+        "label": "D",
+        "text": "Sentimental family picture displayed in a nineteenth-century parlor as charming décor."
+      }
+    ],
+    "answer": "A"
+  }
+]

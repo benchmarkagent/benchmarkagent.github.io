@@ -487,9 +487,13 @@ tbody td:first-child{text-align:left;font-weight:500}
 .ex-tag-t{background:var(--pb);color:var(--p)}
 .ex-tag-a{background:#fce7f3;color:#9d174d}
 .ex-tag-i{background:var(--gl);color:#065f46}
+.ex-tag-o{background:var(--al);color:#92400e}
+.ex-omni-imgs{display:flex;gap:3px;border-radius:10px;overflow:hidden;margin-bottom:.9rem;border:1px solid var(--border)}
+.ex-omni-imgs img{flex:1;min-width:0;height:150px;object-fit:cover}
 .ex-ctx{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem}
 .ex-ctx-title{font-size:.77rem;font-weight:700;color:var(--sub);margin-bottom:.85rem;letter-spacing:.03em}
 .ex-ctx-text{max-height:220px;overflow-y:auto;font-size:.80rem;line-height:1.7;color:var(--text);white-space:pre-wrap}
+.ex-ctx-desc{font-size:.82rem;line-height:1.65;color:var(--text);margin:0;max-height:200px;overflow-y:auto}
 .ex-ctx-text::-webkit-scrollbar{width:3px}
 .ex-ctx-text::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 .ex-passages{display:flex;flex-direction:column;gap:.7rem}
@@ -503,6 +507,7 @@ tbody td:first-child{text-align:left;font-weight:500}
 .spk-a{background:#eff6ff;color:#1e40af}
 .spk-b{background:var(--pb);color:var(--p)}
 .spk-c{background:var(--gl);color:#065f46}
+.spk-d{background:#fef3c7;color:#92400e}
 .finding{font-size:.84rem;line-height:1.6;color:var(--text);margin-bottom:.5rem}
 .finding-lbl{display:inline-block;font-size:.7rem;font-weight:700;background:var(--al);color:var(--a);padding:.08rem .42rem;border-radius:4px;margin-right:.45rem}
 .ex-q{font-size:.97rem;font-weight:600;color:var(--text);line-height:1.55;margin-bottom:1.2rem}
@@ -515,6 +520,8 @@ tbody td:first-child{text-align:left;font-weight:500}
 .ex-explain{background:linear-gradient(135deg,#ecfdf5,#f0fdf4);border:1px solid #a7f3d0;border-radius:9px;padding:1rem 1.25rem;font-size:.84rem;line-height:1.65;color:#065f46;margin-top:.65rem;animation:fadeUp .3s ease}
 .ex-img-wrap{border-radius:10px;overflow:hidden;border:1px solid var(--border);margin-bottom:1.5rem;max-height:340px;display:flex;align-items:center;justify-content:center;background:var(--bg3)}
 .ex-img-wrap img{max-height:340px;width:auto;max-width:100%;object-fit:contain}
+.ex-audio-wrap{padding:1.2rem 1.5rem;background:var(--bg3);border-radius:10px;border:1px solid var(--border);margin-bottom:1rem;display:flex;align-items:center;justify-content:center}
+.ex-audio-wrap audio{width:100%;max-width:520px;accent-color:var(--p2)}
 
 /* ─── FOOTER ──────────────────────────────────────────── */
 footer{
@@ -600,7 +607,7 @@ footer strong{color:var(--text)}
 </section>
 
 <!-- ══════════ MOTIVATION ══════════ -->
-<section class="alt" id="motivation">
+<!-- <section class="alt" id="motivation">
   <div class="container">
     <div class="sec-head">
       <div class="badge"><i class="fas fa-lightbulb"></i>&nbsp;Motivation</div>
@@ -648,10 +655,10 @@ footer strong{color:var(--text)}
       <p style="color:var(--sub);max-width:580px;margin:0 auto;font-size:.9rem">A fully autonomous agentic system that turns benchmark construction into a <strong>standardized, automated workflow</strong> — enabling scalable, high-quality, low-cost, and continuously renewable evaluation tailored to any user requirement.</p>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ══════════ METHOD ══════════ -->
-<section id="method">
+<!-- <section id="method">
   <div class="container">
     <div class="sec-head">
       <div class="badge"><i class="fas fa-diagram-project"></i>&nbsp;Method</div>
@@ -675,7 +682,7 @@ footer strong{color:var(--text)}
 
     <div class="two-col">
       <!-- Planner -->
-      <div class="comp-card">
+      <!-- <div class="comp-card">
         <div class="comp-head plan-head">
           <div class="comp-icon plan-icon">🧠</div>
           <div><h3>Benchmark Planner</h3><small>High-level decision module</small></div>
@@ -706,7 +713,7 @@ footer strong{color:var(--text)}
       </div>
 
       <!-- Executer -->
-      <div class="comp-card">
+      <!-- <div class="comp-card">
         <div class="comp-head exec-head">
           <div class="comp-icon exec-icon">⚙️</div>
           <div><h3>Benchmark Executer</h3><small>Operational realization module</small></div>
@@ -755,7 +762,7 @@ footer strong{color:var(--text)}
       </div>
     </div>
   </div>
-</section>
+</section>  -->
 
 <!-- ══════════ BENCHMARKS ══════════ -->
 <section class="alt2" id="benchmarks">
@@ -868,7 +875,7 @@ footer strong{color:var(--text)}
 </section>
 
 <!-- ══════════ RESULTS ══════════ -->
-<section id="results">
+<!-- <section id="results">
   <div class="container">
     <div class="sec-head">
       <div class="badge"><i class="fas fa-chart-bar"></i>&nbsp;Results</div>
@@ -879,7 +886,7 @@ footer strong{color:var(--text)}
     <!-- Two charts side by side -->
 
 
-    <!-- Human evaluation with image -->
+    <!-- Human evaluation with image
     <h3 style="font-size:1.15rem;font-weight:700;margin-bottom:.5rem">Human Evaluation</h3>
     <p style="color:var(--sub);font-size:.86rem;margin-bottom:1.5rem">Four domain experts annotated generated samples for correctness, clarity, answerability, and task relevance on a 1–5 scale. Human acceptance rates consistently exceed <strong>96%</strong> across all benchmarks.</p>
     <div class="heval-wrap">
@@ -902,7 +909,7 @@ footer strong{color:var(--text)}
     </div>
 
     <!-- Quality table -->
-    <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">LLM-as-Judge Quality Evaluation</h3>
+    <!-- <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">LLM-as-Judge Quality Evaluation</h3>
     <p style="color:var(--sub);font-size:.84rem;margin-bottom:1.2rem"><strong>UIA</strong> = User-Intention Alignment &nbsp;·&nbsp; <strong>FSQ</strong> = Format &amp; Schema Quality &nbsp;·&nbsp; <strong>QAC</strong> = Question-Answer Coherence &nbsp;·&nbsp; <strong>CQC</strong> = Context-Question Correspondence &nbsp;·&nbsp; <strong>TSD</strong> = Target Signal Dependency &nbsp;·&nbsp; <strong>SSC</strong> = Skill-Specific Challenge</p>
     <div class="tbl-wrap">
       <table>
@@ -927,7 +934,7 @@ footer strong{color:var(--text)}
           <tr><td>Math-Reasoning (I)</td><td>96.62</td><td>79.69</td><td>94.72</td><td>95.44</td><td>87.58</td><td>68.08</td><td>45.13</td><td class="hl">77.79</td><td>45.26</td><td>47.19</td><td>48.88</td><td>54.49</td></tr>
         </tbody>
       </table>
-    </div>
+    </div>  -->
 
     <!-- MLLM Performance Chart
     <div class="chart-wrap">
@@ -978,9 +985,9 @@ footer strong{color:var(--text)}
         </tbody>
       </table>
     </div> -->
-  </div>
+  <!-- </div>
 </section>
-
+ --> 
 
 <!-- ══════════ FOOTER ══════════ -->
 <footer>
@@ -1272,7 +1279,7 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
 // ── Interactive examples ──
 (function() {
   var Q = {
-    multiPerspective: [], // populated via fetch from Examples/Text-Only/examples.json
+    multiPerspective: [], // populated via fetch from Examples/Text-Only/multi-perspective/examples.json
     multilingual: {
       tag: 'Text-Only · Cross-Lingual Multi-Hop Reasoning', tagClass: 'ex-tag-t',
       ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🌐 Context — Evidence scattered across three languages</div><div class="ex-passages"><div class="passage"><span class="psrc">English</span>"The summit concluded with a joint declaration emphasizing cooperation on maritime boundaries and resource allocation."</div><div class="passage"><span class="psrc">Français</span>"Le ministre a déclaré que les négociations portaient principalement sur les ressources sous-marines et les droits d\'extraction."</div><div class="passage"><span class="psrc">中文</span>"根据联合声明，两国将在接下来六个月内完成海洋边界线的最终划定。"</div></div></div>',
@@ -1281,30 +1288,12 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
       correct: 1,
       explain: '<strong>✅ Correct: B</strong><br>English → cooperation on maritime boundaries; French → focus on subsea resources; Chinese → finalization within six months. Only B synthesizes all three correctly. C ignores boundary demarcation; D contradicts the six-month timeline in the Chinese passage.'
     },
-    multiSpeaker: {
-      tag: 'Audio · Multi-Speaker Reasoning', tagClass: 'ex-tag-a',
-      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🎙️ Transcript — Board Meeting (spoken audio input)</div><div class="ex-transcript"><div class="tline"><span class="spk spk-a">Speaker A</span>"If we proceed with the merger before Q3, we\'ll need sign-off from at least three board members. That\'s non-negotiable."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Right — and given that Martinez is on sabbatical, realistically we\'re working with a smaller pool. But I think we can still make the timeline if legal moves quickly."</div><div class="tline"><span class="spk spk-c">Speaker C</span>"Legal has flagged the IP clause. That alone could push the whole thing to Q4."</div></div></div>',
-      question: 'What implicit constraint does Speaker B acknowledge in this exchange?',
-      options: ['A&nbsp;&nbsp;The merger cannot proceed without Martinez\'s direct approval.','B&nbsp;&nbsp;The effective pool for board sign-offs is reduced due to an absence.','C&nbsp;&nbsp;Legal approval is not required to establish board quorum.','D&nbsp;&nbsp;Three board members have already committed to the merger.'],
-      correct: 1,
-      explain: '<strong>✅ Correct: B</strong><br>Speaker B says "working with a smaller pool" — implicitly acknowledging Martinez\'s sabbatical reduces available board members. Option A incorrectly states Martinez\'s direct approval is <em>required</em>; the correct reading is that his absence <em>reduces</em> the pool.'
-    },
-    noise: {
-      tag: 'Audio · Noise Robustness', tagClass: 'ex-tag-a',
-      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🔊 Transcript — Noisy public environment (audio input)</div><div class="ex-transcript noise-ctx"><div class="tline noise-mark">[Background crowd noise begins]</div><div class="tline"><span class="spk spk-a">Speaker A</span>"So the project handoff is... [noise burst] ...on <strong>Thursday</strong>. Room 4B in the Annex building."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Sorry — Room 4B or 4D? The noise here is—"</div><div class="tline noise-mark">[Loud PA announcement]</div><div class="tline"><span class="spk spk-a">Speaker A</span>"Room 4B. Fourth floor, <em>east wing</em>. Bring the design files and the sign-off sheet."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Got it. Client attending or just internal?"</div><div class="tline"><span class="spk spk-a">Speaker A</span>"[static] — just internal this time."</div></div></div>',
-      question: 'What is the confirmed meeting location and attendee scope per Speaker A\'s <em>clarified</em> statement?',
-      options: ['A&nbsp;&nbsp;Room 4D, west wing; both internal team and client attending.','B&nbsp;&nbsp;Room 4B, west wing; internal team only.','C&nbsp;&nbsp;Room 4B, east wing; internal team only.','D&nbsp;&nbsp;Room 4D, east wing; client attending.'],
-      correct: 2,
-      explain: '<strong>✅ Correct: C</strong><br>Speaker A\'s clarifying statement explicitly says "Room 4B. Fourth floor, east wing." and confirms "just internal this time." The benchmark tests whether the model can extract the target speaker\'s disambiguating statements while ignoring noise, the PA interruption, and the initial ambiguous utterance.'
-    },
-    art: {
-      tag: 'Image-Text · Art Reasoning', tagClass: 'ex-tag-i',
-      ctx: '<div class="ex-img-wrap"><img src="images/benchmark_art.jpg" alt="Artwork sample for period identification" loading="lazy"></div>',
-      question: 'Based <em>solely</em> on the visual characteristics of this artwork — technique, brushwork, style, and compositional conventions — which historical period does it most likely originate from?',
-      options: ['A&nbsp;&nbsp;Northern Renaissance (15th–16th century)','B&nbsp;&nbsp;Dutch Golden Age (17th century)','C&nbsp;&nbsp;French Rococo (18th century)','D&nbsp;&nbsp;Romanticism (early 19th century)'],
-      correct: 1,
-      explain: '<strong>✅ Correct: B — Dutch Golden Age (17th century)</strong><br>Key visual cues include the realistic portraiture, dramatic chiaroscuro (light-shadow contrast), dark neutral background with focused illumination, and precise rendering of surface textures — hallmarks of Dutch masters such as Rembrandt and Hals.'
-    },
+    multiSpeaker: [], // populated via fetch from Examples/Text-Only/Multi-Speaker_Reasoning/examples.json
+    noise: [], // populated via fetch from Examples/Audio-Base/Noise_Robustness/examples.json
+    omniExamples: [],      // populated via fetch from Examples/Omni/examples.json
+    multilingualAudio: [], // populated via fetch from Examples/Audio-Base/multilingua/examples.json
+    art: [], // populated via fetch from Examples/Image-Text/Art/examples.json
+    mathExamples: [], // populated via fetch from Examples/Image-Text/Math/examples.json
     medical: {
       tag: 'Image-Text · Medical Reasoning', tagClass: 'ex-tag-i',
       ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🩺 Clinical Scenario (with chest X-ray input)</div><div class="finding"><span class="finding-lbl">Imaging</span>Bilateral lower lobe opacities; ground-glass pattern in perihilar regions; Kerley B lines near right costophrenic angle.</div><div class="finding"><span class="finding-lbl">History</span>68-year-old male; acute dyspnea onset over 48 hours; known hypertension and reduced left ventricular ejection fraction (EF 35%).</div><div class="finding"><span class="finding-lbl">Vitals</span>BP 158/94, RR 22/min, SpO₂ 91% on room air.</div></div>',
@@ -1316,14 +1305,19 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
   };
 
   var DATA = {
-    text:  { benchmarks: [{ id:'multi-perspective', label:'Multi-Perspective Comprehension', q:Q.multiPerspective },{ id:'multilingual', label:'Cross-Lingual Reasoning', q:Q.multilingual },{ id:'math', label:'Math Reasoning', q:Q.multiPerspective }] },
-    audio: { benchmarks: [{ id:'multi-speaker', label:'Multi-Speaker Reasoning', q:Q.multiSpeaker },{ id:'noise', label:'Noise Robustness', q:Q.noise },{ id:'multilingual-audio', label:'Multilingual Audio', q:Q.multiSpeaker }] },
-    image: { benchmarks: [{ id:'art', label:'Art Reasoning', q:Q.art },{ id:'medical', label:'Medical Reasoning', q:Q.medical },{ id:'code', label:'Code Understanding', q:Q.medical }] },
-    omni:  { benchmarks: [{ id:'omni', label:'Omni-Understanding', q:Q.multiSpeaker }] }
+    text:  { benchmarks: [{ id:'multi-perspective', label:'Multi-Perspective Comprehension', q:Q.multiPerspective },{ id:'multi-speaker', label:'Multi-Speaker Reasoning', q:Q.multiSpeaker }] },
+    audio: { benchmarks: [{ id:'multilingual-audio', label:'Multilingual Audio', q:Q.multilingualAudio },{ id:'noise', label:'Noise Robustness', q:Q.noise }] },
+    image: { benchmarks: [{ id:'art', label:'Art Reasoning', q:Q.art },{ id:'math', label:'Math Reasoning', q:Q.mathExamples }] },
+    omni:  { benchmarks: [{ id:'omni', label:'Omni-Understanding', q:Q.omniExamples }] }
   };
 
-  var TOTAL = 20;
+  var TOTAL = 18;
   var state = { type:'text', benchIdx:0, qIdx:0 };
+
+  function getCurTotal() {
+    var q = DATA[state.type].benchmarks[state.benchIdx].q;
+    return Array.isArray(q) && q.length > 0 ? Math.min(q.length, TOTAL) : TOTAL;
+  }
 
   function getCurQ() {
     var q = DATA[state.type].benchmarks[state.benchIdx].q;
@@ -1346,10 +1340,19 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
     });
   }
 
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+    }
+    return arr;
+  }
+
   function renderQNums() {
     var wrap = document.getElementById('exQNums');
     var html = '';
-    for (var i = 0; i < TOTAL; i++) {
+    var total = getCurTotal();
+    for (var i = 0; i < total; i++) {
       html += '<button class="ex-qnum-btn' + (i === state.qIdx ? ' active' : '') + '" data-qi="' + i + '">' + (i+1) + '</button>';
     }
     wrap.innerHTML = html;
@@ -1368,7 +1371,7 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
       document.getElementById('exCardWrap').innerHTML = '<div class="ex-card" style="display:flex;align-items:center;justify-content:center;min-height:220px"><p style="color:#888;font-size:.95rem">Loading examples…</p></div>';
       return;
     }
-    document.getElementById('exCounter').textContent = (state.qIdx+1) + ' / ' + TOTAL;
+    document.getElementById('exCounter').textContent = (state.qIdx+1) + ' / ' + getCurTotal();
     var wrap = document.getElementById('exCardWrap');
     wrap.innerHTML = '<div class="ex-card">' +
       '<div class="ex-tag '+q.tagClass+'">'+q.tag+'</div>' +
@@ -1379,6 +1382,7 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
       '</div>' +
       '<div class="ex-explain" style="display:none">'+q.explain+'</div>' +
     '</div>';
+    wrap.querySelectorAll('audio').forEach(function(a) { a.playbackRate = 1.2; });
     var opts = wrap.querySelector('.ex-opts');
     var correct = parseInt(opts.dataset.correct);
     opts.querySelectorAll('.ex-opt').forEach(function(btn) {
@@ -1408,12 +1412,12 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
   });
 
   document.getElementById('exNextBtn').addEventListener('click', function() {
-    state.qIdx = (state.qIdx+1) % TOTAL;
+    state.qIdx = (state.qIdx+1) % getCurTotal();
     renderCard();
   });
 
   // Load Multi-Perspective Comprehension examples from JSON
-  fetch('Examples/Text-Only/examples.json')
+  fetch('Examples/Text-Only/multi-perspective/examples.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
       var examples = data.map(function(ex) {
@@ -1430,11 +1434,167 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
           explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : ''
         };
       });
+      shuffle(examples);
       Q.multiPerspective = examples;
       DATA.text.benchmarks[0].q = examples;
       if (state.type === 'text' && state.benchIdx === 0) renderCard();
     })
     .catch(function() { /* silently ignore (e.g. file:// protocol) */ });
+
+  // Load Multi-Speaker Reasoning examples from JSON
+  fetch('Examples/Text-Only/Multi-Speaker_Reasoning/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.filter(function(ex) {
+        return ex.options && ex.question && ex.answer && ex.dialog;
+      }).map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        var spkColors = ['spk-a','spk-b','spk-c','spk-d'];
+        var spkMap = {};
+        var spkCount = 0;
+        ex.dialog.forEach(function(d) { if (!spkMap[d.speaker]) spkMap[d.speaker] = spkColors[spkCount++ % 4]; });
+        var lines = ex.dialog.map(function(d) {
+          return '<div class="tline"><span class="spk ' + spkMap[d.speaker] + '">' + d.speaker + '</span>' + d.text + '</div>';
+        }).join('');
+        return {
+          tag: 'Text-Only · Multi-Speaker Reasoning', tagClass: 'ex-tag-t',
+          ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🎙️ Conversation — ' + ex.dialog.length + ' turns</div><div class="ex-transcript">' + lines + '</div></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.multiSpeaker = examples;
+      DATA.text.benchmarks[1].q = examples;
+      if (state.type === 'text' && state.benchIdx === 1) renderCard();
+    })
+    .catch(function() {});
+
+  // Load Omni examples from JSON
+  fetch('Examples/Omni/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        var imgs = ex.image_url.map(function(u) {
+          return '<img src="Examples/Omni/' + u + '" alt="" loading="lazy">';
+        }).join('');
+        return {
+          tag: 'Omni · Image + Audio Understanding', tagClass: 'ex-tag-o',
+          ctx: '<div class="ex-omni-imgs">' + imgs + '</div>' +
+               '<div class="ex-audio-wrap"><audio controls src="Examples/Omni/' + ex.audio_url + '"></audio></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.omniExamples = examples;
+      DATA.omni.benchmarks[0].q = examples;
+      if (state.type === 'omni') renderCard();
+    })
+    .catch(function() {});
+
+  // Load Multilingual Audio examples from JSON
+  fetch('Examples/Audio-Base/multilingua/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.filter(function(ex) {
+        return ex.options && ex.question && ex.answer;
+      }).map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        return {
+          tag: 'Audio · Multilingual Audio', tagClass: 'ex-tag-a',
+          ctx: '<div class="ex-audio-wrap"><audio controls src="Examples/Audio-Base/multilingua/' + ex.audio_url + '"></audio></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.multilingualAudio = examples;
+      DATA.audio.benchmarks[0].q = examples;
+      if (state.type === 'audio' && state.benchIdx === 0) renderCard();
+    })
+    .catch(function() {});
+
+  // Load Noise Robustness examples from JSON
+  fetch('Examples/Audio-Base/Noise_Robustness/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.filter(function(ex) {
+        return ex.options && ex.question && ex.answer && ex.audio_url;
+      }).map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        var filename = ex.audio_url.split('/').pop();
+        var ctxHtml = ex.context
+          ? '<div class="ex-ctx"><div class="ex-ctx-title">🔊 Noisy Audio Scenario</div><p class="ex-ctx-desc">' + ex.context + '</p></div>'
+          : '';
+        return {
+          tag: 'Audio · Noise Robustness', tagClass: 'ex-tag-a',
+          ctx: ctxHtml + '<div class="ex-audio-wrap"><audio controls src="Examples/Audio-Base/Noise_Robustness/audio/' + filename + '"></audio></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.noise = examples;
+      DATA.audio.benchmarks[1].q = examples;
+      if (state.type === 'audio' && state.benchIdx === 1) renderCard();
+    })
+    .catch(function() {});
+
+  // Load Art Reasoning examples from JSON
+  fetch('Examples/Image-Text/Art/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        return {
+          tag: 'Image-Text · Art Reasoning', tagClass: 'ex-tag-i',
+          ctx: '<div class="ex-img-wrap"><img src="Examples/Image-Text/Art/' + ex.image_url + '" alt="Artwork" loading="lazy"></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.art = examples;
+      DATA.image.benchmarks[0].q = examples;
+      if (state.type === 'image' && state.benchIdx === 0) renderCard();
+    })
+    .catch(function() {});
+
+  // Load Math Reasoning examples from JSON
+  fetch('Examples/Image-Text/Math/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.filter(function(ex) {
+        return ex.options && ex.question && ex.answer;
+      }).map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65;
+        return {
+          tag: 'Image-Text · Math Reasoning', tagClass: 'ex-tag-i',
+          ctx: '<div class="ex-img-wrap"><img src="Examples/Image-Text/Math/' + ex.image_url + '" alt="Math problem" loading="lazy"></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : '<strong>✅ Correct: ' + ex.answer + '</strong>'
+        };
+      });
+      shuffle(examples);
+      Q.mathExamples = examples;
+      DATA.image.benchmarks[1].q = examples;
+      if (state.type === 'image' && state.benchIdx === 1) renderCard();
+    })
+    .catch(function() {});
 
   renderBenchBtns();
   renderCard();

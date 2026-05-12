@@ -1,0 +1,515 @@
+[
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 112,
+    "id": "CE306",
+    "audio_url": "audio/tts_5472b6d1819b43ceba67d9404cc82553.wav",
+    "question": "After listening to the audio conversation about zoning regulations, what do the speakers ultimately identify as the main role of these zoning rules?",
+    "options": [
+      {
+        "label": "A",
+        "text": "promoting orderly development of the city"
+      },
+      {
+        "label": "B",
+        "text": "encouraging creativity in city design"
+      },
+      {
+        "label": "C",
+        "text": "reducing pollution in the city"
+      },
+      {
+        "label": "D",
+        "text": "reducing population density in the city"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 106,
+    "id": "CE191",
+    "question": "音声の会話では、健康について話し合いながら、運動と組み合わせる食品の種類を相談しています。この会話で、運動と一緒に健康のために特に重視することにした食品のカテゴリーはどれですか。",
+    "audio_url": "audio/tts_7b4714afacfe43f7b5fcd1c2eaf2e4f7.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "果物"
+      },
+      {
+        "label": "B",
+        "text": "野菜"
+      },
+      {
+        "label": "C",
+        "text": "肉類"
+      },
+      {
+        "label": "D",
+        "text": "お菓子"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 96,
+    "id": "CE343",
+    "audio_url": "audio/tts_5e87c478b5f94eaab66eda9b9a7fc134.wav",
+    "question": "In the audio conversation, the speakers consider several possible themes, including the Earth, historical events, and climate change, before settling on a final topic that they say humans have had a deep understanding of since ancient times. Based on the dialogue, which option best matches their final agreement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "环境保护"
+      },
+      {
+        "label": "B",
+        "text": "earth"
+      },
+      {
+        "label": "C",
+        "text": "历史事件"
+      },
+      {
+        "label": "D",
+        "text": "climate change"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 39,
+    "id": "CE315",
+    "audio_url": "audio/tts_45a2c62de811491b9a5a1dd8df54f123.wav",
+    "question": "音声の会話では、エンターテインメント産業の発展にとってどの要素が最も重要かについて、話し手同士が意見を交わしながら最終的な合意に至ります。話し手たちが最後に最も重要だと合意した要素は次のうちどれですか？",
+    "options": [
+      {
+        "label": "A",
+        "text": "クリエイティブ"
+      },
+      {
+        "label": "B",
+        "text": "アート"
+      },
+      {
+        "label": "C",
+        "text": "アーキテクチャ"
+      },
+      {
+        "label": "D",
+        "text": "デザイン"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 155,
+    "id": "CE492",
+    "audio_url": "audio/tts_bcc992a4b3b84c31bb3f676128344778.wav",
+    "question": "Nachdem du die Audioaufnahme mit dem deutsch-chinesischen Gespräch zur 网络安全 gehört hast: Auf welche Maßnahme einigt sich die Gruppe am Ende ausdrücklich als wichtigste Grundlage für die Sicherung ihrer 网络安全?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firewall-Installation"
+      },
+      {
+        "label": "B",
+        "text": "Schwaches Passwort wie \"Passwort123\""
+      },
+      {
+        "label": "C",
+        "text": "Regelmäßige Nutzung öffentlicher WLANs"
+      },
+      {
+        "label": "D",
+        "text": "USB-Sticks mit anderen teilen"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 12,
+    "id": "CE482",
+    "question": "In base alla conversazione audio che hai appena ascoltato, su quale effetto dell’esercizio fisico sulla salute i parlanti arrivano infine ad accordarsi?",
+    "audio_url": "audio/tts_7a665f287f124148a5d87a129e7bd4fa.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Miglioramento della condizione cardiovascolare"
+      },
+      {
+        "label": "B",
+        "text": "Aumento dello stress"
+      },
+      {
+        "label": "C",
+        "text": "Riduzione del sonno"
+      },
+      {
+        "label": "D",
+        "text": "Aumento della fatica muscolare."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 164,
+    "id": "CE486",
+    "question": "Ascolta il dialogo. Alla fine della conversazione, su quale ruolo della tecnologia nell'arte i due interlocutori trovano un accordo? Scegli una sola risposta:",
+    "audio_url": "audio/tts_6e3895f2f2d54fcabd6e99615dc7dd71.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "esplorare nuove forme artistiche"
+      },
+      {
+        "label": "B",
+        "text": "studiare l'arte antica"
+      },
+      {
+        "label": "C",
+        "text": "promuovere l'arte tradizionale"
+      },
+      {
+        "label": "D",
+        "text": "analizzare i materiali artistici."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 66,
+    "id": "CE404",
+    "question": "Based on the audio, worauf einigen sie sich am Ende hauptsächlich?",
+    "audio_url": "audio/tts_d4181791556546d792de0334700bea39.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transparenz"
+      },
+      {
+        "label": "B",
+        "text": "Sicherheit"
+      },
+      {
+        "label": "C",
+        "text": "Privatsphäre"
+      },
+      {
+        "label": "D",
+        "text": "Kommunikation"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 93,
+    "id": "CE057",
+    "audio_url": "audio/tts_155582f88d43463d91d4da66b4cb6f6e.wav",
+    "question": "Based on the audio, after listening to the dialogue, choose the option (A–D) that best captures the main benefit of regular exercise that the speakers finally focus on as their goal:",
+    "options": [
+      {
+        "label": "A",
+        "text": "L'esercizio regolare provoca insonnia"
+      },
+      {
+        "label": "B",
+        "text": "L'esercizio regolare aumenta la pressione arterielle"
+      },
+      {
+        "label": "C",
+        "text": "L'esercizio regolare migliora l'umore e riduce lo stress"
+      },
+      {
+        "label": "D",
+        "text": "L'esercizio regolare diminuisce l'energia"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 104,
+    "id": "CE470",
+    "audio_url": "audio/tts_265c400f86564d3c8c45caed2d17e8c4.wav",
+    "question": "Écoutez la conversation audio. Selon ce que les interlocuteurs considèrent comme la raison principale de manger régulièrement des fruits et légumes, quel bénéfice est mis en avant comme le plus important ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "santé générale"
+      },
+      {
+        "label": "B",
+        "text": "poids corporel"
+      },
+      {
+        "label": "C",
+        "text": "performance sportive"
+      },
+      {
+        "label": "D",
+        "text": "système immunitaire"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 124,
+    "id": "CE091",
+    "audio_url": "audio/tts_3b16307b176040e0837e465e1380bf0f.wav",
+    "question": "D’après la conversation audio en français et en japonais à propos d’un célèbre jeu Nintendo japonais, en tenant compte de tous les tours de parole où les personnages sont tour à tour évoqués puis éliminés jusqu’à la décision finale, quel personnage les locuteurs identifient-ils finalement comme protagoniste principal du jeu ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mario"
+      },
+      {
+        "label": "B",
+        "text": "Luigi"
+      },
+      {
+        "label": "C",
+        "text": "Link"
+      },
+      {
+        "label": "D",
+        "text": "Yoshi."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 40,
+    "id": "CE188",
+    "audio_url": "audio/tts_9cf5791dd704470d8ddbcb71bbc8b742.wav",
+    "question": "Selon la conversation audio, après avoir discuté différentes perspectives sur la planification urbaine, quel objectif final les participants semblent-ils privilégier pour guider leurs décisions communes ? Choisissez une seule réponse parmi les suivantes :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assurer un développement urbain durable, équilibré et à long terme"
+      },
+      {
+        "label": "B",
+        "text": "Se concentrer principalement sur les enjeux environnementaux"
+      },
+      {
+        "label": "C",
+        "text": "Être avant tout une tâche difficile et coûteuse"
+      },
+      {
+        "label": "D",
+        "text": "Se concentrer principalement sur les enjeux sociaux"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 88,
+    "id": "CE157",
+    "question": "Nel dialogo audio, due amici stanno organizzando un incontro con alcuni ospiti e discutono quale dolce preparare. Quale dessert decidono alla fine di fare?",
+    "audio_url": "audio/tts_69bd9263340d40e4b4ae7d0b713bb43d.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tiramisù"
+      },
+      {
+        "label": "B",
+        "text": "Cannolo"
+      },
+      {
+        "label": "C",
+        "text": "Strudel di mele"
+      },
+      {
+        "label": "D",
+        "text": "Panna cotta."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "7a2231ea",
+    "idx": 192,
+    "id": "CE395",
+    "question": "根据这段对话的全部内容，特别是他们前面一起商量并确定的各种条件，后面最终敲定的电影选择和出行方式的计划，是否完全遵守了他们一开始约定好的所有要求？",
+    "audio_url": "audio/tts_2a8fee66eb334ad6a0a0c0b0d2323ee0.wav",
+    "answer": "no"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "7a2231ea",
+    "idx": 113,
+    "id": "CE032",
+    "question": "Entspricht Annas späterer konkreter Plan mit drei festen Trainingstagen pro Woche und zusätzlicher Aufmerksamkeit für Ernährung, Schlaf und Stress dem Schwerpunkt, auf den sie sich zuvor in dem Gespräch gemeinsam als wichtigsten Gesundheitsfokus geeinigt hatten?",
+    "audio_url": "audio/tts_299270cb0a24466a803ba9e49fb49f69.wav",
+    "answer": "yes"
+  },
+  {
+    "subtask_id": "st_03",
+    "dataset_id": "7a2231ea",
+    "idx": 6,
+    "id": "CE386",
+    "audio_url": "audio/tts_4c50068b768347c58cc5772ced4f6a13.wav",
+    "question": "Based on the conversation, does the final data-handling plan they agree on satisfy the client's confidentiality/privacy requirements?",
+    "answer": "yes"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 129,
+    "id": "CE332",
+    "question": "D’après la conversation que vous venez d’entendre, quel est le rôle principal attribué à la planification urbaine dans le développement de la ville ?",
+    "audio_url": "audio/tts_f5fcb019ce9241c0b02e4f111fafe039.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Faciliter la circulation des personnes et des biens"
+      },
+      {
+        "label": "B",
+        "text": "Promouvoir la diversité culturelle de la ville"
+      },
+      {
+        "label": "C",
+        "text": "Optimiser les recettes fiscales locales"
+      },
+      {
+        "label": "D",
+        "text": "Protéger les ressources naturelles de la région"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 136,
+    "id": "CE330",
+    "question": "Based on the audio conversation, what aspect of their approach does the entertainment team ultimately decide to prioritize in order to protect personal privacy in their show?",
+    "audio_url": "audio/tts_d58e1272587241799a44689ea14e67a6.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "encryption techniques"
+      },
+      {
+        "label": "B",
+        "text": "consent from individuals"
+      },
+      {
+        "label": "C",
+        "text": "publicity campaigns"
+      },
+      {
+        "label": "D",
+        "text": "les droits d'auteur"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 144,
+    "id": "CE223",
+    "audio_url": "audio/tts_2b5b7419da38493fbc1e366f6a4a4a4b.wav",
+    "question": "En écoutant attentivement la conversation audio à propos de la loi sur la protection des données personnelles, quelle conséquence principale de cette loi les interlocuteurs finissent-ils par considérer comme la plus importante ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "vie privée"
+      },
+      {
+        "label": "B",
+        "text": "liberté individuelle"
+      },
+      {
+        "label": "C",
+        "text": "confidentialité en ligne"
+      },
+      {
+        "label": "D",
+        "text": "sécurité des informations"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 167,
+    "id": "CE478",
+    "question": "D'après la conversation audio, quel est le terme japonais utilisé pour désigner un grand quartier résidentiel planifié ou un vaste lotissement d'habitation ?",
+    "audio_url": "audio/tts_e8e0178a97ac45aaab5e320181f07260.wav",
+    "options": [
+      {
+        "label": "A",
+        "text": "Matsumachi"
+      },
+      {
+        "label": "B",
+        "text": "Shinjuku"
+      },
+      {
+        "label": "C",
+        "text": "Koenji"
+      },
+      {
+        "label": "D",
+        "text": "Danchi"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "subtask_id": "st_01",
+    "dataset_id": "7a2231ea",
+    "idx": 194,
+    "id": "CE102",
+    "audio_url": "audio/tts_a17eb32967c14798818f44923c7933ce.wav",
+    "question": "请先认真收听那段包含中文与意大利语的职场对话音频，然后根据两位同事在多轮讨论后最终达成的共同决定，判断他们对于“环境议题与公司商业策略之间关系”的最后看法最接近下列哪一项？注意：请选择能反映对话最终一致决策的选项，而不是某一方在中途表达的个人观点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sì, nel settore commerciale la consapevolezza ambientale sta diventando sempre più centrale e orienta sempre di più le strategie aziendali."
+      },
+      {
+        "label": "B",
+        "text": "No, anche se se ne parla molto, l’ambiente rimane marginale e non incide davvero sulle decisioni strategiche delle imprese."
+      },
+      {
+        "label": "C",
+        "text": "对于大多数公司来说，环保还不是关键议题，对整体商业战略影响有限。"
+      },
+      {
+        "label": "D",
+        "text": "Le tematiche green nel business sono più che altro una moda passeggera e non determinano le scelte strategiche delle aziende."
+      }
+    ],
+    "answer": "A"
+  }
+]

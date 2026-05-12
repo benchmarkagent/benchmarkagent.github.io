@@ -1,0 +1,3666 @@
+[
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "04ee5bcc",
+      "idx": 200,
+      "id": "cr475",
+      "dialog": [
+        {
+          "speaker": "S1",
+          "text": "I still can’t get over how close Yuri Kudinov came to that English Channel world record back in 2007."
+        },
+        {
+          "speaker": "S2",
+          "text": "Close? He was incredible! That swim was insane, one of the fastest ever. People act like it doesn’t count just because he didn’t get the record."
+        },
+        {
+          "speaker": "S3",
+          "text": "Well, it kind of doesn’t count, does it? Either you set the record or you don’t. History only remembers the name on top."
+        },
+        {
+          "speaker": "S4",
+          "text": "It’s not that simple. Open-water conditions change a lot. What Kudinov did that day was still elite, record or not."
+        },
+        {
+          "speaker": "S2",
+          "text": "But think about how narrow the margin was. He was racing against Petar Stoychev, right? That guy actually did set the record that same day."
+        },
+        {
+          "speaker": "S1",
+          "text": "Exactly. Stoychev finished first and took the official English Channel world record, and Kudinov came in just behind him. The times were both incredibly fast."
+        },
+        {
+          "speaker": "S3",
+          "text": "So Stoychev has his name in the books and Kudinov gets a footnote. \"Almost\" is just that—almost."
+        },
+        {
+          "speaker": "S4",
+          "text": "You say that like swimming across the Channel at near-record pace is nothing. Very few people on earth can even complete that crossing."
+        },
+        {
+          "speaker": "S1",
+          "text": "Now imagine a counterfactual: if Kudinov had hit the French shore fifteen minutes earlier, he wouldn’t just be \"almost\" anything. He would have actually beaten Stoychev’s world record time."
+        },
+        {
+          "speaker": "S2",
+          "text": "Exactly! We’d all be talking about Yuri as the world-record holder instead of saying, \"oh, he narrowly missed.\" The headlines would have been all about him."
+        },
+        {
+          "speaker": "S3",
+          "text": "Fifteen minutes is a lot of time in a race though. That’s not just a tiny tweak; that’s a different performance altogether."
+        },
+        {
+          "speaker": "S4",
+          "text": "In marathon swimming terms, fifteen minutes can be big, but over that distance and in those conditions, strategic changes—like drafting, feeding, route choice—can add up to that difference."
+        },
+        {
+          "speaker": "S2",
+          "text": "If he had come in earlier and broken that mark, people like you wouldn’t be shrugging it off. You’d be bragging about \"world-record holder Yuri Kudinov\" every time he raced."
+        },
+        {
+          "speaker": "S3",
+          "text": "I’d still ask who he beat. Records are relative. The name he toppled matters."
+        },
+        {
+          "speaker": "S1",
+          "text": "And that’s the key: in that scenario, he’d have surpassed Petar Stoychev’s world record itself. That’s not just shaving a few seconds—it’s rewriting who we associate with that historic swim."
+        },
+        {
+          "speaker": "S4",
+          "text": "Plus, surpassing someone of Stoychev’s caliber would signal that Kudinov was redefining the standard for long-distance open-water swimming."
+        },
+        {
+          "speaker": "S2",
+          "text": "Honestly, even without the record, I admire Kudinov more because he was pushing another legendary swimmer like Stoychev toe-to-toe."
+        },
+        {
+          "speaker": "S3",
+          "text": "I get that, but the story people remember is still: Stoychev set the record, Kudinov didn’t."
+        },
+        {
+          "speaker": "S1",
+          "text": "True, the official record belongs to Stoychev. But narratives can be more nuanced. Kudinov’s near-miss is part of why that day is so famous."
+        },
+        {
+          "speaker": "S4",
+          "text": "And from an athlete’s perspective, being that close to a record, especially against someone like Stoychev, is a massive achievement in itself."
+        },
+        {
+          "speaker": "S2",
+          "text": "If only that hypothetical fifteen minutes had gone his way, the whole conversation would flip. He’d be the record holder, and people would talk about Stoychev as the one who got edged out."
+        },
+        {
+          "speaker": "S3",
+          "text": "Maybe. But in reality, it’s still Stoychev’s world record on the books."
+        },
+        {
+          "speaker": "S1",
+          "text": "Right now, yes. The fun of the \"what if\" is just to highlight how small the gap was between Kudinov and the world mark that Stoychev set."
+        },
+        {
+          "speaker": "S4",
+          "text": "And to remind us how fine the line is between \"legendary record\" and \"legendary near-miss\" in sports like open-water swimming."
+        }
+      ],
+      "question": "Based on the conversation, which speaker is most focused on explaining how the technical difficulty of the swim, race conditions, and strategic choices could account for the fifteen-minute difference in Kudinov’s performance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The speaker who takes a skeptical tone, repeatedly stressing that only the official record holder truly matters, treating Kudinov’s near-miss as a mere footnote, and insisting that \"almost\" doesn’t really count."
+        },
+        {
+          "label": "B",
+          "text": "The speaker who talks like an excited fan, praising Kudinov’s swim as incredible, focusing on how impressive and thrilling his near-record was, and celebrating how different the narrative would feel if he had taken the record."
+        },
+        {
+          "label": "C",
+          "text": "The speaker who sounds like a reporter, laying out who officially set the English Channel record, comparing their times, and framing the story in terms of historical records and what gets written in the record books."
+        },
+        {
+          "label": "D",
+          "text": "The speaker who approaches the discussion like a coach, emphasizing open‑water conditions, strategic choices such as drafting, feeding, and route selection, and explaining in technical terms how these factors could create a fifteen‑minute swing in performance."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 66,
+      "id": "ssqa063",
+      "dialog": [
+        {
+          "speaker": "speaker_1",
+          "text": "I still can't believe Sasha's already starting school. I keep thinking about her, even though I'm not the one raising her."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "It makes sense you'd feel that way. You carried her and gave birth to her, Alex. How are you handling knowing she's with her adoptive parents now?"
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "It's complicated. I know they're taking good care of her, and I agreed it was best. But part of me keeps wondering if I should try to be in her life somehow."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "When we talked last time, you mentioned wanting some kind of connection without disrupting her home. Is that still how you're feeling?"
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "Yeah, I don't want to take her away or cause chaos. I just... I want her to know who I am, that I care about her."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "Have you thought about what that could look like, practically? A phone call, maybe meeting up one day?"
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "A visit sounds nice, but I don't want it to be just a one-time thing that confuses her. I want something that can grow slowly, if her parents are okay with it."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "That's a thoughtful way to approach it. The adoptive parents have said they're open to contact as long as it's gradual and respectful of Sasha's routines."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "That's reassuring. I don't want to push myself on them. I was her mom first, but they're the ones raising her now. I have to respect that."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "Some people in your situation get really angry and talk about just showing up and taking the child back."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "I could never do that. That would scare her and hurt everyone. I signed those papers knowing it was permanent. I'm not going to just grab her and run."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "Exactly. Any steps we take need to be safe and agreed on by everyone. Maybe we start with something small, like a letter or a video message."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "I like that. I could tell her a bit about myself, maybe share some memories from when I was pregnant, without overwhelming her."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "And over time, if it feels right, that could turn into meeting in person, spending time together, building something steadier."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "That's what I hope for. Not just a quick visit, but slowly getting to know her, earning her trust, letting her decide how close she wants to be."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "I can reach out to her parents and see how they feel about starting that process. We can move at a pace that keeps Sasha feeling secure."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "Thank you. I just want to be a positive presence in her life, whatever shape that ends up taking."
+        }
+      ],
+      "question": "Based on the conversation between Alex, Jordan, and the caseworker, which of the following best describes Alex's intended approach to being involved in Sasha's life?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arrange a single, one-time visit with Sasha and then step back without pursuing an ongoing connection."
+        },
+        {
+          "label": "B",
+          "text": "Secretly take Sasha away from her adoptive parents to raise her herself, regardless of their consent."
+        },
+        {
+          "label": "C",
+          "text": "Gradually build an ongoing relationship with Sasha over time, in a way that respects the adoptive parents' boundaries and comfort."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 91,
+      "id": "fqa327",
+      "dialog": [
+        {
+          "speaker": "Old Woman",
+          "text": "Sir, I know everything that has happened to you."
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "You… you know what I’ve been through?"
+        },
+        {
+          "speaker": "Old Woman",
+          "text": "I know how you are trying to find a way to save your life, and only I can answer that question—if you promise to do everything I ask."
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "Everything? You can truly save me?"
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "Oh, save me, and I’ll do anything! It’s so hard to leave the world and step into the unknown."
+        },
+        {
+          "speaker": "Old Woman",
+          "text": "You won’t need to leave it. All you have to do is marry me, and you will soon be free."
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "Marry you?"
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "But—I’m not yet twenty, and you—why, you must be at least a hundred! No, that’s impossible."
+        },
+        {
+          "speaker": "Old Woman",
+          "text": "So that is your answer?"
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "I can’t do it. I refuse."
+        },
+        {
+          "speaker": "Old Woman",
+          "text": "As you wish. Since you refuse me, let the crows have you."
+        },
+        {
+          "speaker": "Old Woman",
+          "text": "Remember, I was the only one who could save you."
+        },
+        {
+          "speaker": "Young Prisoner",
+          "text": "Wait—!"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Old Woman walks quickly away, leaving the Young Prisoner alone."
+        }
+      ],
+      "question": "In the conversation between the two speakers, what best describes their roles and attitudes toward each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The older-sounding speaker seems warm and self-sacrificing, offering help with no conditions and remaining gentle even when turned down, while the younger-sounding speaker sounds casual and unconcerned about any danger."
+        },
+        {
+          "label": "B",
+          "text": "Both speakers sound relaxed and cheerful, joking about the situation as if nothing serious is at stake and neither one seems to hold any real power over the other."
+        },
+        {
+          "label": "C",
+          "text": "The younger-sounding speaker is the one whose life seems to be in danger and sounds desperate at first and then conflicted, while the older-sounding speaker clearly holds the crucial knowledge and becomes cold or threatening when her offer is refused."
+        },
+        {
+          "label": "D",
+          "text": "The older-sounding speaker appears uncertain and pleading, begging the younger-sounding speaker to agree so that she can be saved, while the younger-sounding speaker sounds calm and in control of the situation."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "1791970a",
+      "idx": 96,
+      "id": "cqa205",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "We use lifts all the time without really thinking about it, but the way we behave in them seems a bit strange, doesn’t it?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Yes. When people get into an elevator, their bodies seem to arrange themselves almost automatically, like the dots on a die. As each new passenger steps in, everyone subtly shifts to fill the open spaces."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "If you are alone, you can do whatever you want; it feels like your own little box. With two people, you usually take opposite corners to create the greatest distance. When a third person enters, the three of you unconsciously form a triangle. With four people, you tend to form a square, one in each corner, and then a fifth person usually has to stand in the middle."
+        },
+        {
+          "speaker": "Host",
+          "text": "So even from that pattern, you can hear that everyone is trying to keep away from each other. Why do we become so awkward in lifts? What’s going on there psychologically?"
+        },
+        {
+          "speaker": "Professor Renneberg",
+          "text": "One important reason is that you simply don’t have enough space. Usually, when we meet other people, we keep about an arm’s length of distance between us."
+        },
+        {
+          "speaker": "Host",
+          "text": "So in a typical elevator, you can’t really keep that arm’s-length distance, and you end up in a very unusual situation, right?"
+        },
+        {
+          "speaker": "Professor Renneberg",
+          "text": "Exactly. In most elevators that’s not possible, so you are forced unnaturally close to other people. That’s why many people experience it as an unusual setting that feels unnatural."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "So part of the discomfort comes from the lack of personal space and the strange experience of standing so close to strangers, which already makes people tense before anything else happens."
+        },
+        {
+          "speaker": "Host",
+          "text": "But is it just that social awkwardness about personal space, or is there something more behind the uneasy feeling people have in lifts?"
+        },
+        {
+          "speaker": "Nick White",
+          "text": "I think there’s more to it. In the back of our minds we are a little anxious. I’m an office worker in New York, and I was unfortunate enough to be trapped in a lift for 41 hours."
+        },
+        {
+          "speaker": "Host",
+          "text": "Forty-one hours in a lift is a very long time. While you were in there, what did it actually feel like moment to moment?"
+        },
+        {
+          "speaker": "Nick White",
+          "text": "Being locked in there was terrifying. We don’t like to be locked into a place, and those 41 hours really brought that out for me."
+        },
+        {
+          "speaker": "Nick White",
+          "text": "You just want to get out of the elevator as soon as possible, and instead you’re stuck in this enclosed box. During that time, it felt like a frightening place to be."
+        },
+        {
+          "speaker": "Nick White",
+          "text": "At one point, during that terrible experience, I even began to think of another enclosed space—a tomb."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "So his experience shows how that small box can suddenly feel like a place you’re trapped in, almost like a tomb, which goes far beyond just the awkwardness of standing close to other people."
+        },
+        {
+          "speaker": "Host",
+          "text": "That sounds horrifying. It seems like the lift combines this loss of personal space that Professor Renneberg described with a fear of being locked in, like Nick experienced."
+        },
+        {
+          "speaker": "Dr. Gray",
+          "text": "Exactly, and on top of those things, I would say that a sense of disempowerment is the main cause of elevator anxiety. You’re in a machine that is moving, and you have no control over it."
+        },
+        {
+          "speaker": "Host",
+          "text": "When you say disempowerment, do you mean that people feel they are being moved around by something they don’t really understand or control?"
+        },
+        {
+          "speaker": "Dr. Gray",
+          "text": "Yes. You cannot see the elevator engine, and you don’t know how it’s working. That lack of visibility and control makes people feel disempowered, and that is a key source of their anxiety in lifts."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "So, across all of these perspectives, you have people losing their arm’s-length personal space, feeling trapped in an enclosed box that can even evoke a tomb, and riding in a hidden machine over which they have no control—all of which together help explain why lifts can make people so anxious."
+        }
+      ],
+      "question": "Based on the conversation, what overall explanation is suggested for why people can feel especially anxious in lifts, considering the loss of personal space, the experience of the man who was trapped for 41 hours, and the expert’s point about being moved by a hidden machine they cannot control? Which option best answers the question?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because most people associate lifts with being late for work or missing important meetings, so they focus on timing rather than the space or the machinery."
+        },
+        {
+          "label": "B",
+          "text": "Because people mainly feel awkward standing so close to strangers and worry about saying or doing the wrong thing during the short ride."
+        },
+        {
+          "label": "C",
+          "text": "Because in lifts people lose personal space, feel trapped in an enclosed tomb-like box, and are carried by a hidden machine they cannot see or control."
+        },
+        {
+          "label": "D",
+          "text": "Because lifts move quickly between floors, giving people an intense sensation of speed and height that makes them nervous about falling."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_04",
+      "dataset_id": "0fa3ee6d",
+      "idx": 72,
+      "id": "test_0179",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "Welcome back. Today we’re talking about California’s prisons and why the system is once again under intense scrutiny."
+        },
+        {
+          "speaker": "Political correspondent",
+          "text": "It’s remarkable, because just a few months ago the governor was saying the prison crisis was basically over, that the state had turned a corner with its overcrowded facilities."
+        },
+        {
+          "speaker": "Policy analyst",
+          "text": "Yet the network of state prisons is still one of the largest in the country, and people are warning that those prisons are straining at the seams."
+        },
+        {
+          "speaker": "Host",
+          "text": "When you say \"those prisons,\" you mean the entire California prison system, not just one or two buildings, right?"
+        },
+        {
+          "speaker": "Policy analyst",
+          "text": "Exactly, the whole system run by the state—the big web of institutions where California incarcerates people."
+        },
+        {
+          "speaker": "Prisoner rights advocate",
+          "text": "And inside that system, conditions are still harsh. Overcrowding is persistent, and the way they use long-term solitary confinement has become a major flashpoint."
+        },
+        {
+          "speaker": "Host",
+          "text": "That brings us to the hunger strike. A lot of inmates have stopped eating. What triggered this action?"
+        },
+        {
+          "speaker": "Prisoner rights advocate",
+          "text": "This strike began as a coordinated protest against the state’s solitary confinement policies. People locked in those isolation units felt they had no other way to be heard, so they launched this hunger protest across multiple facilities."
+        },
+        {
+          "speaker": "Political correspondent",
+          "text": "We’re now well into the second week of the hunger strike, and it’s spread through many of California’s prisons. It’s not just happening in one yard; it’s a statewide action inside that prison network."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some officials argue that they’ve already invested in reforms, pointing to lower overall inmate numbers in certain lockups. Do they see this protest the same way the prisoners do?"
+        },
+        {
+          "speaker": "Policy analyst",
+          "text": "Not really. State leaders highlight statistics and say the overall system is stabilizing, but people on the inside say the reality in the cellblocks, especially for those in isolation, hasn’t changed enough."
+        },
+        {
+          "speaker": "Prisoner rights advocate",
+          "text": "Right, and the people refusing meals now are specifically targeting the use of those isolation units. This hunger protest is about how they’re treated when they’re cut off from the general prison population."
+        },
+        {
+          "speaker": "Host",
+          "text": "So on the one hand you have officials describing the state’s prisons as being on the mend, and on the other hand you have this large hunger strike inside the same system, demanding that solitary confinement be reined in."
+        },
+        {
+          "speaker": "Political correspondent",
+          "text": "Exactly. The same statewide prison system that the governor once said was past its crisis is now the stage for a major protest over how inmates are confined."
+        }
+      ],
+      "question": "You will read a discussion about California’s prison system and a hunger strike. Consider how different phrases used by different speakers refer to entities or events. Which option describes a pair of phrases from different parts of the conversation that refer to the same underlying event or entity?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The phrase \"those prisons\" used by the policy analyst to describe facilities straining at the seams, and the phrase \"this hunger protest\" used by the advocate to talk about inmates refusing meals."
+        },
+        {
+          "label": "B",
+          "text": "The phrase \"California’s prisons\" used by the political correspondent when saying the action has spread through many facilities, and the phrase \"the entire California prison system\" used by the host when clarifying what \"those prisons\" refers to."
+        },
+        {
+          "label": "C",
+          "text": "The phrase \"this hunger protest\" used by the prisoner rights advocate to describe inmates refusing meals, and the phrase \"this strike\" used later when referring back to the same coordinated protest."
+        },
+        {
+          "label": "D",
+          "text": "The phrase \"this strike\" used by the prisoner rights advocate when describing the coordinated protest against solitary confinement, and the phrase \"the state’s prisons\" used when talking about the size of California’s correctional network."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_04",
+      "dataset_id": "cbda7d4a",
+      "idx": 24,
+      "id": "mqa228",
+      "dialog": [
+        {
+          "speaker": "Alex",
+          "text": "Okay, for tomorrow's exam we still need to go through all those examples of armed forces and military law from different countries, so let’s walk through them one by one."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Starting with Canada, that top post there — the Chief of the Defence Staff — is basically the senior uniformed officer, just under the commander-in-chief, and this person heads the Canadian Armed Forces Council."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "Right, and that Canadian role is in charge of command, control, administration, and the overall military strategy and planning for the Canadian Armed Forces; it’s like the central node of their leadership structure."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Then in India we’ve got One Rank One Pension, or OROP."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That’s the idea that people of the same rank with the same length of service should get the same pension regardless of when they retired."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Yeah, and that demand has been around for a long time; members of the Indian armed forces and veterans keep pushing for this pension idea, because they want that equal treatment even if they left service earlier."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "It’s interesting how that policy push about pensions contrasts with the UK example, where the big concept is the Armed Forces Covenant, also called the Military Covenant, which sets out the mutual obligations between the British nation and its Armed Forces."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Exactly, the British arrangement is more about broad promises between society and service members, whereas what those veterans in India want is a very specific benefit formula in that demand."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Speaking of people rather than policies, Colombia has that example of Fernando Tapias Stahelin, who was a general in the Colombian Armed Forces and later retired; he’s often cited when people talk about their military leadership."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "When they bring up this general in discussions of Colombian defense, they sometimes compare how he handled leadership issues to how other leaders, like Roosevelt in the United States, dealt with military-related problems."
+        },
+        {
+          "speaker": "Alex",
+          "text": "On that note, in the U.S. during World War II, President Roosevelt issued Executive Order 8802 in June 1941, and that order created the Fair Employment Practice Committee, or FEPC, to address discrimination in defense-related jobs."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "It’s easy to mix up the individuals there; he, Roosevelt, is the political leader who signed the order, but that Colombian officer we mentioned earlier is the one associated with command roles inside the Colombian Armed Forces, not with civil-rights agencies."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "Right, so when we say \"he\" in this part, we really need to keep track of whether we mean the U.S. president who set up the FEPC or that retired Colombian general who was part of their armed forces hierarchy."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Moving to ceremonies, Poland has Armed Forces Day, also called the Feast of the Polish Armed Forces, celebrated every year on 15 August to commemorate the 1920 victory over Soviet Russia at the Battle of Warsaw in the Polish–Soviet War."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "And in Ukraine, there was the 2010 Kiev Victory Day Parade on May 9, 2010, which honored the 65th anniversary of the Soviet Union’s victory in the Great Patriotic War; that one is a big public military celebration too."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "Mexico adds yet another example: the 16 September military parade, which marks the anniversary of Mexican Independence and is linked to the professionalisation of the Mexican Armed Forces in the 20th century."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Once we mention all three, it gets tricky; if I just say \"that parade,\" I might mean the one in Kiev or the one on 16 September in Mexico, but sometimes I actually mean the Polish holiday, even though that tradition is often framed as a day rather than a march."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Yeah, if a question asked how that big military celebration links to professionalisation, we’d know it’s the Mexican one, whereas a reference to that holiday tied to the Battle of Warsaw would clearly be Poland’s Armed Forces Day, and \"that parade\" honoring the 65th anniversary of victory in the Great Patriotic War would be the one in Kiev."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "Now, shifting to the United States more broadly, there’s conscription, commonly called the draft; the federal government used conscription in the American Civil War, World War I, World War II, and during the Cold War, including both the Korean and Vietnam Wars."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That system for filling the armed forces in those conflicts — the draft — is what people usually mean when they talk about conscription in the United States, and it’s the background for a lot of political controversy."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "And that whole setup led to legal challenges, including the 1981 Supreme Court case Rostker v. Goldberg, which directly dealt with who has to register for that way of filling vacancies in the U.S. forces."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "In that case, the Court ended up upholding the practice of requiring only men to register for the draft and said that arrangement was constitutional, which still shapes debates about selective service and who should be covered."
+        },
+        {
+          "speaker": "Alex",
+          "text": "I find it confusing that we’ve got multiple policies and arrangements: that requirement from the decision, the British Armed Forces Covenant, and that demand from Indian veterans about pensions, but only one of them is about this specific registration rule."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Right, when we talk about \"that arrangement\" of only men having to sign up, we mean what the Court said there in Rostker v. Goldberg about the draft, not the British covenant and not the Indian pension policy push."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "And \"that system\" we argued about earlier — the one that used conscription in the Civil War, both World Wars, and during the Korean and Vietnam Wars — is the broader draft mechanism, which is related but not identical to the narrower registration requirement that the ruling addressed."
+        },
+        {
+          "speaker": "Alex",
+          "text": "It’s kind of parallel to how \"this example\" of the Colombian general is about one officer, while \"that ruling\" is about a legal standard, and \"that policy\" in India is a benefit formula; keeping those separate in our notes will help on the exam."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Same with \"that parade\" references: if later we see a question about that big military celebration tied to Mexican Independence and professionalisation, it’s pointing to the 16 September parade, whereas the ceremony that marks the 1920 victory over Soviet Russia is that Polish holiday on 15 August."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "And across all of this, we’ve got a mix of leadership roles like the Chief of the Defence Staff in Canada, benefits ideas like OROP, broad mutual obligations like the Armed Forces Covenant, historical figures like that Colombian officer, anti-discrimination steps like the FEPC, and the whole U.S. draft system plus that case about who has to register."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yeah, threading through all these references — which \"he,\" which \"that policy,\" which \"parade,\" or which \"arrangement\" we mean — is exactly what we’ll need to track when we listen to the exam questions about armed forces, obligations, and the different ways countries handle service and commemoration."
+        }
+      ],
+      "question": "Based on the conversation, the speakers discuss several different policies and systems related to armed forces and military service. At one point, they describe a Supreme Court decision that upheld a specific registration rule and refer to it as \"that arrangement.\" In the context of this conversation, what does \"that arrangement\" refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The British Armed Forces Covenant, also called the Military Covenant, setting out mutual obligations between the British nation and its Armed Forces."
+        },
+        {
+          "label": "B",
+          "text": "The broader U.S. conscription or draft system used in the Civil War, both World Wars, and the Korean and Vietnam Wars to fill the armed forces."
+        },
+        {
+          "label": "C",
+          "text": "The One Rank One Pension (OROP) demand by Indian armed forces veterans for a pension formula ensuring equal pensions for the same rank and length of service regardless of retirement date."
+        },
+        {
+          "label": "D",
+          "text": "The practice, upheld in the U.S. Supreme Court case Rostker v. Goldberg, of requiring only men to register for the draft under the selective service system."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_05",
+      "dataset_id": "1791970a",
+      "idx": 196,
+      "id": "cqa190",
+      "dialog": [
+        {
+          "speaker": "Speaker 1",
+          "text": "I'm trying to piece together how the Nazi-Soviet non-aggression pact actually shaped the early phase of the war in Eastern Europe."
+        },
+        {
+          "speaker": "Speaker 2",
+          "text": "Right, that was the agreement where Germany and the Soviet Union promised not to attack each other or help each other's enemies."
+        },
+        {
+          "speaker": "Speaker 3",
+          "text": "And it wasn't just about not fighting; they also agreed not to ally with any enemy of the other side, so it was a pretty strong commitment to stay neutral toward each other."
+        },
+        {
+          "speaker": "Speaker 1",
+          "text": "But the really crucial part was the secret protocol, where they divided territories like Romania, Poland, Lithuania, Latvia, Estonia, and Finland into German and Soviet spheres of influence."
+        },
+        {
+          "speaker": "Speaker 2",
+          "text": "Yeah, those spheres of influence basically assumed there would be territorial and political rearrangements in those countries, even if that wasn't stated openly."
+        },
+        {
+          "speaker": "Speaker 3",
+          "text": "So once that was in place, the first big move was Germany invading Poland on 1 September 1939."
+        },
+        {
+          "speaker": "Speaker 1",
+          "text": "Then, after a Soviet–Japanese ceasefire took effect on 16 September, Stalin ordered the Soviet invasion of Poland on 17 September, right?"
+        },
+        {
+          "speaker": "Speaker 2",
+          "text": "Exactly. And the Soviets justified their invasion partly by claiming concern for ethnic Ukrainians and Belarusians in Poland."
+        },
+        {
+          "speaker": "Speaker 3",
+          "text": "After that, the Soviet Union also moved against Finland, annexing part of southeastern Karelia and the Salla region following the Winter War."
+        },
+        {
+          "speaker": "Speaker 1",
+          "text": "And they didn't stop there; the USSR went on to annex Estonia, Latvia, and Lithuania, plus parts of Romania, specifically Bessarabia, Northern Bukovina, and the Hertza region."
+        },
+        {
+          "speaker": "Speaker 2",
+          "text": "What's interesting is that Stalin's invasion of Bukovina in 1940 actually went beyond what had been agreed in the earlier spheres of influence under the pact."
+        },
+        {
+          "speaker": "Speaker 3",
+          "text": "So by pushing into Bukovina, the Soviet Union violated the terms of the pact, even though earlier annexations had been covered by that secret protocol."
+        },
+        {
+          "speaker": "Speaker 1",
+          "text": "Putting it all together, the pact and its secret protocol basically set up a framework for both Germany and the USSR to carve up Eastern Europe, starting with the dual invasion of Poland and then the Soviet expansions into Finland, the Baltic states, and parts of Romania."
+        },
+        {
+          "speaker": "Speaker 2",
+          "text": "And the key endpoint is that while they initially cooperated under the pact to divide these areas, Stalin's move into Bukovina clearly crossed the line that had been laid out between the two powers."
+        },
+        {
+          "speaker": "Speaker 3",
+          "text": "So the overall effect was to enable rapid redrawing of borders in Eastern Europe, but also to create tension once the Soviet side pushed past what had been secretly agreed."
+        }
+      ],
+      "question": "Based on the conversation, what do the speakers ultimately conclude about Stalin’s move into Bukovina in relation to the Nazi–Soviet non-aggression pact?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They conclude that only Germany, not the Soviet Union, ever violated the pact, so the move into Bukovina did not raise any issues under the agreement."
+        },
+        {
+          "label": "B",
+          "text": "They conclude that the move into Bukovina was fully consistent with the pact and stayed within the originally agreed spheres of influence."
+        },
+        {
+          "label": "C",
+          "text": "They conclude that the pact itself prevented any major territorial changes in Eastern Europe, including in Bukovina."
+        },
+        {
+          "label": "D",
+          "text": "They conclude that the move into Bukovina went beyond the previously agreed Soviet sphere of influence and therefore violated the terms of the pact."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "1791970a",
+      "idx": 35,
+      "id": "cqa278",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "I was reading about National Olympic Committees, or NOCs. Can you remind me what they actually are?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "Sure. A National Olympic Committee is basically the national branch of the worldwide Olympic movement. Each one represents a particular country or territory inside that global Olympic system."
+        },
+        {
+          "speaker": "Host",
+          "text": "So they’re not completely independent, right? Who do they ultimately answer to?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "They operate under the control of the International Olympic Committee, the IOC, which is the central authority that oversees the whole Olympic movement."
+        },
+        {
+          "speaker": "Host",
+          "text": "And within their own country or territory, what are NOCs responsible for?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "One major job is organizing their people’s participation in the Olympic Games, like selecting and sending athletes and teams."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do they have any influence over where the Games are held?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "In a way, yes. NOCs can nominate cities within their own area as candidate cities to host future Olympic Games."
+        },
+        {
+          "speaker": "Host",
+          "text": "And apart from the Games themselves, do they support sports at home too?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "They do. NOCs promote athlete development at the national level and support training for coaches and officials in their own geography."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let’s talk about how many there are. As of 2016, what was the total number of NOCs recognized?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "As of 2016, there were 206 National Olympic Committees recognized by the IOC."
+        },
+        {
+          "speaker": "Host",
+          "text": "That total of 206 sounds very specific. Are most of those just regular UN countries?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "Yes. A big block of them are the familiar ones: there is an NOC for each of the 193 member states of the United Nations."
+        },
+        {
+          "speaker": "Host",
+          "text": "So that covers the UN member states. Are there any NOCs tied to entities that aren’t full UN members?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "There is at least one prominent example: the United Nations observer state Palestine also has its own National Olympic Committee."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, so there are NOCs for UN members and for Palestine. But that still doesn’t seem to reach 206. What else is counted?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "Some places have a more unusual status. For instance, the Cook Islands has its own NOC. It’s a state in free association with New Zealand, and its capacity to participate in international organizations has been recognized by the UN Secretariat."
+        },
+        {
+          "speaker": "Host",
+          "text": "So the Cook Islands is another piece of the puzzle. Are there also any states whose recognition is more limited but that still have NOCs?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "Yes, there are two such cases. Kosovo has a National Olympic Committee, and Taiwan does as well, though in the Olympic context Taiwan competes under the name “Chinese Taipei” as designated by the IOC."
+        },
+        {
+          "speaker": "Host",
+          "text": "Besides those, are there territories that aren’t fully independent countries but still send their own Olympic teams through separate NOCs?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "There are. Nine dependent territories have their own National Olympic Committees and send separate Olympic teams, distinct from the sovereign states they’re linked to."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nine dependent territories with their own NOCs? That seems different from how the UN treats states. How did those separate Olympic teams come about?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "It goes back to how the IOC used to handle recognition. Before 1996, the rules for recognizing separate countries within the IOC were less strict than the UN’s standards, which allowed those territories to field their own teams apart from their sovereign state."
+        },
+        {
+          "speaker": "Host",
+          "text": "So before 1996, the IOC had looser rules, and that’s when those dependent territories got their NOCs. But what happened around 1996 that changed things?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "In 1996, the Olympic Charter was amended. Since that change, a new NOC can only be recognized after the international community recognizes that entity as an independent state."
+        },
+        {
+          "speaker": "Host",
+          "text": "If the rules tightened in 1996, did those earlier dependent territories lose their NOCs once the amendment took effect?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "No, that’s the key detail: the rule isn’t retroactive. The dependent territories that had already been recognized as having NOCs before the rule change were allowed to keep sending their own separate Olympic teams."
+        },
+        {
+          "speaker": "Host",
+          "text": "So today’s landscape is shaped by a mix of UN member states, some special political cases like Palestine and the Cook Islands, a couple of limited-recognition states, and a handful of older dependent territories that kept their status under that non‑retroactive rule?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "Exactly. Those different categories together form the overall group of National Olympic Committees that total 206 in 2016, even though they don’t all fit neatly into the same diplomatic categories."
+        },
+        {
+          "speaker": "Host",
+          "text": "One last thing: what about places like the Faroe Islands or Macau? They’re not fully independent countries either. Do they get their own Olympic teams?"
+        },
+        {
+          "speaker": "Guest",
+          "text": "They’re a bit different. The Faroe Islands and Macau don’t have separate Olympic teams, but they do send their own teams to the Paralympic Games instead of the Olympic Games."
+        }
+      ],
+      "question": "Based on the conversation, why do some dependent territories still have their own National Olympic Committees and send separate Olympic teams even though the IOC changed its recognition rules in 1996 to be more restrictive about which entities can form new NOCs? Which of the following best explains this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because the IOC made a special exception in 1996 for all dependent territories, giving them the option to create or dissolve NOCs regardless of when they were first recognized or how the rules had changed."
+        },
+        {
+          "label": "B",
+          "text": "Because the IOC decided in 1996 that any territory with a long history of Olympic participation could form or keep its own NOC, regardless of when it was recognized or how the rules had worked before."
+        },
+        {
+          "label": "C",
+          "text": "Because after the 1996 rule change, the IOC began recognizing more dependent territories as independent states for Olympic purposes, allowing them to set up new NOCs and send separate teams."
+        },
+        {
+          "label": "D",
+          "text": "Because those territories established their NOCs when the IOC’s recognition criteria were more relaxed before 1996, and the stricter 1996 amendment was not applied backward, so their existing NOCs and separate teams were grandfathered in."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "2681e85c",
+      "idx": 51,
+      "id": "dcr184",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "Welcome to our roundtable on ozone depletion and global warming."
+        },
+        {
+          "speaker": "Host",
+          "text": "Today we’re focusing on how two major treaties, the Montreal Protocol and the Kyoto Protocol, sometimes interact in unintended ways."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "To set the stage, remember that the Montreal Protocol was agreed in 1987 to tackle ozone-depleting chemicals like CFCs, HCFCs, halons, and methyl bromide."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "It has been hailed as a success, but monitoring in the late 1990s showed that the Antarctic ozone hole was still growing larger and lasting longer."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "And in 1997, a decade after Montreal, countries adopted the Kyoto Protocol to address global warming."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "Kyoto targets several greenhouse gases, including CO2, but also industrial chemicals such as hydrofluorocarbons, or HFCs, and perfluorocarbons, or PFCs."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "From an industry point of view, Montreal did what it was supposed to do on paper: it phased out the worst ozone-depleting chemicals."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "But it also explicitly allowed companies to switch from CFCs to HCFCs, and later to HFCs and PFCs, as substitutes."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Those substitutes helped us keep refrigeration, air conditioning, and foam production running."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "The catch is that while HCFCs, HFCs, and PFCs may be better for the ozone layer than CFCs, they are still powerful greenhouse gases."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "That’s why Kyoto lists HFCs and PFCs among the gases that need to be controlled."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "So decisions taken under Montreal can directly affect the effectiveness of Kyoto."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "U.S. policy has often treated these treaties as if they tackle separate problems."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "Agencies implementing Montreal have promoted HCFCs and HFCs as acceptable CFC replacements, even when non-ozone-depleting, low-global-warming alternatives exist."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "This has slowed the transition to truly clean technologies and undermines climate goals."
+        },
+        {
+          "speaker": "Host",
+          "text": "So we have one agreement trying to solve the ozone problem and another trying to solve global warming, but the way they are implemented can pull in opposite directions."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "And the two environmental problems are intertwined."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "Ozone loss cools the stratosphere, which influences climate patterns, and more UV-B reaches the ocean surface, damaging plankton."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "Since plankton helps remove carbon dioxide from the atmosphere, losing it makes global warming worse."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Yet businesses hear mixed signals."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "The Montreal Protocol still permits HCFCs until 2030, and many companies invested heavily in HCFC-based systems."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Without a stronger signal, they’re reluctant to move to alternatives like hydrocarbon or ammonia refrigerants or water-based foam blowing."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "The article we’re discussing criticizes that 2030 HCFC phaseout date as far too distant."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "It argues that, based on scientific assessments in the 1990s, HCFCs should be phased out much faster—by around 2004—to meaningfully speed recovery of the ozone layer and avoid locking in more greenhouse gas emissions."
+        },
+        {
+          "speaker": "Host",
+          "text": "That’s a big acceleration."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are there enough alternatives to make that realistic?"
+        },
+        {
+          "speaker": "Scientist",
+          "text": "According to the assessments referenced in the 1990s, only a few applications truly lacked alternatives."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "In most other cases, non-fluorocarbon technologies or other methods—like heat treatment instead of methyl bromide fumigation—were technically feasible."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "The protocol even has emergency provisions for rare cases where no substitute exists."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "This is why some experts argue that the two regimes should be legally linked."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "If the implementation of Montreal automatically had to respect Kyoto’s climate objectives, then you couldn’t freely adopt HCFCs, HFCs, and other high–global-warming chemicals as substitutes for ozone-depleting substances unless there was genuinely no other technological option."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Legal linkage sounds strong."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "How would that affect investment decisions?"
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "It would push companies away from short-term fluorocarbon fixes and toward longer-term, non-ozone-depleting and low–global-warming solutions."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "A legally binding connection between the two treaties, plus a ban or strict restriction on HCFCs, HFCs, and similar chemicals as substitutes, would give clear direction to the market."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "Remember that the Montreal Protocol already has a history of being updated—there were major scientific assessments in 1989, 1991, 1994, and 1998, which led to amendments adding controls for methyl bromide and HCFCs."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "So adjusting Montreal to better align with Kyoto would follow that pattern of responding to new science."
+        },
+        {
+          "speaker": "Host",
+          "text": "Beyond linkage and bans, what else needs to happen to make sure Montreal doesn’t undercut Kyoto?"
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "One recommendation is to dramatically accelerate the HCFC phaseout, aiming for an early date like 2004 rather than 2030."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "Another is to increase U.S. financial support to the Multilateral Fund, which helps developing countries adopt non-ozone-depleting, low-global-warming technologies."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "Earmarking part of the existing tax on ozone-depleting chemicals for this fund would help."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Financial support is critical for poorer countries."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "Otherwise they’ll keep choosing HCFCs and HFCs because those are the cheapest and most heavily promoted options."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "Agencies like the EPA and USDA also play a role."
+        },
+        {
+          "speaker": "Scientist",
+          "text": "The article suggests they should stop supporting uses of chemicals like methyl bromide where safer and cheaper alternatives, such as heat treatment, are available, and instead actively promote and fund cleaner technologies."
+        },
+        {
+          "speaker": "Host",
+          "text": "So, over time—from Montreal’s start in 1987, through its amendments in the 1990s, and Kyoto’s adoption in 1997—the science has made clear that ozone depletion and global warming are tightly linked."
+        },
+        {
+          "speaker": "Host",
+          "text": "If those treaties are implemented separately, Montreal’s allowances for substitute chemicals can worsen the very global warming that Kyoto is supposed to reduce."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "That’s the core concern."
+        },
+        {
+          "speaker": "Policy Expert",
+          "text": "To prevent that outcome, policy must evolve: legally connect the two agreements, severely limit high–global-warming substitutes, speed up the HCFC phaseout, and support the diffusion of alternatives that protect both the ozone layer and the climate."
+        },
+        {
+          "speaker": "Industry Representative",
+          "text": "With clear rules, tighter timelines, and funding for alternatives, industry can adapt, just as it did when CFCs were first phased out."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks, everyone."
+        },
+        {
+          "speaker": "Host",
+          "text": "It’s clear that aligning these treaties is essential if we’re serious about protecting the atmosphere on all fronts."
+        }
+      ],
+      "question": "Based on the conversation, based on the roundtable discussion, where the Host, Scientist, Policy Expert, and Industry Representative describe how Montreal’s 1987 rules and 1990s amendments allowed HCFCs, HFCs, and PFCs as substitutes even though Kyoto’s 1997 climate targets later sought to control those gases, and where they criticize the long HCFC phaseout to 2030 in favor of an earlier date, which policy approach would best prevent measures under the Montreal Protocol from undermining the Kyoto Protocol’s climate goals?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Focus mainly on speeding up the HCFC phaseout to an earlier date than 2030, but leave each treaty to operate independently and continue allowing HFCs and PFCs as common CFC replacements."
+        },
+        {
+          "label": "B",
+          "text": "Maintain a strict separation between the Montreal and Kyoto Protocols, letting Montreal handle ozone alone while promoting HFCs and PFCs as standard CFC substitutes, and let Kyoto deal with any resulting greenhouse emissions later."
+        },
+        {
+          "label": "C",
+          "text": "Keep the existing 2030 HCFC phaseout schedule under Montreal but significantly increase U.S. financial contributions to the Multilateral Fund so developing countries can more easily afford HCFC and HFC technologies."
+        },
+        {
+          "label": "D",
+          "text": "Create a legally binding link between the Montreal and Kyoto Protocols that sharply limits the use of HCFCs, HFCs, and PFCs as substitutes except where no other technological alternative exists, while accelerating the HCFC phaseout and supporting a shift to low–global-warming options."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_03",
+      "dataset_id": "2681e85c",
+      "idx": 79,
+      "id": "dcr212",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "Welcome to Arctic Focus. Today we're discussing offshore oil drilling in the Russian Arctic and what it would take to handle a major spill."
+        },
+        {
+          "speaker": "Host",
+          "text": "With me are Energy Analyst, Environmental Scientist, and Policy Advocate."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Thanks for having me."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Glad to be here."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Happy to join the conversation."
+        },
+        {
+          "speaker": "Host",
+          "text": "Energy Analyst, can you start by explaining why there is so much interest in Arctic oil in the first place?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Sure."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "A 2008 U.S. Geological Survey estimate suggested that about 13 percent of the world’s undiscovered oil and 30 percent of its undiscovered gas lie beneath the Arctic seas."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "That’s a massive incentive for countries like the United States, Canada, Norway, Greenland, and especially Russia to push into offshore Arctic drilling."
+        },
+        {
+          "speaker": "Host",
+          "text": "And Russia is really pushing hard, right?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Russia gets nearly half of its GDP from oil exports, so fossil fuels are central to its economy and political stability."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Vladimir Putin has announced programs for offshore oil and gas exploration in the Russian Arctic and wants new sea terminals that could rival the Suez and Panama Canals."
+        },
+        {
+          "speaker": "Host",
+          "text": "Environmental Scientist, what makes drilling there so different from drilling in other oceans?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "The Arctic climate is extreme."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "You have unpredictable weather, thick and moving sea ice, sub-zero temperatures, dense fog, and months of darkness."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "That combination demands very specialized equipment and makes both drilling and any potential cleanup far more difficult than in temperate regions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Energy Analyst, how does Russia’s technology compare to other Arctic nations?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Russia actually has a significant icebreaker advantage."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "It has invested in around 20 icebreakers, while Canada has about 12 and the United States has just one."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "That helps them access ice-covered waters more reliably."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "And that advantage has encouraged them to move quickly into Arctic exploration."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let’s talk about the companies that want to drill there."
+        },
+        {
+          "speaker": "Host",
+          "text": "Who are we talking about in the Russian Arctic specifically?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "British Petroleum, ExxonMobil, and the Norwegian state-owned company Statoil are all involved or interested in joint projects with Russia in the Arctic offshore."
+        },
+        {
+          "speaker": "Host",
+          "text": "Environmental Scientist, BP is often mentioned when we talk about spill response."
+        },
+        {
+          "speaker": "Host",
+          "text": "Why is that?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Because of the Deepwater Horizon disaster in 2010."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "That was in the Gulf of Mexico, which Lisa Speer from the Natural Resources Defense Council calls perhaps the most well-equipped region on the planet to deal with a massive oil spill."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Even there, BP struggled badly to contain and clean up the spill."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "And that’s crucial because if a company had trouble in the Gulf, where there are ports, airports, and a lot of spill-response infrastructure, you have to ask what would happen in the far less developed Arctic."
+        },
+        {
+          "speaker": "Host",
+          "text": "So what does the Arctic region lack in terms of infrastructure?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Large parts of northern Russia, Canada, and Greenland don’t have basic roads or airports."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Communications facilities are limited."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "In Alaska, the nearest Coast Guard station is nearly a thousand miles from some offshore areas."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "All of that slows any emergency response."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Combine that with the harsh weather and sea ice, and you’re looking at serious delays in getting personnel and equipment to the site of a blowout."
+        },
+        {
+          "speaker": "Host",
+          "text": "Policy Advocate, what does that mean for worker safety and the environment?"
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "It means Arctic drilling is risky for employees and extremely risky for the environment."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "If a blowout happens, the logistics of containing and cleaning it are far more daunting than in regions with dense infrastructure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Environmental Scientist, can you walk us through the broader environmental context in the Arctic right now?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Summer polar ice is shrinking rapidly and could disappear entirely by around 2030."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "In the last several years, the Arctic has lost up to two-thirds of its summer sea ice."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "The less ice there is, the more dark ocean surface you have absorbing heat, which accelerates warming."
+        },
+        {
+          "speaker": "Host",
+          "text": "And how would an oil spill interact with that?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Oil on ice and water darkens the surface, increasing heat absorption and hastening melting."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "On top of that, black carbon from things like diesel engines and incomplete combustion also darkens ice."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Add the CO2-intensive infrastructure—roads, platforms, tankers, ports, and pipelines—and you get a feedback loop of warming and pollution."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "There’s also the problem of thawing tundra."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "As it thaws, it becomes unstable ground for roads, bridges, airports, and pipelines."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "That instability can damage both old and new pipelines, raising the risk of leaks."
+        },
+        {
+          "speaker": "Host",
+          "text": "How are wildlife and indigenous communities affected?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "An unprecedented number of polar bears have drowned because they have to swim farther due to dwindling ice."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Narwhals, walruses, bowhead and beluga whales, seals, and many bird species are under pressure from warming and pollution."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Species from warmer waters are moving north, changing the ecosystem."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Indigenous peoples—like the Inuit, the Sami, and the Nenets—depend on these ecosystems."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "The Nenets in West Siberia, for example, have seen roadwork and bridge building block rivers, flood pastureland, and interfere with reindeer and fish migration."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Debris from development can injure reindeer hooves, sometimes fatally."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Development plus warming strains their traditional livelihoods."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let’s look at Russia’s track record with oil spills."
+        },
+        {
+          "speaker": "Host",
+          "text": "Policy Advocate, what does that history tell us?"
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Russia’s environmental record is troubling."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Near Usinsk, just south of the Arctic Circle, a decommissioned well caused what some have called one of the world’s worst ecological oil catastrophes in 2011."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "That area also suffered a huge pipeline spill in 1994, when a line that had been leaking for eight months finally failed and released about 102,000 tons of oil into the tundra and nearby rivers, eventually reaching the Barents Sea."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "That spill was much larger than the Exxon Valdez incident and was tied to old, corroded, and poorly maintained pipelines that were over-pumped."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "The operator, Komineft, had multiple major accidents there over less than a decade."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "In the mid-1990s, Russia was reportedly losing around 20 percent of its extracted oil through such leaks."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Yet it refused to revamp its inefficient Soviet-era pipeline system because it feared production interruptions would weaken political leverage and disrupt loan repayments."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "More recent estimates from Greenpeace and other groups suggest Russia still spills millions of tons of oil each year—on the order of a Deepwater Horizon–scale leak every couple of months."
+        },
+        {
+          "speaker": "Host",
+          "text": "Given that background, let’s bring in some of the major environmental organizations."
+        },
+        {
+          "speaker": "Host",
+          "text": "What are they saying about Arctic offshore drilling?"
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Greenpeace International is firmly opposed to all offshore drilling in the Arctic."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "They argue that the region should be treated like a world park, akin to Antarctica, or at the very least be subject to strict global standards that eliminate the risk of spills and require companies to guarantee mitigation at least on the scale of the Deepwater Horizon response."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "The NRDC takes a similar stance on safety."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Lisa Speer has said we don’t have enough information to know if oil and gas activities can be conducted safely in the Arctic, and crucially, we do not yet have the ability to contain and clean up oil in ice."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Their view is that drilling should wait until that capability exists."
+        },
+        {
+          "speaker": "Host",
+          "text": "So the technology to clean oil in ice isn’t there yet?"
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "That’s right."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Existing cleanup tools were developed for open water, not for broken ice or ice-covered seas."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Ice can trap oil under the surface, hide it from responders, and make mechanical recovery or burning much less effective."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "At a recent forum, Andrew Hartsig from the Ocean Conservancy recommended that the United States wait until the technological requirements for Arctic drilling are better understood and met before moving forward."
+        },
+        {
+          "speaker": "Host",
+          "text": "And yet, leasing is moving ahead?"
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "A representative from the U.S. Bureau of Ocean Energy Management made it clear that the federal five-year leasing plan for Alaskan offshore blocks would not be delayed until all exploration and technology development are complete."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "So the process of opening areas up is moving faster than the development of safety technologies."
+        },
+        {
+          "speaker": "Host",
+          "text": "What about Russia’s regulatory environment?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Putin actually abolished the Russian Environmental Agency, which would otherwise oversee environmental assessments for major projects."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "That move makes it easier to push extraction in sensitive Arctic areas without thorough environmental review."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "That’s worrisome because the Arctic holds some of the largest intact ecosystems on the planet."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Any large industrial project there, especially offshore drilling, really calls for careful planning and strict oversight."
+        },
+        {
+          "speaker": "Host",
+          "text": "Before we wrap up, where do these discussions leave the companies that want to drill—BP, ExxonMobil, Statoil, and others—when it comes to readiness?"
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "They’re eager to access the resources, and Russia’s icebreakers and exploration plans give them an opportunity."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "But the combination of harsh conditions, limited infrastructure, Russia’s spill record, and the absence of proven cleanup methods in ice exposes them to huge operational and reputational risks."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "If a company couldn’t manage a blowout effectively in the well-equipped Gulf of Mexico, handling a similar or worse event in the remote, ice-covered Arctic—with few roads, distant Coast Guard support, unstable tundra, and fragile ecosystems—poses challenges that current systems and technologies simply haven’t solved."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "And that’s exactly why groups like Greenpeace, NRDC, and the Arctic Council emphasize prevention, stronger regulations, and major investments in efficiency and safety before expanding into one of the most vulnerable regions on Earth."
+        },
+        {
+          "speaker": "Host",
+          "text": "So the rush for Arctic oil is colliding with a long list of unresolved safety, environmental, and governance issues."
+        },
+        {
+          "speaker": "Host",
+          "text": "We’ll leave listeners to think about what that means for any operator considering drilling there today."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you all for joining us."
+        },
+        {
+          "speaker": "Energy Analyst",
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Environmental Scientist",
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Policy Advocate",
+          "text": "Thank you."
+        }
+      ],
+      "question": "Based on the discussion in the conversation, which company is actually adequately prepared to safely carry out offshore oil drilling in the Arctic, including responding effectively to a major blowout?",
+      "options": [
+        {
+          "label": "A",
+          "text": "No company mentioned in the discussion is currently adequately prepared to safely conduct offshore oil drilling in the Arctic."
+        },
+        {
+          "label": "B",
+          "text": "ExxonMobil is adequately prepared for Arctic offshore drilling thanks to its joint ventures and access to Russian icebreaker support."
+        },
+        {
+          "label": "C",
+          "text": "BP is adequately prepared to drill in the Arctic because of its extensive experience with large offshore projects."
+        },
+        {
+          "label": "D",
+          "text": "Statoil is adequately prepared for Arctic offshore drilling due to Norway’s long history and expertise in operating in cold, northern waters."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "04ee5bcc",
+      "idx": 186,
+      "id": "cr264",
+      "dialog": [
+        {
+          "speaker": "Lena",
+          "text": "I was looking at used Ford Transits online, and it's wild how many different body styles there are. When did these things actually start?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "The Transit goes way back. Ford launched the first generation in 1965 as a light commercial van—mostly cargo, but they turned it into minibuses and even pickups."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Yeah, but honestly, it feels like they change it too often. Every time I blink, there’s a new front end, new dashboard, new everything."
+        },
+        {
+          "speaker": "Marco",
+          "text": "It’s not that frequent, actually. There are four main generations: the original from 1965, then a big redesign in 1986, another in 2000, and the most recent major platform update in 2013."
+        },
+        {
+          "speaker": "Lena",
+          "text": "So those four are like the big milestones—1965, 1986, 2000, and 2013?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "Exactly. Each one is a proper platform shift, not just a facelift. The 2013 one really modernized it—new architecture, better safety, the works."
+        },
+        {
+          "speaker": "Priya",
+          "text": "I’ll admit the 2013 ones look more comfortable, but part of me likes the older, boxier shapes. I kind of wish they’d stuck with the 2000 generation a bit longer."
+        },
+        {
+          "speaker": "Lena",
+          "text": "Hypothetically, if Ford had never done that 2013 overhaul and just kept making the 2000 version, how many generations would people say the Transit had?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "In that scenario, you’d only count the earlier platform changes. You’d have the first from 1965, the second from 1986, and the third from 2000. Without the 2013 redesign, the line would stop there, so it would be just three generations."
+        },
+        {
+          "speaker": "Priya",
+          "text": "And that’s kind of what I’m talking about. Fewer big jumps, more time to refine what already works."
+        },
+        {
+          "speaker": "Lena",
+          "text": "But don’t fleet buyers want the latest tech and safety stuff? I imagine delivery companies would love what came with that 2013 update."
+        },
+        {
+          "speaker": "Marco",
+          "text": "A lot of them do. The 2013 generation helped the Transit stay competitive and probably helped it become one of the top-selling vans worldwide in the long run."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Sure, but there’s also the cost. Every time there’s a new generation, small businesses feel pressured to upgrade. If it had stayed at those three earlier generations, things might’ve been simpler."
+        },
+        {
+          "speaker": "Lena",
+          "text": "Still, I kind of like the idea that the Transit evolved through those four big eras. Skipping the 2013 one feels like losing a whole chapter of the story."
+        },
+        {
+          "speaker": "Marco",
+          "text": "That’s how I see it too—the 2013 generation is like the culmination of all the previous designs, even if it means we don’t just stop at three."
+        }
+      ],
+      "question": "In the conversation about Ford Transit generations, which speaker most clearly acts as the knowledgeable expert who explains the four main generations and works through how many generations there would be if the 2013 redesign never happened, based on how they talk across the whole conversation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marco, the automotive enthusiast who lays out the major generations and reasons through the hypothetical without the 2013 update."
+        },
+        {
+          "label": "B",
+          "text": "Priya, the skeptical small-business owner who focuses on costs and prefers sticking with the earlier three generations."
+        },
+        {
+          "label": "C",
+          "text": "Priya, portrayed as the main Transit historian who confidently walks the others through all the platform changes and counterfactuals."
+        },
+        {
+          "label": "D",
+          "text": "Lena, the curious shopper who mainly asks questions about when the Transit started and how many generations there are."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "04ee5bcc",
+      "idx": 69,
+      "id": "cr276",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "Welcome back to our movie night chat! Today we're talking about how songs from stage versions sometimes get added into the movie releases. Alex, you were just mentioning a specific example?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yeah, I was talking about how the stage musical added a song called \"Morning Report,\" and later that song showed up in a special DVD release of the animated film."
+        },
+        {
+          "speaker": "Jamie",
+          "text": "Wait, so that song wasn't in the original movie at all? I always thought it was just part of the film from the start."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "I thought they first stuck it onto some early VHS or something, like one of those random rereleases."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, so we’ve got the original movie, the stage musical with extra songs, and then some later home release. Alex, can you walk us through the order?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Sure. The stage musical introduced \"Morning Report\" as part of its expanded score. Years later, the movie got a version where that song was added into the animated sequence, but only on a particular DVD edition."
+        },
+        {
+          "speaker": "Jamie",
+          "text": "So it wasn’t on the old tape I watched as a kid? That must be why I don’t remember it."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "Maybe it was just on some regular DVD they put out in the early 2000s, not anything special."
+        },
+        {
+          "speaker": "Host",
+          "text": "Taylor keeps guessing, but Alex sounds pretty confident there’s a specific edition. Do you remember which one it actually was?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yeah, it wasn’t just any random release. The version of the film that includes \"Morning Report\" is on the Platinum Edition DVD."
+        },
+        {
+          "speaker": "Jamie",
+          "text": "Ohhh, that explains it. I only ever had the basic DVD, so I never saw that extra scene."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "Okay, so not VHS, not some generic disc—specifically the Platinum Edition DVD got the musical’s song added in."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right, so the musical introduced the song, and then that same song was folded into the movie for that special DVD. Nice little crossover between stage and screen."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Exactly. It’s a cool example of how the musical can feed back into the film instead of the other way around."
+        },
+        {
+          "speaker": "Jamie",
+          "text": "Now I kind of want to track down that edition just to see how the added song fits into the movie."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "Same here, and I’ll try not to guess VHS next time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Perfect, we’ve cleared that up: musical first, then the special DVD edition with the added song."
+        }
+      ],
+      "question": "In the conversation about adding the song \"Morning Report\" into a later DVD release of the film, which speaker repeatedly makes incorrect guesses about which format or edition first included the added song before finally adjusting their understanding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Alex"
+        },
+        {
+          "label": "B",
+          "text": "Jamie"
+        },
+        {
+          "label": "C",
+          "text": "Host"
+        },
+        {
+          "label": "D",
+          "text": "Taylor"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "04ee5bcc",
+      "idx": 138,
+      "id": "cr131",
+      "dialog": [
+        {
+          "speaker": "Taylor",
+          "text": "I still can’t believe we had to dump the first name right when the band started feeling real."
+        },
+        {
+          "speaker": "Ben",
+          "text": "You mean back when it was just you, me, Khandwala in the studio, and those three guys we hired to round out the lineup?"
+        },
+        {
+          "speaker": "Sam",
+          "text": "Hey, that name would’ve gotten us a nice little lawsuit, not a record deal. The trademark search lit up like a Christmas tree."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "I get it, Sam, but I loved how The Reckless sounded. It fit the songs we were writing, all that messy, loud energy."
+        },
+        {
+          "speaker": "Ben",
+          "text": "Yeah, it matched the riffs and the lyrics. Felt like our identity before we even played that first show at The Annex."
+        },
+        {
+          "speaker": "Sam",
+          "text": "And I’m the one who has to think about what happens after that first show. If another band already owns the mark, they can shut you down just as things start moving."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "Still feels like we had to give up a piece of ourselves before we even got started. I’m nostalgic for something that barely existed."
+        },
+        {
+          "speaker": "Ben",
+          "text": "I was bummed too, but honestly, I’ve made peace with the new name. Fans don’t care what’s on the poster as long as the music hits."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Exactly. A clean name means no trademark headaches and a brand we can actually build. I’d rather you be mildly annoyed now than in court later."
+        },
+        {
+          "speaker": "Taylor",
+          "text": "Fine, fine. I’ll let you handle the boring legal stuff, but I reserve the right to be dramatic about losing The Reckless."
+        },
+        {
+          "speaker": "Ben",
+          "text": "Deal. You write the songs about it, Sam keeps us out of trouble, and I’ll just keep changing the logo on my amp."
+        },
+        {
+          "speaker": "Sam",
+          "text": "And that’s why I’m here: you two worry about sound and attitude, I’ll worry about making sure nobody sues us over the name."
+        }
+      ],
+      "question": "Listen to the conversation between Taylor, Ben, and Sam about having to change the band’s original name for legal reasons. Focusing specifically on Ben’s attitude toward the name change, which option best describes his stance by the end of the conversation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He is bitter about the change and remains fixated on the original name."
+        },
+        {
+          "label": "B",
+          "text": "He is mainly worried about legal risks and protecting the band’s trademark."
+        },
+        {
+          "label": "C",
+          "text": "He is indifferent to both the name and the band’s connection with its early identity."
+        },
+        {
+          "label": "D",
+          "text": "He was disappointed at first but now focuses on the music and what matters to fans."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 31,
+      "id": "ssqa428",
+      "dialog": [
+        {
+          "speaker": "Riley",
+          "text": "Afternoon. Mind keeping your hands where I can see them while we talk?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "Uh, sure. Did I do something wrong, officer?"
+        },
+        {
+          "speaker": "Riley",
+          "text": "We got a call about someone hanging around this alley by the back door of the shop. How long have you been standing here?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "I don't know, maybe ten minutes? I'm just waiting for a friend to get off work."
+        },
+        {
+          "speaker": "Riley",
+          "text": "What's your friend's name and where do they work?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "Taylor. They close up at that corner store right there, with the blue sign."
+        },
+        {
+          "speaker": "Riley",
+          "text": "And why wait back here instead of out front where it's lit and there are cameras?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "It's noisy on the street, and they usually come out this way. I didn't think it was a big deal."
+        },
+        {
+          "speaker": "Riley",
+          "text": "Have you been inside the store tonight or spoken to any of the employees besides Taylor?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "No, I just texted Taylor. Look, you can check my phone if you need to."
+        },
+        {
+          "speaker": "Riley",
+          "text": "I'll ask you to hold onto it for now. Just tell me exactly what time you got here and where you came from."
+        },
+        {
+          "speaker": "Jesse",
+          "text": "I walked from the bus stop on 3rd, got here around eight-fifteen, I think. I can show you the bus app."
+        },
+        {
+          "speaker": "Riley",
+          "text": "We'll get to that. Anyone else meet you here or were you alone the whole time?"
+        },
+        {
+          "speaker": "Jesse",
+          "text": "Alone. I've just been pacing and checking my messages while I wait."
+        },
+        {
+          "speaker": "Riley",
+          "text": "All right. Stay right here while I verify a few things. I'll be watching, so don't step away without letting me know."
+        },
+        {
+          "speaker": "Jesse",
+          "text": "Okay, I'm not going anywhere. Just... let me know if you need anything else."
+        }
+      ],
+      "question": "In the conversation between Riley and Jesse in the alley, what best describes Riley's attitude toward Jesse during their interaction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Riley is mainly interested in Jesse romantically and is using the situation as an excuse to flirt and get closer."
+        },
+        {
+          "label": "B",
+          "text": "Riley is professionally wary and somewhat suspicious of Jesse, watching him closely while checking his story."
+        },
+        {
+          "label": "C",
+          "text": "Riley is simply making casual observations about the area and has no particular concern about Jesse specifically."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 61,
+      "id": "ssqa189",
+      "dialog": [
+        {
+          "speaker": "Jack",
+          "text": "I still feel bad about how I froze up during the presentation today."
+        },
+        {
+          "speaker": "Liam",
+          "text": "Hey, you did way better than you think. I was right there next to you, remember? We got through it together."
+        },
+        {
+          "speaker": "Maya",
+          "text": "Honestly, when we saw you walking in with Liam this morning, I felt a lot less worried about how you’d handle today."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yeah, same. We’ve all been trying to check in with you, Jack, but Liam practically moved into your schedule this week."
+        },
+        {
+          "speaker": "Jack",
+          "text": "I don’t even know how I would’ve handled all that stuff without him. You stayed up with me half the night prepping."
+        },
+        {
+          "speaker": "Liam",
+          "text": "That’s what friends are for. If you need me again tonight, I’m around. We can go over anything you’re still unsure about."
+        },
+        {
+          "speaker": "Maya",
+          "text": "It’s kind of a relief knowing you’ve got him in your corner, Jack. I used to stress about whether you were dealing with everything alone."
+        },
+        {
+          "speaker": "Tom",
+          "text": "For real. We want to help, but we’re not always sure what to say. Seeing you two together, I feel like you’re actually supported now."
+        },
+        {
+          "speaker": "Jack",
+          "text": "I appreciate all of you, but Liam’s been a lifesaver. Just knowing he’ll pick up when I call makes everything feel less heavy."
+        },
+        {
+          "speaker": "Liam",
+          "text": "You’re not going through this by yourself, okay? I’m sticking around, no matter how messy it gets."
+        },
+        {
+          "speaker": "Maya",
+          "text": "Hearing you say that, Liam, makes me feel like we can finally breathe a bit. We don’t have to worry every second that Jack’s falling apart."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yeah, I’m a lot calmer about the whole situation now. If something comes up, you’ll probably notice first anyway."
+        },
+        {
+          "speaker": "Jack",
+          "text": "It actually helps me too, knowing you guys trust him. Makes me feel like I’ve got this little safety net around me."
+        },
+        {
+          "speaker": "Liam",
+          "text": "Well, the whole group’s here for you. But if you ever feel overwhelmed, just text me. We’ll figure it out together."
+        },
+        {
+          "speaker": "Maya",
+          "text": "Knowing that, I can finally just hang out and enjoy tonight instead of constantly checking if you’re okay, Jack."
+        }
+      ],
+      "question": "In the conversation, how do Jack's friends feel after realizing how supportive Liam is toward Jack? Choose one option:",
+      "options": [
+        {
+          "label": "A",
+          "text": "They decide to step back and leave Jack's situation entirely to Liam."
+        },
+        {
+          "label": "B",
+          "text": "They feel more at ease knowing Liam is actively supporting Jack and trust that he has someone reliable in his corner."
+        },
+        {
+          "label": "C",
+          "text": "They become more anxious about Jack and worry that he is still completely on his own."
+        },
+        {
+          "label": "D",
+          "text": "They conclude that Liam is not very helpful and lose confidence in relying on him."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 17,
+      "id": "ssqa475",
+      "dialog": [
+        {
+          "speaker": "speaker_1",
+          "text": "I still can't believe I'm turning twenty-one this weekend. I’m so excited for our beach trip with the family."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "We’re excited too, honey, but have you actually started getting ready for it yet?"
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "Kind of... I’ve thought about what to bring, but my suitcase is still empty."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "Bella, you can’t show up at the beach with just vibes. You need clothes and stuff!"
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "Exactly. Make sure you pack your bag with enough outfits, sunscreen, and all your toiletries."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "I know, I know. I also realized my old bathing suit is too small, so I need to go buy a new one before we leave."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "Ooh, let’s go shopping later! We can pick out something cute and then imagine you relaxing by the water."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "That’s fine, as long as you actually finish packing afterward. I don’t want you scrambling on Friday morning."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "I promise I’ll pack tonight. I’ll lay out my shorts, T-shirts, sandals, and that big hat you like."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "And once all that’s done, you can just enjoy turning twenty-one, playing in the waves and maybe having a nice dinner on the pier."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "Yes, have fun, but be responsible too. Just don’t forget the essentials, especially that new swimsuit and a light jacket for the evenings."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "Got it. First, I’ll get my suitcase filled and pick up a new swimsuit, then I’ll focus on celebrating."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "I can already see us taking pictures on the sand and staying up late talking."
+        },
+        {
+          "speaker": "speaker_2",
+          "text": "That sounds lovely. Just make sure the preparations are done so you can relax and enjoy your birthday weekend."
+        },
+        {
+          "speaker": "speaker_1",
+          "text": "I will, Mom. I want everything ready so I can just have fun with you all at the beach."
+        },
+        {
+          "speaker": "speaker_3",
+          "text": "This is going to be the best birthday weekend ever, once you finally get that packing done."
+        }
+      ],
+      "question": "Listen to the conversation between Bella, her mom, and her friend Lena about Bella's upcoming beach trip for her birthday. Based on the way Mom talks and responds throughout the conversation, what best describes her overall role and attitude?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She acts as a caring but practical parent, consistently guiding Bella to be prepared and responsible so that she can relax and enjoy her birthday weekend once everything is ready."
+        },
+        {
+          "label": "B",
+          "text": "She seems mostly laid-back and uninterested in the trip, treating the details as unimportant and leaving all the planning entirely to Bella."
+        },
+        {
+          "label": "C",
+          "text": "She comes across as negative about the birthday trip, focusing on reasons not to go and trying to discourage Bella from celebrating at the beach.\n\nChoose the best option: A, B, or C."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 198,
+      "id": "ssqa211",
+      "dialog": [
+        {
+          "speaker": "Jessica",
+          "text": "Hey, do you remember that black backpack I bought for weekend trips?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "Yeah, the one with all the extra pockets?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "What about it?"
+        },
+        {
+          "speaker": "Jessica",
+          "text": "I realized I barely use it anymore since I switched to that rolling suitcase for travel."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Oh, right, I forgot you got that new one."
+        },
+        {
+          "speaker": "Mia",
+          "text": "So what are you going to do with the backpack?"
+        },
+        {
+          "speaker": "Jessica",
+          "text": "I was actually thinking of passing it on instead of letting it sit in my closet."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "Do you even use a backpack these days?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "Sometimes, yeah."
+        },
+        {
+          "speaker": "Mia",
+          "text": "I’ve been borrowing my sister’s for the gym and for when I work at the café."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "Would something like this be useful for you, or would it just end up as more stuff in your place?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "If it’s not huge, I could really use it."
+        },
+        {
+          "speaker": "Mia",
+          "text": "My sister complains when I keep hers too long."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "It’s medium-sized and pretty comfy."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "You prefer a simple style, right, not too flashy?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Is it plain enough?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "I’m not into giant logos."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "It’s all black, no big logos, just a small tag on the side."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "Does that sound like something you’d actually carry?"
+        },
+        {
+          "speaker": "Mia",
+          "text": "Yeah, that sounds perfect, honestly."
+        },
+        {
+          "speaker": "Mia",
+          "text": "I’d definitely use it for the gym and maybe short trips."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "Okay, good, I just wanted to check."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "If you’re sure you’ll use it, I’ll bring it over when we meet on Saturday."
+        },
+        {
+          "speaker": "Mia",
+          "text": "I’m sure, that’d be awesome."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Thanks for thinking of me instead of just tossing it in a donation bin."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "Of course."
+        },
+        {
+          "speaker": "Jessica",
+          "text": "I’d rather give it to someone who’ll enjoy it."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Well, in that case, I’m happy to give it a new life."
+        }
+      ],
+      "question": "In the conversation between Jessica and Mia about the black backpack, what best describes Jessica's role and attitude when offering the backpack to Mia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jessica acts a bit pushy, mainly trying to offload the backpack quickly and pressuring Mia to take it whether she wants it or not."
+        },
+        {
+          "label": "B",
+          "text": "Jessica hesitates a lot about giving away the backpack and mostly talks as if she’d rather keep it, showing reluctance to part with it."
+        },
+        {
+          "label": "C",
+          "text": "Jessica behaves like a thoughtful friend who owns the backpack and carefully checks that it fits Mia’s needs and that Mia will genuinely want and use it before giving it to her."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "2d36aa6b",
+      "idx": 92,
+      "id": "ssqa388",
+      "dialog": [
+        {
+          "speaker": "Skylar",
+          "text": "Hey! What is going on in here? You all know students aren't supposed to be in this storage lab."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Oh—Skylar, we didn't think anyone would hear us. I'm really sorry, we were just messing around."
+        },
+        {
+          "speaker": "Jordan",
+          "text": "It's not a big deal, we were only checking out the equipment for a second. We weren't hurting anything."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Guys, this is bad. I told you we shouldn't stay long. Skylar, we can leave right now."
+        },
+        {
+          "speaker": "Skylar",
+          "text": "This room is off-limits for a reason. There are chemicals and fragile equipment in here."
+        },
+        {
+          "speaker": "Skylar",
+          "text": "You can't just wander in because you're curious."
+        },
+        {
+          "speaker": "Mia",
+          "text": "I know, I know. We shouldn't have come in. We just heard a weird noise and wanted to see what it was. Please don't write us up."
+        },
+        {
+          "speaker": "Jordan",
+          "text": "Come on, it's not like we broke anything. The door was unlocked, so how were we supposed to know it was really restricted?"
+        },
+        {
+          "speaker": "Skylar",
+          "text": "There are three signs on the door that say \"Authorized Personnel Only.\" You absolutely knew you weren't supposed to be in here."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Jordan, just stop arguing. We're already in trouble. Skylar, can we just go back to the common area? We won't come in here again."
+        },
+        {
+          "speaker": "Skylar",
+          "text": "First, all of you are going to step out of this room, calmly and right now. Then we'll talk about what happened and whether this needs to be reported."
+        },
+        {
+          "speaker": "Mia",
+          "text": "Okay, okay, we're going. I'm really sorry, Skylar. It won't happen again."
+        },
+        {
+          "speaker": "Jordan",
+          "text": "Fine, we're leaving. But this still feels like an overreaction."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Just move, Jordan. Let's get out before this gets any worse."
+        },
+        {
+          "speaker": "Skylar",
+          "text": "Out into the hallway, all of you. Once we're there, I expect you to explain exactly why you were in a restricted area."
+        }
+      ],
+      "question": "In the conversation between Skylar and the students, what best describes Jordan's role and attitude in the situation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jordan is a student who immediately apologizes and is clearly anxious about getting in trouble, trying to reassure the authority figure."
+        },
+        {
+          "label": "B",
+          "text": "Jordan is the authority figure in charge of the lab, firmly enforcing the rules and directing the others to leave the room."
+        },
+        {
+          "label": "C",
+          "text": "Jordan is one of the students who downplays the seriousness of being in the restricted room and complains that the reaction is an overreaction."
+        },
+        {
+          "label": "D",
+          "text": "Jordan is a cautious student trying to calm everyone down, urging the group to leave quickly to avoid further trouble."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 162,
+      "id": "fqa449",
+      "dialog": [
+        {
+          "speaker": "NARRATOR",
+          "text": "Spring has come, and the sea carries Matte the fisherman and his wife Maie out from the winter cottage by the shore to their little home on the red rock called Ahtola."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "There it is again, Maie—Ahtola, our marketplace of stone in the middle of the sea."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "Our whole kingdom, Matte, just about the size of a marketplace, and yet it feels spacious enough for me."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "Small cottage, wooden bolt on the door instead of an iron lock, a stone hearth that smokes if the wind turns—practical enough for a fisherman."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "And perfect for a wife with a garden. Look how the south side already soaks up the sunlight. My herbs will wake quickly here."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "In winter, that little cottage by the shore keeps us from freezing, but once the ice melts, this rock suits my nets better. The sea is all around us."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "And it suits my hands too. See how the rowan tree has held through the storms, and the four alder bushes as well? No one planted them, yet they stand guard over my beds."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "Blown here by the winter gales, most likely. Storms throw more at us than just waves and fish."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "Among their roots, the tufts of soft grass are greening already, and the reeds are whispering. They make a nice border for my herbs."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "You call it a garden, but it is mostly cracks in the rock and a few stubborn plants."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "Stubborn plants are the best kind. Look—two yellow tansy plants here, four bright red flowers there, and a few white ones scattered like foam from your sea."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "Hm. Not much if a man were counting sacks of grain, but the sea doesn’t pay us in grain. It pays in fish and weather, and this rock gives us shelter enough."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "And I have my treasures: the three garlic roots I planted deep in this crack. They have taken hold, Matte. Soon I’ll flavor your catch with them."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "Three roots only, but they keep well, and you make them stretch through the season. That’s what matters when we live out here from spring till autumn."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "To some, this might seem like almost nothing—a tiny cottage, a bolt of wood, a flagstaff, a weathercock, and a handful of plants."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "The flagstaff and weathercock tell me what the wind plans, and the rock walls on the north side keep that plan from blowing the roof away. It’s enough for my work."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "And the sun on the south side warms my herbs and dries your nets. Your sea and my garden share the same light."
+        },
+        {
+          "speaker": "MATTE",
+          "text": "As long as the boat holds, the nets catch, and this stone marketplace stays firm under our feet, I’m content. A fisherman doesn’t ask for more."
+        },
+        {
+          "speaker": "MAIE",
+          "text": "And I don’t either. These few plants, this rock, and your sea are plenty for me."
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "So Matte minds the water and the wind, while Maie tends every stubborn root in the crevices of Ahtola, both finding enough in their small spring and summer home."
+        }
+      ],
+      "question": "In the conversation, how does Maie seem to feel about living on the rock with its small herb garden?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She appears anxious and fearful, focusing mainly on the dangers of the sea and the isolation."
+        },
+        {
+          "label": "B",
+          "text": "She comes across as content and appreciative, speaking warmly about the rock and the little garden."
+        },
+        {
+          "label": "C",
+          "text": "She sounds frustrated and wishes they could move back to the larger cottage on shore immediately."
+        },
+        {
+          "label": "D",
+          "text": "She seems indifferent, treating the rock and the garden as merely temporary and unimportant."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 151,
+      "id": "fqa079",
+      "dialog": [
+        {
+          "speaker": "Narrator",
+          "text": "The sun has climbed high into the sky, yet in the hollow of an old tree a fur-covered maiden still sleeps deeply."
+        },
+        {
+          "speaker": "King",
+          "text": "The dogs are excited today. What are they barking at over by that tree?"
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "They keep circling that hollow trunk, Your Majesty. Something is hiding in there."
+        },
+        {
+          "speaker": "King",
+          "text": "Go see what kind of wild beast is there."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "At once, my king."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Come on, help me look inside this hollow."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "I see something lying there, fast asleep."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "By all the forests, what a strange animal! Its fur is made of a thousand pieces, all stitched together."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "I have never seen such a creature before."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "We must report this to the king."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Your Majesty, there is an unusual animal in the hollow tree, one we’ve never seen before; its fur is made of many pieces, and it is lying there asleep."
+        },
+        {
+          "speaker": "King",
+          "text": "An animal with such a coat? Try to catch it alive and tie it to the cart, so we can take it with us."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "As you command, Sire."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Easy now, creature. We are going to pull you out."
+        },
+        {
+          "speaker": "Many-Furred Creature",
+          "text": "Oh! Please, do not harm me!"
+        },
+        {
+          "speaker": "Many-Furred Creature",
+          "text": "I am a poor child, abandoned by my parents; please have pity on me and let me go with you."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "Huh, so the beast can speak like a girl."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Whatever you are, many-furred creature, you can still be useful."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "Yes, you, many-furred creature, can work in the kitchen; come and help us sweep the ashes."
+        },
+        {
+          "speaker": "Many-Furred Creature",
+          "text": "I will do whatever work you give me, only do not leave me alone in the forest."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Then climb up onto the cart. We are taking you back to the king’s palace."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "The huntsmen lift the many-furred creature into the cart and drive out of the forest toward the palace."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "We are almost there. You will see the great kitchens soon enough."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Come down, many-furred creature. This way."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "They lead her into the palace and down to a shadowy corner beneath the stairs."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "Look here. You, many-furred creature, will sleep and live in this small, dark room beneath the stairs."
+        },
+        {
+          "speaker": "Many-Furred Creature",
+          "text": "This corner is very dark and narrow... but I am grateful not to be out in the cold woods."
+        },
+        {
+          "speaker": "Huntsman 2",
+          "text": "Gratitude won’t spare you from work. Off to the kitchen with you."
+        },
+        {
+          "speaker": "Huntsman 1",
+          "text": "You will fetch wood and water, stoke the fire, wash vegetables, pluck fowls, and sweep the ashes."
+        },
+        {
+          "speaker": "Many-Furred Creature",
+          "text": "Yes, sir. I will fetch wood and water and do all the menial tasks you ask."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "And so the many-furred creature worked in the kitchen for a long time, living in great poverty beneath the stairs of the king’s palace."
+        }
+      ],
+      "question": "In the conversation, when the many-furred creature first wakes and speaks after being discovered, what attitude does she express in her voice and words?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She sounds angry and defiant, refusing to go with them or follow their orders."
+        },
+        {
+          "label": "B",
+          "text": "She sounds cheerful and eager, excited to be taken away to the palace."
+        },
+        {
+          "label": "C",
+          "text": "She sounds frightened and pleading, humbly begging them to show mercy and take her along."
+        },
+        {
+          "label": "D",
+          "text": "She sounds indifferent and bored, as if she does not care what they decide to do with her."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 31,
+      "id": "fqa298",
+      "dialog": [
+        {
+          "speaker": "MERCHANT",
+          "text": "Eating here is a real challenge. These mice are everywhere."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "We are sorry, traveling merchant. The mice bother us too, but we do not know how to keep them away while we eat."
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "How is it that the people here don't have cats?"
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "Cats? I do not know this word. What is a cat?"
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "Yes, stranger, what is this thing you call a cat, and how could it help us?"
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "A cat is an animal that hunts mice. If a cat is near, the mice get scared and run away. I actually bought a cat for my servant on this journey."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "An animal that chases mice? That sounds wonderful. Could we see it?"
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "Of course. SERVANT, bring the cat."
+        },
+        {
+          "speaker": "SERVANT",
+          "text": "Right away, master. I will fetch her."
+        },
+        {
+          "speaker": "SERVANT",
+          "text": "Here is the cat, master."
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "Thank you. Put her on the table."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "Look at that! The mice are running away!"
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "I have never seen the mice flee so quickly. They are all gone into their holes."
+        },
+        {
+          "speaker": "SERVANT",
+          "text": "She does that wherever we eat. The mice know better than to stay near her."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "For the first time, we can eat without disturbance. This is incredible."
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "Visiting trader, you have brought us a miracle. We must be able to eat like this every day."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "Merchant, please, would you consider selling us this cat?"
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "Yes, we beg you. We are truly grateful. Name your price so that we may keep the mice away."
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "Hm, I bought this cat for my servant, and she has served us well. I am not sure I should part with her."
+        },
+        {
+          "speaker": "SERVANT",
+          "text": "Master, it is your decision, but it seems the people here need her even more than we do."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "We understand your hesitation, but this cat has changed everything for us. We can finally enjoy our meals."
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "Please, merchant, we are thankful and prepared to pay well."
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "Very well. For a hundred dollars, I will sell you the cat."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "A hundred dollars? That is a large sum, but for peace at our table, it is worth it."
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "We agree. We will pay the hundred dollars."
+        },
+        {
+          "speaker": "LOCAL_HOST",
+          "text": "Here is the hundred dollars. Thank you for agreeing to sell her to us."
+        },
+        {
+          "speaker": "VILLAGER_REP",
+          "text": "You have our thanks and our gratitude. We will care for the cat and our meals will finally be peaceful."
+        },
+        {
+          "speaker": "MERCHANT",
+          "text": "Then the cat is yours. May she keep your tables free of mice."
+        },
+        {
+          "speaker": "SERVANT",
+          "text": "Farewell, good cat. Keep these people safe from the mice."
+        }
+      ],
+      "question": "In the conversation, which speaker most clearly takes on the role of the visiting merchant who proposes a solution to the mouse problem and negotiates the payment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The anxious villager who complains about the mice and asks for help."
+        },
+        {
+          "label": "B",
+          "text": "The hesitant local elder who worries about spending too much money."
+        },
+        {
+          "label": "C",
+          "text": "The grateful host who thanks the visitor repeatedly after the meal goes smoothly."
+        },
+        {
+          "label": "D",
+          "text": "The confident outsider who introduces a new animal, demonstrates how it works, and then names a price."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 93,
+      "id": "fqa210",
+      "dialog": [
+        {
+          "speaker": "Harold",
+          "text": "They all laugh at me, say I can't speak like you. Maybe this dagger will make them listen."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "Easy, brother. Put the dagger down. This isn't the way to prove yourself."
+        },
+        {
+          "speaker": "Harold",
+          "text": "They think I'm stupid because my words stumble. I want them to see I'm not weak."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "You're not weak. You're just not as quick with speeches, and that's all right."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "Charging in with a dagger will only make them fear you, not respect you."
+        },
+        {
+          "speaker": "Harold",
+          "text": "But I want them to respect me... I hate how they look at me."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "Listen, you have courage and a good heart. Let me do the talking when it matters, and you stand beside me."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "We do this together, peacefully."
+        },
+        {
+          "speaker": "Harold",
+          "text": "You really think that's enough?"
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "I know it is. Trust me. You're my brother, and I won't let anyone look down on you."
+        },
+        {
+          "speaker": "Harold",
+          "text": "Maybe you're right. My speaking is poor... I'd only make a fool of myself."
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "Exactly. There's no shame in letting me handle the words. Your strength is elsewhere."
+        },
+        {
+          "speaker": "Harold",
+          "text": "I'm sorry for shouting at you before. Can you forgive me?"
+        },
+        {
+          "speaker": "Stepbrother",
+          "text": "Of course. Come on, let's leave this tower and enjoy the night."
+        },
+        {
+          "speaker": "Harold",
+          "text": "Aye, let's go. I feel better already."
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "Morna, you've been weeping. Is it because I leave for Orphir tomorrow to prepare for the Yule feast?"
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "Yes... The thought of you riding away to Kirkwall's ships and then Orphir for weeks makes my heart ache."
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "I must go ahead of the court to see that everything is ready, but I do not leave you lightly."
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "When you are gone, these halls feel empty. I fear you will forget me among all the splendor and guests."
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "Forget you? Never. It is you I think of when I plan the feasts, you I wish beside me in Orphir."
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "Then why does it hurt so much to see you go?"
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "Because, Morna, I love you. I have carried this in my heart for long, and I can no longer be silent."
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "You... love me?"
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "With all my soul. Come to Orphir not as a guest, but as my wife. Morna, will you marry me?"
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "Paul, my heart has been yours for so long. Yes... yes, I will."
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "Then take comfort. I leave tomorrow, but I go to prepare a place for us both."
+        },
+        {
+          "speaker": "Earl Paul",
+          "text": "Soon, we shall stand together in Orphir as husband and wife."
+        },
+        {
+          "speaker": "Lady Morna",
+          "text": "I will wait for you, Paul, and think of your words whenever I feel the sorrow returning."
+        }
+      ],
+      "question": "Based on the conversation, considering his voice and behavior across the conversation, which description best fits Earl Paul's role and attitude?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He is the younger man whose voice shifts from angry and frustrated to joking and cheerful, but who never makes a proposal."
+        },
+        {
+          "label": "B",
+          "text": "He is the distressed noblewoman herself, sounding tearful and anxious rather than steady or reassuring."
+        },
+        {
+          "label": "C",
+          "text": "He is the noble Earl who is preparing to leave for Orphir and speaks in a warm, reassuring way as he confesses his love and proposes."
+        },
+        {
+          "label": "D",
+          "text": "He is the calm stepbrother who firmly but protectively talks his hot-headed sibling into calming down, without expressing romantic feelings."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "d7a5f1ac",
+      "idx": 83,
+      "id": "fqa175",
+      "dialog": [
+        {
+          "speaker": "Narrator",
+          "text": "In a distant green valley on the island of Hoy, there stands a massive rock, hollowed out within, that the people here call the Dwarfie Stone."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "A hollow rock with a name? Why do they call it the Dwarfie Stone?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "They say a dwarf named Snorro once lived inside that dark space in the stone, and that is why we still call it the Dwarfie Stone."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "Snorro… did people know much about him? Where he came from, how long he stayed there?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "That is part of the mystery."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "No one ever knew where Snorro came from, nor how many years he lived in the stone."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "He was already there before the oldest folk we can remember were born."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "What people did agree on was his strange appearance: a very small man, with a crooked, misshapen little body."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "That sounds rather sad."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "Was there anything remarkable about him besides that?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Oh, very much so."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "For all his twisted form, his face was of extraordinary beauty."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "It never seemed to age."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Always young, always smiling."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "Never aging? That sounds more like a tale than truth."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "How did they explain that?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "They said his father was a fairy, not a man of earth at all, and that this fairy father gave Snorro the gift of eternal youth."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "So people here truly believe his father was a fairy?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "We repeat the story, but we do not claim to know."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Snorro lived there long before even our grandparents’ grandparents, so no one can prove if that part is true."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Still, the legend of the fairy father and the ever‑young face has clung to the stone as tightly as the moss on its sides."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "And what about his mother? Was she also some kind of spirit?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "No, the tale says his mother was mortal, and from her he inherited something far less magical and far more dangerous: vanity and ambition."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "Dangerous? In what way? He just liked to look nice?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "More than that."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "The longer he lived, the prouder he became of that beautiful, unchanging face."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "His ambition grew with his years, though his face never showed them."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "With time, Snorro’s vanity and ambition swelled, even as his youthful smile never faded."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "I can almost picture him in that hollow stone, admiring himself."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "Did he do anything to feed that vanity?"
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Indeed he did."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Eventually he took to wearing a polished steel mirror around his neck, so he could gaze at his own handsome reflection whenever he wished."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "A mirror around his neck all the time? That does sound rather excessive."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "It was."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "We speak of it as a warning, really."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "Eternal youth and beauty are not much of a blessing if they turn a soul in upon itself."
+        },
+        {
+          "speaker": "Snorro",
+          "text": "Excessive? You say that because you have never seen a face like mine."
+        },
+        {
+          "speaker": "Snorro",
+          "text": "Imagine: a world that grows old around you while your own smile stays forever young."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "So you truly thought your reflection was that important?"
+        },
+        {
+          "speaker": "Snorro",
+          "text": "When one has a face that never ages, why not enjoy it?"
+        },
+        {
+          "speaker": "Snorro",
+          "text": "The mirror simply saved me the trouble of searching for a pool or a polished shield."
+        },
+        {
+          "speaker": "Snorro",
+          "text": "I carried my admiration with me."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "You hear the tone in his words."
+        },
+        {
+          "speaker": "Local Elder",
+          "text": "That is how the old ones described him: pleased with himself, wrapped up in his own beauty, and always reaching for more."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "And so the massive hollow rock in the green valley of Hoy kept its tenant and his legend: a twisted little body, an unaging smiling face, a fairy father perhaps, a mortal mother certainly, and a mirror that told him only what he wished to see."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "I see now why people still speak of him and of this stone."
+        },
+        {
+          "speaker": "Curious Visitor",
+          "text": "It is not just a strange dwelling, but a story about how beauty and ambition can twist a life, even when the face stays fair."
+        }
+      ],
+      "question": "In the conversation, what attitude does Snorro show toward his own appearance and legend when he speaks?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He seems anxious and defensive, insisting that people should stop talking about him at all."
+        },
+        {
+          "label": "B",
+          "text": "He speaks in a confident, amused way, enjoying the chance to boast about his beauty and reputation."
+        },
+        {
+          "label": "C",
+          "text": "He sounds embarrassed by the stories about him and downplays how he looks."
+        },
+        {
+          "label": "D",
+          "text": "He talks in a flat, uninterested tone, acting as if his looks and the legend mean nothing to him."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "subtask_id": "st_01",
+      "dataset_id": "1791970a",
+      "idx": 52,
+      "id": "cqa298",
+      "dialog": [
+        {
+          "speaker": "Host",
+          "text": "Welcome back to \"Silver Screen Memories.\" Today we begin on a very sad note: Shirley Temple Black has died at the age of 85."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "It is sad news. She wasn't just a child star, she was really THE child star, especially during the Great Depression."
+        },
+        {
+          "speaker": "Host",
+          "text": "I felt a real pang when I heard it. She was \"America's Little Darling\" for so many people, including my parents."
+        },
+        {
+          "speaker": "Host",
+          "text": "Why was she so important in those dark years?"
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "During the Great Depression, the country was going through some of its darkest days, and her shining smile and upbeat songs and dances gave people hope."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "When you saw her on screen, it felt like things might be all right again."
+        },
+        {
+          "speaker": "Host",
+          "text": "Those movies were everywhere for a while."
+        },
+        {
+          "speaker": "Host",
+          "text": "Remind us of some of the films that made her a superstar."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She sang and danced her way to the top of the box office in films like \"Bright Eyes,\" \"Curly Top,\" and \"Heidi.\""
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "By 1940, she had already appeared in 43 films, which is extraordinary for someone so young."
+        },
+        {
+          "speaker": "Host",
+          "text": "And she had that magical partnership on screen with Bill Robinson."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Yes, she teamed up with Bill Robinson in four movies."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Their staircase dance in \"The Little Colonel\" is still regarded as a legendary film moment."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "It captured the charm and precision that made her performances unforgettable."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can hear the audience smiling just thinking about it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Beyond the movies themselves, her name seemed to be everywhere in the 1930s."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Absolutely. In the 1930s, her name on a movie poster practically assured a packed house."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She inspired dolls, dresses, and dishes, and there was even a non-alcoholic drink named after her."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She was a full-blown cultural phenomenon."
+        },
+        {
+          "speaker": "Host",
+          "text": "That kind of impact is hard to wrap your mind around today."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even presidents noticed her."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "They did. President Franklin D. Roosevelt famously said, \"As long as our country has Shirley Temple, we will be all right.\""
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "That gives you a sense of how much comfort people drew from a child on screen."
+        },
+        {
+          "speaker": "Caller",
+          "text": "I just wanted to say, my grandmother kept one of those Shirley Temple dolls on her dresser her whole life."
+        },
+        {
+          "speaker": "Caller",
+          "text": "She always said that little girl helped her forget her troubles for a couple of hours."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you for sharing that; I feel the same way when I rewatch those films."
+        },
+        {
+          "speaker": "Host",
+          "text": "Of course, a lot of child stars today struggle badly as they grow up."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "That's true. Many modern child stars end up in the headlines for bad behavior, or struggling with drugs and alcohol."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Shirley Temple's story is very different."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She did not become known for scandals or self-destruction."
+        },
+        {
+          "speaker": "Host",
+          "text": "So what path did she take after the cameras stopped rolling and that first career wound down?"
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She moved into diplomacy and public service."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She served in a long second career that included presidential appointments, notably as the U.S. ambassador to Ghana."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She worked in public service for about 20 years, which is actually longer than her 19-year career in movies."
+        },
+        {
+          "speaker": "Host",
+          "text": "That always impresses me."
+        },
+        {
+          "speaker": "Host",
+          "text": "People doubted her at first, didn't they?"
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Many did, but she surprised them with her grace, her knowledge, and a real eagerness to serve."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "She proved she was far more than a former child star."
+        },
+        {
+          "speaker": "Host",
+          "text": "And yet, for all the titles and honors, I remember her saying her family roles mattered most."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Yes, she valued being a wife, mother, grandmother, and great-grandmother above all her public roles."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "That sense of groundedness is part of why her legacy feels so dignified."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hearing all of that, I feel like we've lost a part of Hollywood's heart."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "The world truly has lost a treasured Hollywood legend."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "But the consolation is that her movies will allow that little dynamic figure to go on charming audiences for a very long time."
+        },
+        {
+          "speaker": "Host",
+          "text": "I’ll be rewatching those stairs in \"The Little Colonel\" tonight, with a lump in my throat but also a smile."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks for helping us remember her today."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "It’s been an honor to talk about her."
+        },
+        {
+          "speaker": "Film Historian",
+          "text": "Her spirit lives on in every frame."
+        }
+      ],
+      "question": "In the conversation, what best describes how the person who opens and closes the show feels and speaks about Shirley Temple Black?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They sound personally moved and nostalgic, speaking with admiration and sadness about her passing and the impact she had."
+        },
+        {
+          "label": "B",
+          "text": "They sound detached and mostly critical, playing down her importance and openly questioning whether her legacy really matters."
+        },
+        {
+          "label": "C",
+          "text": "They seem largely indifferent, concentrating on show promotions and logistics and barely showing any emotion about her death."
+        },
+        {
+          "label": "D",
+          "text": "They treat the topic like a light joke, making fun of Shirley Temple Black instead of taking the discussion seriously."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "subtask_id": "st_04",
+      "dataset_id": "cbda7d4a",
+      "idx": 88,
+      "id": "mqa457",
+      "dialog": [
+        {
+          "speaker": "Alex",
+          "text": "I've been diving into this web of people and places linked to the Childers family, plus a few related Americans like Gretchen Osgood Warren and her husband Fiske Warren."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Those two—Gretchen and Fiske Warren—how do they fit into everything?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Gretchen Osgood Warren was an American actress, singer, and poet, and she was married to Fiske Warren."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Together they show how that whole transatlantic world of American and Irish writers and nationalists overlapped."
+        },
+        {
+          "speaker": "Carl",
+          "text": "So that couple is kind of the American doorway into the Childers circle."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Makes sense. I usually think of the Childers name in an Irish setting."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "There’s even a road over there named after one of them, isn’t there?"
+        },
+        {
+          "speaker": "Carl",
+          "text": "Yeah, there is. The R509 road that follows part of Childers Road in Limerick."
+        },
+        {
+          "speaker": "Carl",
+          "text": "That Childers Road is named after Erskine Childers."
+        },
+        {
+          "speaker": "Alex",
+          "text": "And that Erskine Childers is actually Robert Erskine Childers, the British writer and Fenian revolutionary."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "He’s the one who wrote the novel \"The Riddle of the Sands\", right?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Exactly. Robert Erskine Childers, often referred to just as Erskine Childers, wrote that spy novel and later threw himself into Irish revolutionary politics."
+        },
+        {
+          "speaker": "Carl",
+          "text": "That’s the guy who turned his fiction into reality."
+        },
+        {
+          "speaker": "Carl",
+          "text": "Didn’t he smuggle guns in a boat?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes, he did. He used his sailing yacht Asgard to smuggle weapons into Ireland."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Asgard is a 51-foot gaff-rigged yacht."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "So Asgard isn’t just a mythological term; it’s literally the yacht he used for gun‑running."
+        },
+        {
+          "speaker": "Carl",
+          "text": "I like how that writer, the revolutionary one, had both a famous book and that boat."
+        },
+        {
+          "speaker": "Carl",
+          "text": "He really lived the life he wrote about."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Speaking of his book, \"The Riddle of the Sands\"—wasn’t there also a movie based on it?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "There was."
+        },
+        {
+          "speaker": "Alex",
+          "text": "The novel was adapted into a film in 1979, an English spy thriller based on the same story."
+        },
+        {
+          "speaker": "Carl",
+          "text": "So you have two versions of that story: the book \"The Riddle of the Sands\" by Robert Erskine Childers, and then the 1979 film adaptation that turned it into a movie."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "When people say they like \"The Riddle of the Sands\", half the time I can’t tell whether they mean the book or the film."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yeah, it matters which one."
+        },
+        {
+          "speaker": "Alex",
+          "text": "The book is the original spy novel he wrote, and the film is that later thriller from 1979 that interprets it visually."
+        },
+        {
+          "speaker": "Carl",
+          "text": "And both of them, the story in print and the movie, keep that revolutionary novelist’s name alive, just like the road and the yacht do."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Speaking of the road, it’s funny that the same man—this gun‑runner and novelist—gets a route in Limerick named after him, while his yacht is what actually carried the weapons."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Right, so you’ve got that road, the R509 piece of Childers Road, commemorating him on land, and Asgard, the yacht he used, marking him at sea."
+        },
+        {
+          "speaker": "Carl",
+          "text": "When you say \"it\" in that context—sometimes I forget whether we’re talking about the road that carries cars or the boat that carried guns."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Here, I mean the boat."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "That yacht is the one that physically moved the weapons, whereas that road just bears his name."
+        },
+        {
+          "speaker": "Alex",
+          "text": "And both \"it\"s point back to Robert Erskine Childers: the road named for him and the yacht he sailed."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "And that’s only one branch of the wider family."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "What about the other people with the Childers surname?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "One important figure is Erskine Barton Childers."
+        },
+        {
+          "speaker": "Alex",
+          "text": "He was an Irish writer, a BBC correspondent, and later a senior civil servant at the United Nations."
+        },
+        {
+          "speaker": "Carl",
+          "text": "So this other Erskine, the UN one, did more media and international civil service work, compared to the earlier Erskine Childers, who was the novelist and Fenian revolutionary."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "The first Erskine is the gun‑runner and author; the later one is the media guy at the BBC and then a UN civil servant."
+        },
+        {
+          "speaker": "Alex",
+          "text": "And then there’s Robert Caesar Childers, who came earlier than both of those."
+        },
+        {
+          "speaker": "Alex",
+          "text": "He was a British Orientalist scholar."
+        },
+        {
+          "speaker": "Carl",
+          "text": "He’s the one who compiled a Pali‑English dictionary, right?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Robert Caesar Childers compiled the first Pali‑English dictionary, which was a major contribution to the study of Buddhist texts."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "So among the Childers men, you’ve got the linguist and Orientalist scholar, the revolutionary novelist, and the UN/media figure."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Not to mention the negotiator we haven’t mentioned yet."
+        },
+        {
+          "speaker": "Carl",
+          "text": "If someone just said \"the writer Childers\", you’d have to ask which one: the gun‑runner who wrote the spy novel, the UN one who wrote about international affairs, or even the dictionary compiler."
+        },
+        {
+          "speaker": "Alex",
+          "text": "True, but when I say \"the linguist\" I mean Robert Caesar Childers, and when I say \"the gun‑runner\" or \"the novelist\", that’s Robert Erskine Childers."
+        },
+        {
+          "speaker": "Alex",
+          "text": "If I talk about \"the UN one\", that’s Erskine Barton Childers."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "And Ireland keeps weaving through them—roads, boats, treaties, all tied to this cluster of people."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That’s where Robert Childers Barton comes in."
+        },
+        {
+          "speaker": "Alex",
+          "text": "He wasn’t a Childers by surname, but he’s closely associated with the same nationalist circles."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "What did Robert Childers Barton actually do?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "He was an Irish nationalist, a politician, and a farmer."
+        },
+        {
+          "speaker": "Alex",
+          "text": "He took part in the negotiations that led up to the signing of the Anglo‑Irish Treaty."
+        },
+        {
+          "speaker": "Carl",
+          "text": "So when you mention \"the negotiator\" in this group, you’re talking about him, not the UN one."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Yeah, that farmer‑politician is the one at the treaty talks, while the UN one is at international tables much later."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Robert Childers Barton is the treaty negotiator and farmer; Erskine Barton Childers is the BBC and UN figure; Robert Erskine Childers is the novelist and revolutionary; and Robert Caesar Childers is the Orientalist scholar."
+        },
+        {
+          "speaker": "Carl",
+          "text": "And then there’s the information side during the independence struggle—wasn’t there a publication connected to that era?"
+        },
+        {
+          "speaker": "Bianca",
+          "text": "You’re thinking of that bulletin, right?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes, the Irish Bulletin."
+        },
+        {
+          "speaker": "Alex",
+          "text": "The Irish Bulletin was the official gazette of the government of the Irish Republic."
+        },
+        {
+          "speaker": "Alex",
+          "text": "It played a major role in spreading information and propaganda during the struggle for independence."
+        },
+        {
+          "speaker": "Carl",
+          "text": "That publication must have intersected with a lot of these nationalist networks, even if it wasn’t run by any one of them alone."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "When you say \"that publication\" in this context, I automatically think of the Irish Bulletin, not the book or the film."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Same."
+        },
+        {
+          "speaker": "Alex",
+          "text": "The book is the spy novel, the film is the 1979 adaptation, and that bulletin is the official gazette."
+        },
+        {
+          "speaker": "Carl",
+          "text": "And we haven’t even gotten to Mary Alden Osgood Childers yet."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Right, she’s the other American in this story."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Mary Alden Osgood Childers, MBE, was an American‑born Irish writer and Irish nationalist."
+        },
+        {
+          "speaker": "Carl",
+          "text": "So she, like Gretchen Osgood Warren, had American roots but became deeply involved with Irish causes."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "When you say \"the American‑born writer\" in this circle, you could mean her, not Gretchen—even though Gretchen was also a writer and performer."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yeah, Gretchen Osgood Warren is the American actress, singer, and poet married to Fiske Warren, while Mary Alden Osgood Childers is the American‑born Irish writer and nationalist."
+        },
+        {
+          "speaker": "Carl",
+          "text": "It’s interesting how many of them were both writers and activists: Mary Alden Osgood Childers as the American‑born nationalist writer, Robert Erskine Childers as the novelist turned gun‑runner, Erskine Barton Childers in his media and UN role, and Gretchen Osgood Warren as a poet in that wider cultural world."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Plus the linguist, Robert Caesar Childers, who used his scholarship to open up Buddhist texts, and the farmer‑negotiator, Robert Childers Barton, who helped shape the treaty."
+        },
+        {
+          "speaker": "Alex",
+          "text": "And then the physical things—Asgard, that yacht he used; the R509 and Childers Road in Limerick, that route on land; and the 1979 film version of \"The Riddle of the Sands\"—all keep their names out in the world."
+        },
+        {
+          "speaker": "Carl",
+          "text": "Sometimes when you say \"it\" now, I need context: is \"it\" the road named after the gun‑runner, the boat he sailed, the film based on his book, or that bulletin that spread news of the struggle?"
+        },
+        {
+          "speaker": "Bianca",
+          "text": "In this moment, when I say \"it\" as a film, I mean the 1979 adaptation."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "When I say \"that book\", I mean the original novel he wrote."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "And \"that road\" is the one in Limerick bearing his name."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Right, and \"that boat\" or \"this yacht\" is Asgard."
+        },
+        {
+          "speaker": "Alex",
+          "text": "And \"that publication\" remains the Irish Bulletin."
+        },
+        {
+          "speaker": "Carl",
+          "text": "It’s wild how the Childers story stretches across so many things—roads and yachts, a book and its movie version, an official bulletin, and all these writers, revolutionaries, diplomats, scholars, and farmers."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Yeah, the names show up everywhere: in literature, on that yacht, in that film, on that road sign, inside that bulletin, and in the lives of people like Gretchen Osgood Warren, Fiske Warren, and Mary Alden Osgood Childers."
+        },
+        {
+          "speaker": "Bianca",
+          "text": "Tracking who \"he\" or \"she\" or \"it\" refers to ends up telling the whole story of their intertwined worlds."
+        }
+      ],
+      "question": "In the conversation, Bianca at one point contrasts Gretchen Osgood Warren with another person and refers to that other person as \"the American-born writer.\" Based only on what you hear in the conversation, which of the following individuals is Bianca referring to when she says \"the American-born writer\" in contrast to Gretchen Osgood Warren?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gretchen Osgood Warren, an American actress, singer, and poet married to Fiske Warren."
+        },
+        {
+          "label": "B",
+          "text": "Mary Alden Osgood Childers, an American-born Irish writer and Irish nationalist."
+        },
+        {
+          "label": "C",
+          "text": "Robert Erskine Childers, a British writer and Fenian revolutionary who wrote \"The Riddle of the Sands.\""
+        },
+        {
+          "label": "D",
+          "text": "Erskine Barton Childers, an Irish writer, BBC correspondent, and United Nations senior civil servant."
+        }
+      ],
+      "answer": "B"
+    }
+  ]
