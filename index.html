@@ -286,30 +286,22 @@ h2.grad{
   background:linear-gradient(135deg,var(--pb),#ede9fe);
 }
 
-.bm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:1.1rem}
-.bm-card{
-  background:#fff;border:1px solid var(--border);border-radius:var(--radius);
-  padding:1.35rem;box-shadow:var(--shadow);
-  transition:transform .2s,box-shadow .2s;
-  border-top:3px solid transparent;
-}
-.bm-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-.bm-card[data-m="t"]{border-top-color:var(--p2)}
-.bm-card[data-m="a"]{border-top-color:#ec4899}
-.bm-card[data-m="i"]{border-top-color:var(--g)}
-.bm-card[data-m="o"]{border-top-color:var(--a)}
-
+.bm-list{display:flex;flex-direction:column;gap:1.25rem}
+.bm-group-hd{display:flex;align-items:center;gap:.65rem;padding-bottom:.45rem;margin-bottom:.35rem;border-bottom:1px solid var(--border)}
+.bm-group-count{font-size:.75rem;color:var(--muted);font-weight:500}
+.bm-row{display:flex;align-items:center;gap:1rem;padding:.48rem .65rem;border-radius:7px;border:1px solid transparent;transition:background .15s,border-color .15s;flex-wrap:wrap}
+.bm-row:hover{background:rgba(255,255,255,.85);border-color:var(--border)}
+.bm-row-name{font-size:.875rem;font-weight:700;color:var(--text);min-width:210px;flex-shrink:0}
+.bm-row .st-wrap{flex:1;margin-top:0}
 .bm-tag{
   display:inline-block;font-size:.69rem;font-weight:700;
-  padding:.18rem .55rem;border-radius:100px;margin-bottom:.65rem;letter-spacing:.04em;
+  padding:.18rem .55rem;border-radius:100px;letter-spacing:.04em;
 }
 .tt{background:var(--pb);color:var(--p)}
 .ta{background:#fce7f3;color:#9d174d}
 .ti{background:var(--gl);color:#065f46}
 .to{background:var(--al);color:#92400e}
-.bm-card h4{font-size:.9rem;font-weight:700;margin-bottom:.38rem}
-.bm-card p{font-size:.79rem;color:var(--sub);line-height:1.5}
-.st-wrap{margin-top:.65rem;display:flex;flex-wrap:wrap;gap:.3rem}
+.st-wrap{display:flex;flex-wrap:wrap;gap:.3rem}
 .st{font-size:.71rem;padding:.17rem .5rem;border-radius:4px;background:var(--bg3);color:#52525b}
 
 /* showcase strip */
@@ -474,11 +466,21 @@ tbody td:first-child{text-align:left;font-weight:500}
 @media(max-width:760px){.chart-grid{grid-template-columns:1fr}}
 
 /* ─── EXAMPLES ───────────────────────────────────────── */
-.ex-tabs{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem}
-.ex-tab{padding:.45rem 1.1rem;border-radius:100px;border:2px solid rgba(215,220,255,.95);background:rgba(255,255,255,.82);font-size:.82rem;font-weight:600;cursor:pointer;transition:all .18s;color:var(--sub)}
-.ex-tab.active,.ex-tab:hover{border-color:var(--p2);color:var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe)}
-.ex-panel{display:none}
-.ex-panel.active{display:block;animation:fadeUp .3s ease}
+.ex-selectors{margin-bottom:1.8rem}
+.ex-sel-row{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.9rem}
+.ex-sel-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--sub);min-width:5rem}
+.ex-type-btns,.ex-bench-btns{display:flex;gap:.45rem;flex-wrap:wrap}
+.ex-type-btn,.ex-bench-btn{padding:.4rem 1rem;border-radius:100px;border:2px solid rgba(215,220,255,.95);background:rgba(255,255,255,.82);font-size:.82rem;font-weight:600;cursor:pointer;transition:all .18s;color:var(--sub)}
+.ex-type-btn.active,.ex-type-btn:hover,.ex-bench-btn.active,.ex-bench-btn:hover{border-color:var(--p2);color:var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe)}
+.ex-qnav{display:flex;align-items:center;justify-content:space-between;max-width:860px;margin:0 auto 1rem}
+.ex-qcounter{font-size:.84rem;font-weight:600;color:var(--sub)}
+.ex-next-btn{padding:.42rem 1.1rem;border-radius:100px;border:2px solid var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe);color:var(--p2);font-size:.82rem;font-weight:700;cursor:pointer;transition:all .18s}
+.ex-next-btn:hover{background:var(--p2);color:#fff}
+.ex-qnums{display:flex;gap:.28rem;flex-wrap:wrap;max-width:860px;margin:0 auto .8rem}
+.ex-qnum-btn{width:26px;height:26px;border-radius:50%;border:1.5px solid rgba(215,220,255,.95);background:rgba(255,255,255,.82);font-size:.72rem;font-weight:600;cursor:pointer;transition:all .15s;color:var(--sub);padding:0;line-height:1}
+.ex-qnum-btn.active{border-color:var(--p2);background:var(--p2);color:#fff}
+.ex-qnum-btn:hover:not(.active){border-color:var(--p2);color:var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe)}
+#exCardWrap{animation:fadeUp .3s ease}
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .ex-card{background:rgba(255,255,255,.86);border:1px solid rgba(215,220,255,.95);border-radius:var(--radius);padding:2rem;box-shadow:var(--shadow-lg);max-width:860px;margin:0 auto}
 .ex-tag{display:inline-block;font-size:.73rem;font-weight:700;padding:.25rem .75rem;border-radius:100px;margin-bottom:1.25rem;letter-spacing:.04em}
@@ -487,6 +489,9 @@ tbody td:first-child{text-align:left;font-weight:500}
 .ex-tag-i{background:var(--gl);color:#065f46}
 .ex-ctx{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem}
 .ex-ctx-title{font-size:.77rem;font-weight:700;color:var(--sub);margin-bottom:.85rem;letter-spacing:.03em}
+.ex-ctx-text{max-height:220px;overflow-y:auto;font-size:.80rem;line-height:1.7;color:var(--text);white-space:pre-wrap}
+.ex-ctx-text::-webkit-scrollbar{width:3px}
+.ex-ctx-text::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 .ex-passages{display:flex;flex-direction:column;gap:.7rem}
 .passage{font-size:.84rem;color:var(--text);line-height:1.65}
 .psrc{display:inline-block;font-size:.7rem;font-weight:700;background:var(--pb);color:var(--p);padding:.1rem .45rem;border-radius:4px;margin-right:.45rem;white-space:nowrap}
@@ -535,7 +540,7 @@ footer strong{color:var(--text)}
       <li><a href="#method">Method</a></li>
       <li><a href="#benchmarks">Benchmarks</a></li>
       <li><a href="#results">Results</a></li>
-      <li><a href="#findings">Findings</a></li>
+      <!-- <li><a href="#findings">Findings</a></li> -->
       <!-- <li><a href="#citation">Citation</a></li> -->
     </ul>
   </div>
@@ -664,7 +669,7 @@ footer strong{color:var(--text)}
       <span class="fp fp-out">📊 Benchmark Ready</span>
     </div>
 
-    <div style="width:88%;max-width:980px;margin:2.5rem auto;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow-lg)">
+    <div style="width:76%;max-width:1040px;margin:2rem auto;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow-lg)">
       <img src="images/method_2.png" alt="BenchmarkAgent system architecture: Benchmark Planner and Benchmark Executer" style="width:100%;display:block">
     </div>
 
@@ -769,178 +774,55 @@ footer strong{color:var(--text)}
       <button class="tab-btn" onclick="filter(this,'o')">🌐 Omni (1)</button>
     </div>
 
-    <div class="bm-grid" id="bmGrid">
+    <div class="bm-list" id="bmGrid">
       <!-- TEXT ×4 -->
-      <div class="bm-card" data-m="t">
-        <span class="bm-tag tt">Text-Only</span>
-        <h4>Multi-Perspective Comprehension</h4>
-        <p>Integrating multiple narrative accounts of the same event and reasoning in a viewpoint-aware way.</p>
-        <div class="st-wrap">
-          <span class="st">Core Event Reconstruction</span>
-          <span class="st">Bias &amp; Reliability Assessment</span>
-          <span class="st">Latent Property Inference</span>
+      <div class="bm-group" data-g="t">
+        <div class="bm-group-hd">
+          <span class="bm-tag tt">📝 Text-Only</span>
+          <span class="bm-group-count">4 benchmarks</span>
         </div>
-      </div>
-      <div class="bm-card" data-m="t">
-        <span class="bm-tag tt">Text-Only</span>
-        <h4>Multilingual Understanding</h4>
-        <p>Cross-lingual reasoning where evidence is scattered across different languages within a single problem.</p>
-        <div class="st-wrap">
-          <span class="st">Cross-Lingual Fact Integration</span>
-          <span class="st">Logical Consistency Check</span>
-          <span class="st">Multi-Hop Entity Reasoning</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="t">
-        <span class="bm-tag tt">Text-Only</span>
-        <h4>Long-Dialog Reasoning</h4>
-        <p>Reasoning over multi-speaker text dialogues, integrating information distributed across turns and speakers.</p>
-        <div class="st-wrap">
-          <span class="st">Cross-Turn Integration</span>
-          <span class="st">Perspective Consistency</span>
-          <span class="st">Event Reconstruction</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="t">
-        <span class="bm-tag tt">Text-Only</span>
-        <h4>Mathematical Reasoning</h4>
-        <p>Complex multi-step mathematical problem solving and formal logical deduction in pure text format.</p>
-        <div class="st-wrap">
-          <span class="st">Multi-Step Derivation</span>
-          <span class="st">Formal Logic Reasoning</span>
-          <span class="st">Proof Verification</span>
-        </div>
+        <div class="bm-row" data-m="t"><span class="bm-row-name">Multi-Perspective Comprehension</span><div class="st-wrap"><span class="st">Core Event Reconstruction</span><span class="st">Bias &amp; Reliability Assessment</span><span class="st">Latent Property Inference</span></div></div>
+        <div class="bm-row" data-m="t"><span class="bm-row-name">Multilingual Understanding</span><div class="st-wrap"><span class="st">Cross-Lingual Fact Integration</span><span class="st">Logical Consistency Check</span><span class="st">Multi-Hop Entity Reasoning</span></div></div>
+        <div class="bm-row" data-m="t"><span class="bm-row-name">Long-Dialog Reasoning</span><div class="st-wrap"><span class="st">Cross-Turn Integration</span><span class="st">Perspective Consistency</span><span class="st">Event Reconstruction</span></div></div>
+        <div class="bm-row" data-m="t"><span class="bm-row-name">Mathematical Reasoning</span><div class="st-wrap"><span class="st">Multi-Step Derivation</span><span class="st">Formal Logic Reasoning</span><span class="st">Proof Verification</span></div></div>
       </div>
 
       <!-- AUDIO ×4 -->
-      <div class="bm-card" data-m="a">
-        <span class="bm-tag ta">Audio</span>
-        <h4>Audio-Based Reasoning</h4>
-        <p>Understanding and reasoning over multi-speaker audio conversations — integrating information across speakers and turns in real-world speech.</p>
-        <div class="st-wrap">
-          <span class="st">Speaker Role Identification</span>
-          <span class="st">Implicit Constraint Inference</span>
-          <span class="st">Causal &amp; Temporal Reasoning</span>
+      <div class="bm-group" data-g="a">
+        <div class="bm-group-hd">
+          <span class="bm-tag ta">🎵 Audio</span>
+          <span class="bm-group-count">4 benchmarks</span>
         </div>
-      </div>
-      <div class="bm-card" data-m="a">
-        <span class="bm-tag ta">Audio</span>
-        <h4>Multilingual Audio Understanding</h4>
-        <p>Comprehension of mixed-language speech conversations, requiring cross-turn and cross-language reasoning.</p>
-        <div class="st-wrap">
-          <span class="st">Multilingual Intent Recognition</span>
-          <span class="st">Role Tracking (Mixed-Language)</span>
-          <span class="st">Cross-Language Multi-Hop</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="a">
-        <span class="bm-tag ta">Audio</span>
-        <h4>Noise Robustness</h4>
-        <p>Understanding multi-speaker speech in noisy real-world environments — tracking speakers and extracting key information under interference.</p>
-        <div class="st-wrap">
-          <span class="st">Speaker Count in Noise</span>
-          <span class="st">Target Speaker Following</span>
-          <span class="st">Key Information Extraction</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="a">
-        <span class="bm-tag ta">Audio</span>
-        <h4>Audio General Comprehension</h4>
-        <p>Broad audio understanding covering speaker intent, sentiment analysis, and factual content extraction from spoken content.</p>
-        <div class="st-wrap">
-          <span class="st">Speaker Intent Understanding</span>
-          <span class="st">Sentiment Recognition</span>
-          <span class="st">Factual Extraction</span>
-        </div>
+        <div class="bm-row" data-m="a"><span class="bm-row-name">Audio-Based Reasoning</span><div class="st-wrap"><span class="st">Speaker Role Identification</span><span class="st">Implicit Constraint Inference</span><span class="st">Causal &amp; Temporal Reasoning</span></div></div>
+        <div class="bm-row" data-m="a"><span class="bm-row-name">Multilingual Audio Understanding</span><div class="st-wrap"><span class="st">Multilingual Intent Recognition</span><span class="st">Role Tracking (Mixed-Language)</span><span class="st">Cross-Language Multi-Hop</span></div></div>
+        <div class="bm-row" data-m="a"><span class="bm-row-name">Noise Robustness</span><div class="st-wrap"><span class="st">Speaker Count in Noise</span><span class="st">Target Speaker Following</span><span class="st">Key Information Extraction</span></div></div>
+        <div class="bm-row" data-m="a"><span class="bm-row-name">Audio General Comprehension</span><div class="st-wrap"><span class="st">Speaker Intent Understanding</span><span class="st">Sentiment Recognition</span><span class="st">Factual Extraction</span></div></div>
       </div>
 
       <!-- IMAGE-TEXT ×6 -->
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Art Reasoning</h4>
-        <p>Inferring the historical period of an artwork from visual information alone, requiring deep art-historical and cultural knowledge.</p>
-        <div class="st-wrap">
-          <span class="st">Artwork Period Identification</span>
+      <div class="bm-group" data-g="i">
+        <div class="bm-group-hd">
+          <span class="bm-tag ti">🖼️ Image-Text</span>
+          <span class="bm-group-count">6 benchmarks</span>
         </div>
-      </div>
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Medical Reasoning</h4>
-        <p>Genuine medical diagnosis through multi-step reasoning over medical imaging — identifying abnormalities and distinguishing diseases despite subtle findings and distractors.</p>
-        <div class="st-wrap">
-          <span class="st">Differential Diagnosis</span>
-          <span class="st">Key Finding Under Distractors</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Animal Recognition</h4>
-        <p>Fine-grained visual categorization of dog breeds and bird species, requiring models to distinguish visually similar classes using subtle cues.</p>
-        <div class="st-wrap">
-          <span class="st">Dog Breed Identification</span>
-          <span class="st">Bird Species Identification</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Geography Reasoning</h4>
-        <p>Recognizing regions from base maps and answering historical questions through multi-step reasoning about territorial change and cultural identity.</p>
-        <div class="st-wrap">
-          <span class="st">Regional Localization</span>
-          <span class="st">Territorial Change Reasoning</span>
-          <span class="st">Cultural-Historical Identity</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Math Reasoning (Visual)</h4>
-        <p>Multimodal mathematical problem solving requiring models to interpret diagrams, equations, and visual mathematical content.</p>
-        <div class="st-wrap">
-          <span class="st">Visual Math Solving</span>
-          <span class="st">Multi-Step Derivation</span>
-        </div>
-      </div>
-      <div class="bm-card" data-m="i">
-        <span class="bm-tag ti">Image-Text</span>
-        <h4>Code Understanding</h4>
-        <p>Evaluating code comprehension from visual representations — understanding logic flow, identifying bugs, and tracing execution paths.</p>
-        <div class="st-wrap">
-          <span class="st">Code Logic Understanding</span>
-          <span class="st">Bug Identification</span>
-          <span class="st">Execution Tracing</span>
-        </div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Art Reasoning</span><div class="st-wrap"><span class="st">Artwork Period Identification</span><span class="st">Style &amp; Technique Analysis</span><span class="st">Cultural Context Inference</span></div></div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Medical Reasoning</span><div class="st-wrap"><span class="st">Differential Diagnosis</span><span class="st">Key Finding Under Distractors</span><span class="st">Multi-Step Clinical Reasoning</span></div></div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Animal Recognition</span><div class="st-wrap"><span class="st">Dog Breed Identification</span><span class="st">Bird Species Identification</span><span class="st">Fine-Grained Visual Distinction</span></div></div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Geography Reasoning</span><div class="st-wrap"><span class="st">Regional Localization</span><span class="st">Territorial Change Reasoning</span><span class="st">Cultural-Historical Identity</span></div></div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Math Reasoning (Visual)</span><div class="st-wrap"><span class="st">Visual Math Solving</span><span class="st">Multi-Step Derivation</span><span class="st">Diagram Interpretation</span></div></div>
+        <div class="bm-row" data-m="i"><span class="bm-row-name">Code Understanding</span><div class="st-wrap"><span class="st">Code Logic Understanding</span><span class="st">Bug Identification</span><span class="st">Execution Tracing</span></div></div>
       </div>
 
       <!-- OMNI ×1 -->
-      <div class="bm-card" data-m="o">
-        <span class="bm-tag to">Omni</span>
-        <h4>Omni-Understanding</h4>
-        <p>Simultaneous understanding and integration of audio, image, and text modalities in unified tasks requiring holistic cross-modal reasoning.</p>
-        <div class="st-wrap">
-          <span class="st">Cross-Modal Integration</span>
-          <span class="st">Audio-Visual Alignment</span>
-          <span class="st">Holistic Multi-Modal Reasoning</span>
+      <div class="bm-group" data-g="o">
+        <div class="bm-group-hd">
+          <span class="bm-tag to">🌐 Omni</span>
+          <span class="bm-group-count">1 benchmark</span>
         </div>
+        <div class="bm-row" data-m="o"><span class="bm-row-name">Omni-Understanding</span><div class="st-wrap"><span class="st">Cross-Modal Integration</span><span class="st">Audio-Visual Alignment</span><span class="st">Holistic Multi-Modal Reasoning</span></div></div>
       </div>
     </div>
 
-    <!-- Art benchmark showcase -->
-    <div class="showcase">
-      <div class="showcase-img">
-        <img src="images/benchmark_art.jpg" alt="Art Reasoning Benchmark Sample" loading="lazy">
-      </div>
-      <div class="showcase-body">
-        <h3>Sample: Art Reasoning Benchmark</h3>
-        <p>Each benchmark sample presents the model with an artwork image and asks it to infer the historical period using only visual information — artistic style, technique, subject matter, and compositional conventions. The model must connect visual observations to historical art knowledge without relying on metadata or textual clues.</p>
-        <p>This benchmark tests a capability largely absent from existing general-purpose VQA benchmarks, yet essential for culturally grounded, user-centric applications.</p>
-        <div class="showcase-tags">
-          <span class="s-tag">🖼️ Visual-Only Input</span>
-          <span class="s-tag">🎨 Art History</span>
-          <span class="s-tag">📅 Period Identification</span>
-          <span class="s-tag">🔍 Fine-Grained Perception</span>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -953,149 +835,34 @@ footer strong{color:var(--text)}
       <p class="sec-desc">Real samples generated by BenchmarkAgent — click an option to see whether you got it right.</p>
     </div>
 
-    <div class="ex-tabs">
-      <button class="ex-tab active" data-idx="0">📝 Multi-Perspective</button>
-      <button class="ex-tab" data-idx="1">🎵 Audio Reasoning</button>
-      <button class="ex-tab" data-idx="2">🌐 Multilingual</button>
-      <button class="ex-tab" data-idx="3">🖼️ Art Reasoning</button>
-      <button class="ex-tab" data-idx="4">🩺 Medical</button>
-      <button class="ex-tab" data-idx="5">🔊 Noise Robustness</button>
-    </div>
-
-    <!-- Panel 0: Multi-Perspective -->
-    <div class="ex-panel active" data-panel="0">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-t">Text-Only · Multi-Perspective Comprehension</div>
-        <div class="ex-ctx">
-          <div class="ex-ctx-title">📄 Context — Three accounts of the same event</div>
-          <div class="ex-passages">
-            <div class="passage"><span class="psrc">Account A (Merchant)</span>"The council's sudden levy on imported silks without prior notice devastated our business. We had contracts already signed and ships en route when the edict came into force."</div>
-            <div class="passage"><span class="psrc">Account B (Council Official)</span>"The textile guild had lobbied for years about foreign competition undercutting local craftsmen. The levy was a measured response to protect domestic industry and preserve employment."</div>
-            <div class="passage"><span class="psrc">Account C (Foreign Envoy)</span>"Our delegation attempted to negotiate tariff reforms for six months before the unilateral imposition. The levy appears to violate clauses in the existing bilateral treaty."</div>
-          </div>
+    <!-- Type + Benchmark selectors -->
+    <div class="ex-selectors">
+      <div class="ex-sel-row">
+        <span class="ex-sel-label">Type</span>
+        <div class="ex-type-btns" id="exTypeBtns">
+          <button class="ex-type-btn active" data-type="text">📝 Text-Only</button>
+          <button class="ex-type-btn" data-type="audio">🎵 Audio</button>
+          <button class="ex-type-btn" data-type="image">🖼️ Image-Text</button>
+          <button class="ex-type-btn" data-type="omni">🌐 Omni</button>
         </div>
-        <div class="ex-q">Which statement best identifies the primary source of disagreement across <em>all three</em> accounts?</div>
-        <div class="ex-opts" data-correct="1">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;The foreign silk was of inferior quality compared to local production.</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;The levy was imposed without adequate advance notice or consultation.</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;The textile guild had insufficient political influence over the council.</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;Foreign merchants had previously violated existing trade agreements.</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: B</strong><br>All three accounts converge on procedural surprise: the merchant had in-flight contracts, the envoy notes six months of failed negotiation attempts, and even the council official frames it as unilateral action. Options A, C, D are not supported by any of the three accounts.</div>
+      </div>
+      <div class="ex-sel-row">
+        <span class="ex-sel-label">Benchmark</span>
+        <div class="ex-bench-btns" id="exBenchBtns"></div>
       </div>
     </div>
 
-    <!-- Panel 1: Audio Reasoning -->
-    <div class="ex-panel" data-panel="1">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-a">Audio · Multi-Speaker Reasoning</div>
-        <div class="ex-ctx">
-          <div class="ex-ctx-title">🎙️ Transcript — Board Meeting (spoken audio input)</div>
-          <div class="ex-transcript">
-            <div class="tline"><span class="spk spk-a">Speaker A</span>"If we proceed with the merger before Q3, we'll need sign-off from at least three board members. That's non-negotiable."</div>
-            <div class="tline"><span class="spk spk-b">Speaker B</span>"Right — and given that Martinez is on sabbatical, realistically we're working with a smaller pool. But I think we can still make the timeline if legal moves quickly."</div>
-            <div class="tline"><span class="spk spk-c">Speaker C</span>"Legal has flagged the IP clause. That alone could push the whole thing to Q4."</div>
-          </div>
-        </div>
-        <div class="ex-q">What implicit constraint does Speaker B acknowledge in this exchange?</div>
-        <div class="ex-opts" data-correct="1">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;The merger cannot proceed without Martinez's direct approval.</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;The effective pool for board sign-offs is reduced due to an absence.</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;Legal approval is not required to establish board quorum.</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;Three board members have already committed to the merger.</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: B</strong><br>Speaker B says "working with a smaller pool" — implicitly acknowledging Martinez's sabbatical reduces available board members. Option A incorrectly states Martinez's direct approval is <em>required</em>; the correct reading is that his absence <em>reduces</em> the pool.</div>
-      </div>
+    <!-- Navigation -->
+    <div class="ex-qnav">
+      <span class="ex-qcounter" id="exCounter">1 / 20</span>
+      <button class="ex-next-btn" id="exNextBtn">Next Question →</button>
     </div>
 
-    <!-- Panel 2: Multilingual -->
-    <div class="ex-panel" data-panel="2">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-t">Text-Only · Cross-Lingual Multi-Hop Reasoning</div>
-        <div class="ex-ctx">
-          <div class="ex-ctx-title">🌐 Context — Evidence scattered across three languages</div>
-          <div class="ex-passages">
-            <div class="passage"><span class="psrc">English</span>"The summit concluded with a joint declaration emphasizing cooperation on maritime boundaries and resource allocation."</div>
-            <div class="passage"><span class="psrc">Français</span>"Le ministre a déclaré que les négociations portaient principalement sur les ressources sous-marines et les droits d'extraction."</div>
-            <div class="passage"><span class="psrc">中文</span>"根据联合声明，两国将在接下来六个月内完成海洋边界线的最终划定。"</div>
-          </div>
-        </div>
-        <div class="ex-q">Integrating all three passages, what can be most accurately inferred?</div>
-        <div class="ex-opts" data-correct="1">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;The summit failed due to disagreements over submarine resource rights.</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;Both nations agreed to finalize maritime boundaries within six months, focusing on subsea resources.</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;Only submarine extraction rights were discussed; boundary lines were not addressed.</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;The boundary demarcation would take at least one year to complete.</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: B</strong><br>English → cooperation on maritime boundaries; French → focus on subsea resources; Chinese → finalization within six months. Only B synthesizes all three correctly. C ignores boundary demarcation; D contradicts the six-month timeline in the Chinese passage.</div>
-      </div>
-    </div>
+    <!-- Question number picker -->
+    <div class="ex-qnums" id="exQNums"></div>
 
-    <!-- Panel 3: Art Reasoning -->
-    <div class="ex-panel" data-panel="3">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-i">Image-Text · Art Reasoning</div>
-        <div class="ex-img-wrap">
-          <img src="images/benchmark_art.jpg" alt="Artwork sample for period identification" loading="lazy">
-        </div>
-        <div class="ex-q">Based <em>solely</em> on the visual characteristics of this artwork — technique, brushwork, style, and compositional conventions — which historical period does it most likely originate from?</div>
-        <div class="ex-opts" data-correct="1">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;Northern Renaissance (15th–16th century)</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;Dutch Golden Age (17th century)</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;French Rococo (18th century)</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;Romanticism (early 19th century)</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: B — Dutch Golden Age (17th century)</strong><br>Key visual cues include the realistic portraiture, dramatic chiaroscuro (light-shadow contrast), dark neutral background with focused illumination, and precise rendering of surface textures — hallmarks of Dutch masters such as Rembrandt and Hals.</div>
-      </div>
-    </div>
-
-    <!-- Panel 4: Medical -->
-    <div class="ex-panel" data-panel="4">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-i">Image-Text · Medical Reasoning</div>
-        <div class="ex-ctx">
-          <div class="ex-ctx-title">🩺 Clinical Scenario (with chest X-ray input)</div>
-          <div class="finding"><span class="finding-lbl">Imaging</span>Bilateral lower lobe opacities; ground-glass pattern in perihilar regions; Kerley B lines near right costophrenic angle.</div>
-          <div class="finding"><span class="finding-lbl">History</span>68-year-old male; acute dyspnea onset over 48 hours; known hypertension and reduced left ventricular ejection fraction (EF 35%).</div>
-          <div class="finding"><span class="finding-lbl">Vitals</span>BP 158/94, RR 22/min, SpO₂ 91% on room air.</div>
-        </div>
-        <div class="ex-q">Which diagnosis most accurately accounts for <em>all</em> observed imaging findings and the clinical context?</div>
-        <div class="ex-opts" data-correct="1">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;Community-acquired pneumonia with reactive pleural effusion.</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;Acute pulmonary edema secondary to left heart failure.</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;Interstitial lung disease with subacute fibrotic progression.</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;Bilateral pneumothorax with compensatory mediastinal shift.</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: B</strong><br>Bilateral perihilar ground-glass opacities + Kerley B lines are classic signs of elevated pulmonary capillary wedge pressure (cardiogenic edema). Reduced EF (35%) and hypertension directly support left heart failure. CAP shows focal consolidation; ILD progresses over months; pneumothorax shows pleural separation, not opacities.</div>
-      </div>
-    </div>
-
-    <!-- Panel 5: Noise Robustness -->
-    <div class="ex-panel" data-panel="5">
-      <div class="ex-card">
-        <div class="ex-tag ex-tag-a">Audio · Noise Robustness</div>
-        <div class="ex-ctx">
-          <div class="ex-ctx-title">🔊 Transcript — Noisy public environment (audio input)</div>
-          <div class="ex-transcript noise-ctx">
-            <div class="tline noise-mark">[Background crowd noise begins]</div>
-            <div class="tline"><span class="spk spk-a">Speaker A</span>"So the project handoff is... [noise burst] ...on <strong>Thursday</strong>. Room 4B in the Annex building."</div>
-            <div class="tline"><span class="spk spk-b">Speaker B</span>"Sorry — Room 4B or 4D? The noise here is—"</div>
-            <div class="tline noise-mark">[Loud PA announcement]</div>
-            <div class="tline"><span class="spk spk-a">Speaker A</span>"Room 4B. Fourth floor, <em>east wing</em>. Bring the design files and the sign-off sheet."</div>
-            <div class="tline"><span class="spk spk-b">Speaker B</span>"Got it. Client attending or just internal?"</div>
-            <div class="tline"><span class="spk spk-a">Speaker A</span>"[static] — just internal this time."</div>
-          </div>
-        </div>
-        <div class="ex-q">What is the confirmed meeting location and attendee scope per Speaker A's <em>clarified</em> statement?</div>
-        <div class="ex-opts" data-correct="2">
-          <button class="ex-opt" data-i="0">A&nbsp;&nbsp;Room 4D, west wing; both internal team and client attending.</button>
-          <button class="ex-opt" data-i="1">B&nbsp;&nbsp;Room 4B, west wing; internal team only.</button>
-          <button class="ex-opt" data-i="2">C&nbsp;&nbsp;Room 4B, east wing; internal team only.</button>
-          <button class="ex-opt" data-i="3">D&nbsp;&nbsp;Room 4D, east wing; client attending.</button>
-        </div>
-        <div class="ex-explain" style="display:none"><strong>✅ Correct: C</strong><br>Speaker A's clarifying statement explicitly says "Room 4B. Fourth floor, east wing." and confirms "just internal this time." The benchmark tests whether the model can extract the target speaker's disambiguating statements while ignoring noise, the PA interruption, and the initial ambiguous utterance.</div>
-      </div>
-    </div>
+    <!-- Card rendered by JS -->
+    <div id="exCardWrap"></div>
 
   </div>
 </section>
@@ -1162,7 +929,7 @@ footer strong{color:var(--text)}
       </table>
     </div>
 
-    <!-- MLLM Performance Chart -->
+    <!-- MLLM Performance Chart
     <div class="chart-wrap">
       <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.4rem">MLLM Performance on Image-Text Benchmarks</h3>
       <p style="color:var(--sub);font-size:.84rem;margin-bottom:1rem">Grouped by model family. Within each group, bars show performance at different scales (~3-4B / ~7-8B / ~32B). Commercial models (Gemini-3-Pro, GPT-5.2) shown separately. Switch domain to compare across benchmark types.</p>
@@ -1176,10 +943,10 @@ footer strong{color:var(--text)}
         <button class="ctab" data-domain="code">Code</button>
       </div>
       <div class="chart-canvas-wrap" style="height:320px"><canvas id="modelChart"></canvas></div>
-    </div>
+    </div> -->
 
     <!-- Ablation -->
-    <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">Ablation Study — Component Contributions</h3>
+    <!-- <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">Ablation Study — Component Contributions</h3>
     <p style="color:var(--sub);font-size:.84rem;margin-bottom:1.2rem">Full BenchmarkAgent achieves the best overall score across all three benchmarks. Removing any component leads to a measurable quality drop.</p>
     <div class="tbl-wrap">
       <table>
@@ -1210,85 +977,10 @@ footer strong{color:var(--text)}
           <tr><td>w/o Verification</td><td>74.41</td><td>99.15</td><td>89.55</td><td>64.96</td><td>64.75</td><td>47.75</td><td>71.21</td></tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
   </div>
 </section>
 
-<!-- ══════════ COST ══════════ -->
-<section class="alt">
-  <div class="container">
-    <div class="sec-head">
-      <div class="badge"><i class="fas fa-bolt"></i>&nbsp;Efficiency</div>
-      <h2 class="grad">Cost Analysis</h2>
-      <p class="sec-desc">BenchmarkAgent produces 3× more samples in less than half the time — without continuous expert participation.</p>
-    </div>
-    <div class="cost-grid">
-      <div class="cost-card">
-        <div class="cost-ico">👤</div>
-        <div class="cost-title">Human Annotation</div>
-        <div class="cost-row"><div class="cost-val" style="color:var(--r)">100 samples / 2 h</div><div class="cost-lbl">Audio-based reasoning</div></div>
-        <div class="cost-row"><div class="cost-val" style="color:var(--r)">100 samples / 1 h</div><div class="cost-lbl">Art-based understanding</div></div>
-        <p style="margin-top:1rem;font-size:.79rem;color:var(--sub)">Requires continuous expert involvement. Limited scalability for rapid benchmark updates.</p>
-      </div>
-      <div class="cost-card ours">
-        <div class="cost-ico">🤖</div>
-        <div class="cost-title">BenchmarkAgent</div>
-        <div class="cost-row"><div class="cost-val">300 samples / 40 min</div><div class="cost-lbl">Audio-based reasoning</div></div>
-        <div class="cost-row"><div class="cost-val">300 samples / 30 min</div><div class="cost-lbl">Art-based understanding</div></div>
-        <p style="margin-top:1rem;font-size:.79rem;color:var(--sub)">Largely automated once deployed. Negligible marginal cost for subsequent iterations.</p>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:2rem">
-      <div class="speed-badge" style="display:inline-flex">
-        <span class="speed-num">~10×</span>
-        <span class="speed-txt">&nbsp;faster throughput<br>3× more samples per unit time</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════ FINDINGS ══════════ -->
-<section id="findings">
-  <div class="container">
-    <div class="sec-head">
-      <div class="badge"><i class="fas fa-magnifying-glass-chart"></i>&nbsp;Findings</div>
-      <h2 class="grad">Key Findings</h2>
-      <p class="sec-desc">Holistic evaluation across 15 benchmarks surfaces several significant observations about current LLMs and MLLMs.</p>
-    </div>
-    <div class="find-grid">
-      <div class="find-card">
-        <div class="find-n">FINDING 01</div>
-        <h3>Unbalanced Domain Performance</h3>
-        <p>MLLMs show heavily unbalanced performance across domains. Qwen3-VL-32B reaches 94.97 on Geography and 84.83 on Math, yet only 64.89 on Art — a 30-point gap within the same model at the same scale.</p>
-      </div>
-      <div class="find-card" style="border-left-color:var(--c)">
-        <div class="find-n" style="color:var(--c)">FINDING 02</div>
-        <h3>Fine-Grained Visual Gap</h3>
-        <p>Models consistently underperform on fine-grained tasks (art, animal recognition). This likely reflects architectural or training-data limitations preventing models from capturing subtle visual details.</p>
-      </div>
-      <div class="find-card" style="border-left-color:var(--g)">
-        <div class="find-n" style="color:var(--g)">FINDING 03</div>
-        <h3>Scaling Trends Preserved</h3>
-        <p>Generated benchmarks reliably reflect model scaling laws — Qwen3.5 improves monotonically from 2B→27B on all three applicable benchmarks, validating discriminative power.</p>
-      </div>
-      <div class="find-card" style="border-left-color:var(--a)">
-        <div class="find-n" style="color:var(--a)">FINDING 04</div>
-        <h3>Agentic Workflow is Essential</h3>
-        <p>Direct LLM generation achieves far lower UIA, TSD, and SSC scores. Even the strongest backbone models can generate well-formed samples but cannot preserve user intent without the agent workflow.</p>
-      </div>
-      <div class="find-card" style="border-left-color:#ec4899">
-        <div class="find-n" style="color:#ec4899">FINDING 05</div>
-        <h3>Backbone-Agnostic Quality</h3>
-        <p>Replacing the backbone LLM (Qwen3.5 ↔ GPT-5.4 ↔ Claude ↔ Gemini) keeps overall scores within a narrow band, confirming that the structured pipeline — not the model choice — drives reliability.</p>
-      </div>
-      <div class="find-card" style="border-left-color:var(--r)">
-        <div class="find-n" style="color:var(--r)">FINDING 06</div>
-        <h3>Benchmarks Remain Challenging</h3>
-        <p>Model failures are primarily due to genuinely indistinguishable answers, not annotation errors. Human verification confirms 96–98% correctness — the challenge is real, not a labeling artifact.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ══════════ FOOTER ══════════ -->
 <footer>
@@ -1308,8 +1000,8 @@ footer strong{color:var(--text)}
 function filter(btn, m) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  document.querySelectorAll('.bm-card').forEach(c => {
-    c.style.display = (m === 'all' || c.dataset.m === m) ? '' : 'none';
+  document.querySelectorAll('.bm-group').forEach(g => {
+    g.style.display = (m === 'all' || g.dataset.g === m) ? '' : 'none';
   });
 }
 
@@ -1578,31 +1270,175 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
 // ══ END CHARTS ══════════════════════════════════════════
 
 // ── Interactive examples ──
-document.querySelectorAll('.ex-tab').forEach(function(tab) {
-  tab.addEventListener('click', function() {
-    var idx = tab.dataset.idx;
-    document.querySelectorAll('.ex-tab').forEach(function(t){ t.classList.remove('active'); });
-    document.querySelectorAll('.ex-panel').forEach(function(p){ p.classList.remove('active'); });
-    tab.classList.add('active');
-    var panel = document.querySelector('.ex-panel[data-panel="' + idx + '"]');
-    if (panel) panel.classList.add('active');
-  });
-});
-document.querySelectorAll('.ex-opts').forEach(function(opts) {
-  var correct = parseInt(opts.dataset.correct);
-  opts.querySelectorAll('.ex-opt').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var chosen = parseInt(btn.dataset.i);
-      opts.querySelectorAll('.ex-opt').forEach(function(b) {
-        b.disabled = true;
-        if (parseInt(b.dataset.i) === correct) { b.classList.add('correct'); }
-        else if (parseInt(b.dataset.i) === chosen) { b.classList.add('wrong'); }
+(function() {
+  var Q = {
+    multiPerspective: [], // populated via fetch from Examples/Text-Only/examples.json
+    multilingual: {
+      tag: 'Text-Only · Cross-Lingual Multi-Hop Reasoning', tagClass: 'ex-tag-t',
+      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🌐 Context — Evidence scattered across three languages</div><div class="ex-passages"><div class="passage"><span class="psrc">English</span>"The summit concluded with a joint declaration emphasizing cooperation on maritime boundaries and resource allocation."</div><div class="passage"><span class="psrc">Français</span>"Le ministre a déclaré que les négociations portaient principalement sur les ressources sous-marines et les droits d\'extraction."</div><div class="passage"><span class="psrc">中文</span>"根据联合声明，两国将在接下来六个月内完成海洋边界线的最终划定。"</div></div></div>',
+      question: 'Integrating all three passages, what can be most accurately inferred?',
+      options: ['A&nbsp;&nbsp;The summit failed due to disagreements over submarine resource rights.','B&nbsp;&nbsp;Both nations agreed to finalize maritime boundaries within six months, focusing on subsea resources.','C&nbsp;&nbsp;Only submarine extraction rights were discussed; boundary lines were not addressed.','D&nbsp;&nbsp;The boundary demarcation would take at least one year to complete.'],
+      correct: 1,
+      explain: '<strong>✅ Correct: B</strong><br>English → cooperation on maritime boundaries; French → focus on subsea resources; Chinese → finalization within six months. Only B synthesizes all three correctly. C ignores boundary demarcation; D contradicts the six-month timeline in the Chinese passage.'
+    },
+    multiSpeaker: {
+      tag: 'Audio · Multi-Speaker Reasoning', tagClass: 'ex-tag-a',
+      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🎙️ Transcript — Board Meeting (spoken audio input)</div><div class="ex-transcript"><div class="tline"><span class="spk spk-a">Speaker A</span>"If we proceed with the merger before Q3, we\'ll need sign-off from at least three board members. That\'s non-negotiable."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Right — and given that Martinez is on sabbatical, realistically we\'re working with a smaller pool. But I think we can still make the timeline if legal moves quickly."</div><div class="tline"><span class="spk spk-c">Speaker C</span>"Legal has flagged the IP clause. That alone could push the whole thing to Q4."</div></div></div>',
+      question: 'What implicit constraint does Speaker B acknowledge in this exchange?',
+      options: ['A&nbsp;&nbsp;The merger cannot proceed without Martinez\'s direct approval.','B&nbsp;&nbsp;The effective pool for board sign-offs is reduced due to an absence.','C&nbsp;&nbsp;Legal approval is not required to establish board quorum.','D&nbsp;&nbsp;Three board members have already committed to the merger.'],
+      correct: 1,
+      explain: '<strong>✅ Correct: B</strong><br>Speaker B says "working with a smaller pool" — implicitly acknowledging Martinez\'s sabbatical reduces available board members. Option A incorrectly states Martinez\'s direct approval is <em>required</em>; the correct reading is that his absence <em>reduces</em> the pool.'
+    },
+    noise: {
+      tag: 'Audio · Noise Robustness', tagClass: 'ex-tag-a',
+      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🔊 Transcript — Noisy public environment (audio input)</div><div class="ex-transcript noise-ctx"><div class="tline noise-mark">[Background crowd noise begins]</div><div class="tline"><span class="spk spk-a">Speaker A</span>"So the project handoff is... [noise burst] ...on <strong>Thursday</strong>. Room 4B in the Annex building."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Sorry — Room 4B or 4D? The noise here is—"</div><div class="tline noise-mark">[Loud PA announcement]</div><div class="tline"><span class="spk spk-a">Speaker A</span>"Room 4B. Fourth floor, <em>east wing</em>. Bring the design files and the sign-off sheet."</div><div class="tline"><span class="spk spk-b">Speaker B</span>"Got it. Client attending or just internal?"</div><div class="tline"><span class="spk spk-a">Speaker A</span>"[static] — just internal this time."</div></div></div>',
+      question: 'What is the confirmed meeting location and attendee scope per Speaker A\'s <em>clarified</em> statement?',
+      options: ['A&nbsp;&nbsp;Room 4D, west wing; both internal team and client attending.','B&nbsp;&nbsp;Room 4B, west wing; internal team only.','C&nbsp;&nbsp;Room 4B, east wing; internal team only.','D&nbsp;&nbsp;Room 4D, east wing; client attending.'],
+      correct: 2,
+      explain: '<strong>✅ Correct: C</strong><br>Speaker A\'s clarifying statement explicitly says "Room 4B. Fourth floor, east wing." and confirms "just internal this time." The benchmark tests whether the model can extract the target speaker\'s disambiguating statements while ignoring noise, the PA interruption, and the initial ambiguous utterance.'
+    },
+    art: {
+      tag: 'Image-Text · Art Reasoning', tagClass: 'ex-tag-i',
+      ctx: '<div class="ex-img-wrap"><img src="images/benchmark_art.jpg" alt="Artwork sample for period identification" loading="lazy"></div>',
+      question: 'Based <em>solely</em> on the visual characteristics of this artwork — technique, brushwork, style, and compositional conventions — which historical period does it most likely originate from?',
+      options: ['A&nbsp;&nbsp;Northern Renaissance (15th–16th century)','B&nbsp;&nbsp;Dutch Golden Age (17th century)','C&nbsp;&nbsp;French Rococo (18th century)','D&nbsp;&nbsp;Romanticism (early 19th century)'],
+      correct: 1,
+      explain: '<strong>✅ Correct: B — Dutch Golden Age (17th century)</strong><br>Key visual cues include the realistic portraiture, dramatic chiaroscuro (light-shadow contrast), dark neutral background with focused illumination, and precise rendering of surface textures — hallmarks of Dutch masters such as Rembrandt and Hals.'
+    },
+    medical: {
+      tag: 'Image-Text · Medical Reasoning', tagClass: 'ex-tag-i',
+      ctx: '<div class="ex-ctx"><div class="ex-ctx-title">🩺 Clinical Scenario (with chest X-ray input)</div><div class="finding"><span class="finding-lbl">Imaging</span>Bilateral lower lobe opacities; ground-glass pattern in perihilar regions; Kerley B lines near right costophrenic angle.</div><div class="finding"><span class="finding-lbl">History</span>68-year-old male; acute dyspnea onset over 48 hours; known hypertension and reduced left ventricular ejection fraction (EF 35%).</div><div class="finding"><span class="finding-lbl">Vitals</span>BP 158/94, RR 22/min, SpO₂ 91% on room air.</div></div>',
+      question: 'Which diagnosis most accurately accounts for <em>all</em> observed imaging findings and the clinical context?',
+      options: ['A&nbsp;&nbsp;Community-acquired pneumonia with reactive pleural effusion.','B&nbsp;&nbsp;Acute pulmonary edema secondary to left heart failure.','C&nbsp;&nbsp;Interstitial lung disease with subacute fibrotic progression.','D&nbsp;&nbsp;Bilateral pneumothorax with compensatory mediastinal shift.'],
+      correct: 1,
+      explain: '<strong>✅ Correct: B</strong><br>Bilateral perihilar ground-glass opacities + Kerley B lines are classic signs of elevated pulmonary capillary wedge pressure (cardiogenic edema). Reduced EF (35%) and hypertension directly support left heart failure. CAP shows focal consolidation; ILD progresses over months; pneumothorax shows pleural separation, not opacities.'
+    }
+  };
+
+  var DATA = {
+    text:  { benchmarks: [{ id:'multi-perspective', label:'Multi-Perspective Comprehension', q:Q.multiPerspective },{ id:'multilingual', label:'Cross-Lingual Reasoning', q:Q.multilingual },{ id:'math', label:'Math Reasoning', q:Q.multiPerspective }] },
+    audio: { benchmarks: [{ id:'multi-speaker', label:'Multi-Speaker Reasoning', q:Q.multiSpeaker },{ id:'noise', label:'Noise Robustness', q:Q.noise },{ id:'multilingual-audio', label:'Multilingual Audio', q:Q.multiSpeaker }] },
+    image: { benchmarks: [{ id:'art', label:'Art Reasoning', q:Q.art },{ id:'medical', label:'Medical Reasoning', q:Q.medical },{ id:'code', label:'Code Understanding', q:Q.medical }] },
+    omni:  { benchmarks: [{ id:'omni', label:'Omni-Understanding', q:Q.multiSpeaker }] }
+  };
+
+  var TOTAL = 20;
+  var state = { type:'text', benchIdx:0, qIdx:0 };
+
+  function getCurQ() {
+    var q = DATA[state.type].benchmarks[state.benchIdx].q;
+    return Array.isArray(q) ? (q[state.qIdx % q.length] || null) : q;
+  }
+
+  function renderBenchBtns() {
+    var benches = DATA[state.type].benchmarks;
+    var wrap = document.getElementById('exBenchBtns');
+    wrap.innerHTML = benches.map(function(b,i) {
+      return '<button class="ex-bench-btn' + (i===state.benchIdx?' active':'') + '" data-idx="'+i+'">'+b.label+'</button>';
+    }).join('');
+    wrap.querySelectorAll('.ex-bench-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        state.benchIdx = parseInt(btn.dataset.idx);
+        state.qIdx = 0;
+        renderBenchBtns();
+        renderCard();
       });
-      var explain = opts.closest('.ex-card').querySelector('.ex-explain');
-      if (explain) explain.style.display = 'block';
+    });
+  }
+
+  function renderQNums() {
+    var wrap = document.getElementById('exQNums');
+    var html = '';
+    for (var i = 0; i < TOTAL; i++) {
+      html += '<button class="ex-qnum-btn' + (i === state.qIdx ? ' active' : '') + '" data-qi="' + i + '">' + (i+1) + '</button>';
+    }
+    wrap.innerHTML = html;
+    wrap.querySelectorAll('.ex-qnum-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        state.qIdx = parseInt(btn.dataset.qi);
+        renderCard();
+      });
+    });
+  }
+
+  function renderCard() {
+    renderQNums();
+    var q = getCurQ();
+    if (!q) {
+      document.getElementById('exCardWrap').innerHTML = '<div class="ex-card" style="display:flex;align-items:center;justify-content:center;min-height:220px"><p style="color:#888;font-size:.95rem">Loading examples…</p></div>';
+      return;
+    }
+    document.getElementById('exCounter').textContent = (state.qIdx+1) + ' / ' + TOTAL;
+    var wrap = document.getElementById('exCardWrap');
+    wrap.innerHTML = '<div class="ex-card">' +
+      '<div class="ex-tag '+q.tagClass+'">'+q.tag+'</div>' +
+      q.ctx +
+      '<div class="ex-q">'+q.question+'</div>' +
+      '<div class="ex-opts" data-correct="'+q.correct+'">' +
+        q.options.map(function(o,i){ return '<button class="ex-opt" data-i="'+i+'">'+o+'</button>'; }).join('') +
+      '</div>' +
+      '<div class="ex-explain" style="display:none">'+q.explain+'</div>' +
+    '</div>';
+    var opts = wrap.querySelector('.ex-opts');
+    var correct = parseInt(opts.dataset.correct);
+    opts.querySelectorAll('.ex-opt').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var chosen = parseInt(btn.dataset.i);
+        opts.querySelectorAll('.ex-opt').forEach(function(b) {
+          b.disabled = true;
+          if (parseInt(b.dataset.i)===correct) b.classList.add('correct');
+          else if (parseInt(b.dataset.i)===chosen) b.classList.add('wrong');
+        });
+        var explain = wrap.querySelector('.ex-explain');
+        if (explain) explain.style.display = 'block';
+      });
+    });
+  }
+
+  document.getElementById('exTypeBtns').querySelectorAll('.ex-type-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.ex-type-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      state.type = btn.dataset.type;
+      state.benchIdx = 0;
+      state.qIdx = 0;
+      renderBenchBtns();
+      renderCard();
     });
   });
-});
+
+  document.getElementById('exNextBtn').addEventListener('click', function() {
+    state.qIdx = (state.qIdx+1) % TOTAL;
+    renderCard();
+  });
+
+  // Load Multi-Perspective Comprehension examples from JSON
+  fetch('Examples/Text-Only/examples.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var examples = data.map(function(ex) {
+        var ansIdx = ex.answer.charCodeAt(0) - 65; // A=0, B=1, …
+        var passages = ex.accounts.map(function(a) {
+          return '<div class="passage"><span class="psrc">' + a.label + '</span>' + a.text + '</div>';
+        }).join('');
+        return {
+          tag: 'Text-Only · Multi-Perspective Comprehension', tagClass: 'ex-tag-t',
+          ctx: '<div class="ex-ctx"><div class="ex-ctx-title">📄 Context — ' + ex.accounts.length + ' accounts of the same event</div><div class="ex-passages">' + passages + '</div></div>',
+          question: ex.question,
+          options: ex.options.map(function(o) { return o.label + '&nbsp;&nbsp;' + o.text; }),
+          correct: ansIdx,
+          explain: ex.explanation ? '<strong>✅ Correct: ' + ex.answer + '</strong><br>' + ex.explanation : ''
+        };
+      });
+      Q.multiPerspective = examples;
+      DATA.text.benchmarks[0].q = examples;
+      if (state.type === 'text' && state.benchIdx === 0) renderCard();
+    })
+    .catch(function() { /* silently ignore (e.g. file:// protocol) */ });
+
+  renderBenchBtns();
+  renderCard();
+})();
 
 // ── Hero resource links (double-blind notice) ──
 (function () {
