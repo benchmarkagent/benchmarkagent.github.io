@@ -544,9 +544,9 @@ footer strong{color:var(--text)}
     <a href="#" class="logo">BenchmarkAgent</a>
     <ul class="nav-links">
       <li><a href="#abstract">Abstract</a></li>
-      <li><a href="#method">Method</a></li>
+      <!-- <li><a href="#method">Method</a></li> -->
       <li><a href="#benchmarks">Benchmarks</a></li>
-      <li><a href="#results">Results</a></li>
+      <!-- <li><a href="#results">Results</a></li> -->
       <!-- <li><a href="#findings">Findings</a></li> -->
       <!-- <li><a href="#citation">Citation</a></li> -->
     </ul>
@@ -596,13 +596,13 @@ footer strong{color:var(--text)}
     <div style="width:80%;margin:0 auto 2.5rem;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow-lg)">
       <img src="images/main_image.png" alt="BenchmarkAgent system overview" style="width:100%;display:block">
     </div>
-    <div class="abstract-card">
-      Benchmarks are fundamental for evaluating and advancing LLMs and MLLMs by providing standardized and explicit measures of performance. However, their construction is <strong>labor-intensive</strong> and hard to reuse, raising concerns about sustainability and scalability. Moreover, existing benchmarks often quickly reach <strong>performance saturation</strong> after their release, resulting in insufficient discrimination among state-of-the-art models.
-      <br><br>
-      To address these challenges, we introduce <strong>BenchmarkAgent</strong>, a fully autonomous agentic system designed for benchmark building. Our framework orchestrates the complete benchmark construction pipeline — from user query analysis and subtask design to data annotation and quality control — in a standardized, automated manner.
-      <br><br>
-      To assess BenchmarkAgent, we implement it to produce <strong>15 representative benchmarks</strong> spanning diverse evaluation scenarios: text understanding, multimodal understanding, and domain-specific reasoning. Extensive experiments — including human evaluation, LLM-as-a-judge assessment, and consistency checks — demonstrate that BenchmarkAgent generates high-quality samples with minimal human involvement. Through continual evaluation, we surface several insightful findings about current model limitations.
-    </div>
+      <div class="abstract-card">
+        Benchmarks are crucial for evaluating LLMs and MLLMs, yet their construction is <strong>labor-intensive</strong>, difficult to scale, and often prone to rapid <strong>performance saturation</strong>.
+        <br><br>
+        We present <strong>BenchmarkAgent</strong>, a fully autonomous agentic system that standardizes and automates benchmark construction, covering user requirement analysis, subtask design, data annotation, and quality control.
+        <br><br>
+        Across <strong>15 representative benchmarks</strong> spanning text, multimodal, and domain-specific reasoning, BenchmarkAgent produces high-quality samples with minimal human involvement, as validated by human evaluation, LLM-as-a-judge assessment, and consistency checks.
+      </div>
   </div>
 </section>
 
