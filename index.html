@@ -154,7 +154,7 @@ nav{
 .btn-ghost:hover{background:rgba(255,255,255,.75);transform:translateY(-2px)}
 
 /* ─── SECTION SHELL ───────────────────────────────────── */
-section{padding:4.5rem 2rem}
+section{padding:2.75rem 2rem}
 section.alt{background:var(--bg2)}
 section.alt2{background:var(--pb)}
 .container{max-width:1120px;margin:0 auto}
@@ -466,14 +466,38 @@ tbody td:first-child{text-align:left;font-weight:500}
 @media(max-width:760px){.chart-grid{grid-template-columns:1fr}}
 
 /* ─── EXAMPLES ───────────────────────────────────────── */
-.ex-selectors{margin-bottom:1.8rem}
-.ex-sel-row{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.9rem}
-.ex-sel-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--sub);min-width:5rem}
-.ex-type-btns,.ex-bench-btns{display:flex;gap:.45rem;flex-wrap:wrap}
-.ex-type-btn,.ex-bench-btn{padding:.4rem 1rem;border-radius:100px;border:2px solid rgba(215,220,255,.95);background:rgba(255,255,255,.82);font-size:.82rem;font-weight:600;cursor:pointer;transition:all .18s;color:var(--sub)}
-.ex-type-btn.active,.ex-type-btn:hover,.ex-bench-btn.active,.ex-bench-btn:hover{border-color:var(--p2);color:var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe)}
+.ex-selectors{margin-bottom:3rem;max-width:860px;margin-left:auto;margin-right:auto}
+/* Modality — underline tab style */
+.ex-type-wrap{
+  display:flex;justify-content:center;flex-wrap:wrap;
+  border-bottom:2px solid var(--border);margin-bottom:1rem;
+}
+.ex-type-btn{
+  padding:.55rem 1.2rem;border:none;background:none;
+  font-size:.88rem;font-weight:600;cursor:pointer;color:var(--sub);
+  position:relative;transition:color .18s;white-space:nowrap;
+}
+.ex-type-btn::after{
+  content:'';position:absolute;bottom:-2px;left:0;right:0;
+  height:2px;background:var(--p2);border-radius:2px 2px 0 0;
+  transform:scaleX(0);transition:transform .2s;
+}
+.ex-type-btn:hover{color:var(--p2)}
+.ex-type-btn.active{color:var(--p2);font-weight:700}
+.ex-type-btn.active::after{transform:scaleX(1)}
+/* Benchmark — small tag style, distinct from nav buttons */
+.ex-bench-wrap{display:flex;justify-content:center;flex-wrap:wrap;gap:.4rem}
+.ex-bench-btn{
+  padding:.28rem .75rem;border-radius:6px;cursor:pointer;
+  border:none;background:transparent;
+  font-size:.79rem;font-weight:500;color:var(--sub);transition:all .15s;
+}
+.ex-bench-btn:hover{background:var(--pb);color:var(--p2)}
+.ex-bench-btn.active{background:var(--pb);color:var(--p2);font-weight:700}
 .ex-qnav{display:flex;align-items:center;justify-content:space-between;max-width:860px;margin:0 auto 1rem}
 .ex-qcounter{font-size:.84rem;font-weight:600;color:var(--sub)}
+.ex-prev-btn{padding:.42rem 1.1rem;border-radius:100px;border:2px solid var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe);color:var(--p2);font-size:.82rem;font-weight:700;cursor:pointer;transition:all .18s}
+.ex-prev-btn:hover{background:var(--p2);color:#fff}
 .ex-next-btn{padding:.42rem 1.1rem;border-radius:100px;border:2px solid var(--p2);background:linear-gradient(135deg,var(--pb),#ede9fe);color:var(--p2);font-size:.82rem;font-weight:700;cursor:pointer;transition:all .18s}
 .ex-next-btn:hover{background:var(--p2);color:#fff}
 .ex-qnums{display:flex;gap:.28rem;flex-wrap:wrap;max-width:860px;margin:0 auto .8rem}
@@ -587,7 +611,7 @@ footer strong{color:var(--text)}
 </div>
 
 <!-- ══════════ ABSTRACT ══════════ -->
-<section id="abstract">
+<section id="abstract" style="padding-bottom:2rem">
   <div class="container">
     <div class="sec-head">
       <div class="badge"><i class="fas fa-file-lines"></i>&nbsp;Abstract</div>
@@ -845,23 +869,18 @@ footer strong{color:var(--text)}
 
     <!-- Type + Benchmark selectors -->
     <div class="ex-selectors">
-      <div class="ex-sel-row">
-        <span class="ex-sel-label">Type</span>
-        <div class="ex-type-btns" id="exTypeBtns">
-          <button class="ex-type-btn active" data-type="text">📝 Text-Only</button>
-          <button class="ex-type-btn" data-type="audio">🎵 Audio</button>
-          <button class="ex-type-btn" data-type="image">🖼️ Image-Text</button>
-          <button class="ex-type-btn" data-type="omni">🌐 Omni</button>
-        </div>
+      <div class="ex-type-wrap" id="exTypeBtns">
+        <button class="ex-type-btn active" data-type="text">📝 Text-Only</button>
+        <button class="ex-type-btn" data-type="audio">🎵 Audio</button>
+        <button class="ex-type-btn" data-type="image">🖼️ Image-Text</button>
+        <button class="ex-type-btn" data-type="omni">🌐 Omni</button>
       </div>
-      <div class="ex-sel-row">
-        <span class="ex-sel-label">Benchmark</span>
-        <div class="ex-bench-btns" id="exBenchBtns"></div>
-      </div>
+      <div class="ex-bench-wrap" id="exBenchBtns"></div>
     </div>
 
     <!-- Navigation -->
     <div class="ex-qnav">
+      <button class="ex-prev-btn" id="exPrevBtn">← Previous Question</button>
       <span class="ex-qcounter" id="exCounter">1 / 20</span>
       <button class="ex-next-btn" id="exNextBtn">Next Question →</button>
     </div>
@@ -1410,6 +1429,12 @@ document.querySelectorAll('#domainTabs .ctab').forEach(function(btn) {
       renderBenchBtns();
       renderCard();
     });
+  });
+
+  document.getElementById('exPrevBtn').addEventListener('click', function() {
+    var total = getCurTotal();
+    state.qIdx = (state.qIdx - 1 + total) % total;
+    renderCard();
   });
 
   document.getElementById('exNextBtn').addEventListener('click', function() {
